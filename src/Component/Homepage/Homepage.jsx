@@ -3,7 +3,9 @@ import HOC from '../../HOC/HOC'
 
 function Homepage() {
     return (
-        <>Homepage</>
+        <>
+            fghg
+        </>
     )
 }
 
