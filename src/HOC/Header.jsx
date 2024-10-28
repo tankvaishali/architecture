@@ -19,22 +19,22 @@ function Header() {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto me-5 pe-5 align-items-center">
                         <li class="nav-item">
-                            <a href="/" class="nav-link text-dark letterspace fw-bold">HOME</a>
+                            <a href="/" class="nav-link text-dark letterspace Inter">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link text-dark letterspace fw-bold">PAGES</a>
+                            <a href="/" class="nav-link text-dark letterspace Inter">PAGES</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link text-dark letterspace fw-bold">NEWS</a>
+                            <a href="/" class="nav-link text-dark letterspace Inter">NEWS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link text-dark letterspace fw-bold">WORKS</a>
+                            <a href="/" class="nav-link text-dark letterspace Inter">WORKS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link text-dark letterspace fw-bold">POST_DETAIL</a>
+                            <a href="/" class="nav-link text-dark letterspace Inter">POST_DETAIL</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link text-dark letterspace fw-bold">SHORTCODES</a>
+                            <a href="/" class="nav-link text-dark letterspace Inter">SHORTCODES</a>
                         </li>
                     </ul>
                     <a href="/" class="nav-link text-dark"><CircleUser /></a>
