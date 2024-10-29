@@ -24,6 +24,8 @@
   font-weight: 500 !important;
 }
 
+/* Header Start*/
+
 .offcanvas.offcanvas-end {
   transition: all 0.5s;
 }
@@ -70,3 +72,25 @@
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
+
+/* Header End */
+
+/* Footer Start  */
+.accordion {
+  --bs-accordion-border-color: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  width: 0px !important;
+  display: none;
+}
+
+.accordion-button {
+  justify-content: center !important;
+}
+
+/* Footer End  */

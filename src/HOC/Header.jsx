@@ -1,5 +1,5 @@
 import React from 'react'
-import { AlignRight, CircleUser, Share2 } from 'lucide-react'
+import { AlignRight, Share2 } from 'lucide-react'
 
 function Header() {
     return (
@@ -51,7 +51,7 @@ function Header() {
                                 </li>
                             </ul>
                             <a href="/" className="nav-link text-dark text-center ms-lg-5 me-0 pe-0 mt-1">
-                                <Share2 className='Inter' width={16} height={16} />
+                                <Share2 width={16} height={16} />
                             </a>
                         </div>
                     </div>
