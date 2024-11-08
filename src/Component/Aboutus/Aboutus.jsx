@@ -7,7 +7,7 @@ function Aboutus() {
     <div className="aboutusbg">
 
 
-      <div className="container">
+      <div className="container overflow-hidden">
         <div className="py-4">
           <div className="row g-5">
             <div className="col-12 col-lg-6">
@@ -44,8 +44,8 @@ function Aboutus() {
           </div>
 
      <div className="counterset">
-     <div class="row  my-3">
-            <div className="col-md-3 d-none d-md-block"></div>
+     <div class="row  my-3 justify-content-center">
+            <div className="col-md-3 d-none d-lg-block"></div>
             <div class="col-md-3">
               <div class="stat-item bg-white p-4 rounded-4 text-center border-top border-4 border-secondary shadow-sm">
                 <div class="stat-number fw-medium"><CountUp  end={920} enableScrollSpy={true}/>+</div>

@@ -26,6 +26,8 @@
 .pera{
   font-size: 15px;
   color: var(--maincolor--);
+  transition: all 0.4s ease-in-out;
+
 }
 /* line tittle start */
 .about-section {
@@ -41,6 +43,7 @@
   width: 40px; /* Adjust the length of the line */
   margin-right: 10px; /* Adjust space between line and text */
 }
+
 /* line tittle end */
 /* Header Start*/
 
