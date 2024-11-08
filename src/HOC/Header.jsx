@@ -47,7 +47,7 @@ function Header() {
                                     <a href="/" className="nav-link text-dark letterspace Inter">POST_DETAIL</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link text-dark letterspace Inter">SHORTCODES</a>
+                                    <a href="/contactus" className="nav-link text-dark letterspace Inter">CONTACT US</a>
                                 </li>
                             </ul>
                             <a href="/" className="nav-link text-dark text-center ms-lg-5 me-0 pe-0 mt-1">
