@@ -25,7 +25,7 @@ function Aboutus() {
                   <div class="line"></div>
                   <span>ABOUT US</span>
                 </div>
-                <h1 class=" Discover fw-medium text-dark py-2">Mr. Hiten Patel</h1>
+                <h1 class=" Discover  text-dark py-2">Mr. Hiten Patel</h1>
                 <div className="pera">
                   Founded by Hiten Patel, and located in the vibrant city of
                   Surat, Mindscape Design is a pioneering firm in Architecture,
@@ -48,19 +48,19 @@ function Aboutus() {
             <div className="col-md-3 d-none d-md-block"></div>
             <div class="col-md-3">
               <div class="stat-item bg-white p-4 rounded-4 text-center border-top border-4 border-secondary shadow-sm">
-                <div class="stat-number"><CountUp  end={920} enableScrollSpy={true}/>+</div>
+                <div class="stat-number fw-medium"><CountUp  end={920} enableScrollSpy={true}/>+</div>
                 <div class="stat-label">Active Members</div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="stat-item bg-white p-4 rounded-4 text-center border-top border-4 border-secondary shadow-sm">
-                <div class="stat-number"><CountUp  end={780} enableScrollSpy={true}/>+</div>
+                <div class="stat-number fw-medium"><CountUp  end={780} enableScrollSpy={true}/>+</div>
                 <div class="stat-label">Winning Award</div>
               </div>
             </div>
             <div class="col-md-3">
               <div class="stat-item bg-white p-4 rounded-4 text-center border-top border-4 border-secondary shadow-sm">
-                <div class="stat-number"><CountUp  end={560} enableScrollSpy={true}/>+</div>
+                <div class="stat-number fw-medium"><CountUp  end={560} enableScrollSpy={true}/>+</div>
                 <div class="stat-label">Happy Patient</div>
               </div>
             </div>
