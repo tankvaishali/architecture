@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 function Aboutus() {
   return (
     <>
-    <div style={{backgroundColor:"#e7ecee"}}>
+    <div className="aboutusbg">
 
 
       <div className="container">
@@ -48,7 +48,7 @@ function Aboutus() {
             <div className="col-md-3 d-none d-md-block"></div>
             <div class="col-md-3">
               <div class="stat-item bg-white p-4 rounded-4 text-center border-top border-4 border-secondary shadow-sm">
-                <div class="stat-number"><CountUp  end={920} enableScrollSpy={true}/> +</div>
+                <div class="stat-number"><CountUp  end={920} enableScrollSpy={true}/>+</div>
                 <div class="stat-label">Active Members</div>
               </div>
             </div>
