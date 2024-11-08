@@ -1,7 +1,7 @@
 import React from 'react'
-import HOC from './HOC'
+import HOC from '../../HOC/HOC'
+import "../../Assets/Css/AboutusPage.css"
 import Aboutus from './Aboutus'
-import "../Assets/Css/AboutusPage.css"
 
 function AboutusPage() {
   return (
