@@ -49,6 +49,50 @@
 }
 
 /* line tittle end */
+/* button start */
+.bg_button {
+  background-color: var(--maincolor--);
+  padding-right: 50px;
+  border: 1px solid var(--maincolor--) !important;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+  color: white;
+}
+.bg_button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #75a8bfc7;
+  transition: width 0.4s ease;
+  z-index: -1;
+}
+.bg_button:hover::before {
+  width: 100%;
+}
+.bg_button:hover {
+  color: white !important;
+}
+.bg_iconbtn {
+  background: white;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.75s ease-in-out;
+}
+.bg_button:hover .bg_iconbtn {
+  background-color: black !important;
+  color: white !important;
+}
+/* button end */
+
 /* Header Start*/
 
 .offcanvas.offcanvas-end {
