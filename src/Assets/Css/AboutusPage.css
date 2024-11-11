@@ -1,5 +1,5 @@
 .aboutusbg{
-    background-color: #f5fdff;
+    background-color: #e7ecef8d;
 }
 
 .stat-item {
@@ -8,7 +8,7 @@
   }
   
   .stat-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
   }
   
   .stat-number {
@@ -16,7 +16,7 @@
     font-size: 42px;
     color: #2d3436;
     margin-bottom: 10px;
-    font-weight: 500;
+
   }
   
   .stat-label {
@@ -25,10 +25,129 @@
   }
   
   .counterset{
-    margin-top: -125px;
+    margin-top: -100px;
   }
-  @media only screen and (max-width:761px) {
+  @media only screen and (max-width:991px) {
     .counterset{
       margin-top: 10px !important;
     }
   }
+
+
+  /* How We Work start */
+  .cardbox{
+    transition: all 0.4s ease-in-out;
+  }
+  .howworkbg{
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/h1-frame.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    box-shadow: inset 0px 0px 1500px 1000px rgba(227, 226, 226, 0.155);
+  }
+  .howno{
+    -webkit-text-stroke-color: #e6e6e6;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.269);
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 800;
+    color: transparent;
+    transition: all 0.4s ease-in-out;
+    
+  }
+  .cardbox:hover .howno{
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.477);
+  }
+  
+  /* How We Work end */
+
+  /* vission start */
+  .vissionbg{
+    background-color: #e7ecef8d;
+  }
+  /* vission end */
+  /* mission start */
+.missionbg ,.awardbg ,.contactredirectbg{
+    background-image: url("../Image/Logo/h1-bg02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+}
+.about-sectionbck {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #acb8c5;
+    width: 100%;
+  }
+  
+  .about-sectionbck .linebck {
+    border-top: 1px solid #acb8c5;
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+.about-sectionbck {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #acb8c5;
+    width: 100%;
+  }
+  
+  .about-sectionbck .linebck {
+    border-top: 1px solid #acb8c5;
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+.missionno{
+    color: #acb8c5;
+    font-size: 50px;
+font-weight: 700;
+}
+.missionno .line{
+  border-top: 1px solid #acb8c5;
+  margin-left: 10px;
+width: 60px;
+
+
+}
+  /* mission end */
+  /* award start */
+  .awardbg{
+    background-image: url("https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8335.jpg?t=st=1731306175~exp=1731309775~hmac=d179c2fc8d9a76b34230ff494ff52c3c9a0a8034c18102a291850f0c1eb0ae13&w=1060");
+    box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.368);
+background-attachment: fixed;
+  }
+  /* award end */
+  /* contaCTREDIRECT START */
+  .contactredirectbg{
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/07/landing_img-1.jpg");
+
+  }
+  .stroktext{
+    -webkit-text-stroke-width: 0.8px !important;
+    stroke-width: 3px !important;
+    -webkit-text-stroke-color: #ffffff !important;
+    color: #fff0 !important;
+    font-size: 85px !important;
+    text-transform: capitalize !important;
+    line-height: 80px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width:761px) {
+    .stroktext{
+    width: 90% !important;
+    font-size: 50px !important;
+
+    }
+  }
+  /* contaCTREDIRECT SEND */

@@ -5,6 +5,7 @@
 :root {
   --maincolor--: #5a717c;
   --inset--: #5a717cfc;
+  --theme--:#6C7A89;
   --mainHedingfontsize--: 30px;
   --subheadingfontsize--: 15px;
 }
@@ -23,9 +24,14 @@
   font-size: 13px !important;
   font-weight: 500 !important;
 }
+.theme{
+  color: var(--theme--);
+}
 .pera{
   font-size: 15px;
   color: var(--maincolor--);
+  transition: all 0.4s ease-in-out;
+
 }
 /* line tittle start */
 .about-section {
@@ -33,14 +39,15 @@
   align-items: center;
   font-family: Arial, sans-serif;
   font-size: 18px;
-  color: #6C7A89; /* Adjust this color to match */
+  color: var(--theme--); /* Adjust this color to match */
 }
 
 .about-section .line {
-  border-top: 1px solid #6C7A89; /* Adjust this color to match */
+  border-top: 1px solid var(--theme--); /* Adjust this color to match */
   width: 40px; /* Adjust the length of the line */
   margin-right: 10px; /* Adjust space between line and text */
 }
+
 /* line tittle end */
 /* Header Start*/
 
