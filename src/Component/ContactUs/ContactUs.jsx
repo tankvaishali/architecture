@@ -7,6 +7,7 @@ import { BiPhoneCall } from 'react-icons/bi';
 import { GrLocation } from 'react-icons/gr';
 import "../../Assets/Css/ContactusPage.css";
 import HOC from '../../HOC/HOC';
+import { HiOutlineArrowSmRight } from 'react-icons/hi';
 
 function ContactUs() {
     return (
@@ -22,17 +23,17 @@ function ContactUs() {
                                     <h5 className='fw-bold' style={{ paddingTop: "70px" }}>Call Us</h5>
                                     <div className='fw-bold fs-3'>+91 12345 67890</div>
                                     <div className='d-flex py-4'>
-                                        <div>
-                                            <FaFacebookF className='fs-4' />
+                                        <div className="icon-wrapper">
+                                            <FaFacebookF className='fs-4 icon facebook' />
                                         </div>
-                                        <div className='mx-2'>
-                                            <BsInstagram className='fs-4' />
+                                        <div className='mx-2 icon-wrapper'>
+                                            <BsInstagram className='fs-4 icon instagram' />
                                         </div>
-                                        <div className='mx-2'>
-                                            <FaLinkedinIn className='fs-4' />
+                                        <div className='mx-2 icon-wrapper'>
+                                            <FaLinkedinIn className='fs-4 icon linkedin' />
                                         </div>
-                                        <div className='mx-2'>
-                                            <FaTwitter className='fs-4' />
+                                        <div className='mx-2 icon-wrapper'>
+                                            <FaTwitter className='fs-4 icon twitter' />
                                         </div>
                                     </div>
                                 </div>
@@ -101,7 +102,15 @@ function ContactUs() {
                                     </div>
                                     <textarea name="message" rows={5} placeholder='Message' className='w-100 px-4 py-2 rounded-3 text-dark' id=""></textarea>
                                     <div className='text-center py-3'>
-                                        <button type='button' className='btn btn-dark px-5 py-2 fw-bold'>Submit</button>
+                                        <button
+                                            type="button"
+                                            className="bg_button text-white Inter fs-6 ps-4 pe-5 py-2 fw-bold border-0 position-relative"
+                                        >
+                                            Submit
+                                            <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
+                                                <HiOutlineArrowSmRight className="fs-5" />
+                                            </span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

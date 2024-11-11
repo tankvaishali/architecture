@@ -44,7 +44,7 @@ function Header() {
                                     <a href="/" className="nav-link text-dark letterspace Inter">WORKS</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link text-dark letterspace Inter">POST_DETAIL</a>
+                                    <a href="/carrer" className="nav-link text-dark letterspace Inter">CARRERS</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="/contactus" className="nav-link text-dark letterspace Inter">CONTACT US</a>

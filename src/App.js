@@ -6,6 +6,7 @@ import Homepage from './Component/Homepage/Homepage';
 import After from './HOC/After';
 import AboutusPage from './HOC/AboutusPage';
 import ContactUs from './Component/ContactUs/ContactUs';
+import Carrer from './Component/CarrerPage/Carrer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/after' element={<After />} />
           <Route path='/aboutus' element={<AboutusPage />} />
           <Route path='/contactus' element={<ContactUs />} />
+          <Route path='/carrer' element={<Carrer />} />
         </Routes>
       </BrowserRouter>
     </>

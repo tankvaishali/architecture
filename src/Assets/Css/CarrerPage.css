@@ -1,0 +1,94 @@
+/* CarrerForm start */
+input {
+  background-color: whitesmoke;
+}
+.inpText {
+  border-radius: 0px 10px 0px 10px;
+}
+/* CarrerForm end */
+
+/* button start */
+.bg_button {
+  background-color: var(--maincolor--);
+  padding-right: 50px;
+  border: 1px solid var(--maincolor--) !important;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+  color: white;
+}
+.bg_button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #75a8bfc7;
+  transition: width 0.4s ease;
+  z-index: -1;
+}
+.bg_button:hover::before {
+  width: 100%;
+}
+.bg_button:hover {
+  color: white !important;
+}
+.bg_iconbtn {
+  background: white;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.75s ease-in-out;
+}
+.bg_button:hover .bg_iconbtn {
+  background-color: black !important;
+  color: white !important;
+}
+/* button end */
+
+/* CarrerTable start */
+.table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  width: 100%;
+}
+.table th {
+  border: 2px solid #000;
+  padding: 8px;
+  border-radius: 10px 0px 10px 0px;
+}
+.table td {
+  border-bottom: 2px solid #000;
+  padding: 6px;
+}
+.table th {
+  background-color: rgba(0, 0, 0, 0.361) !important;
+}
+.table tbody tr:nth-child(even) td {
+  background-color: lightgray;
+}
+.table tbody tr:nth-child(odd) td {
+  background-color: rgba(30, 29, 29, 0.055);
+}
+.form-select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 2px solid black !important;
+}
+.form-select {
+  border-radius: 0px 10px 0px 10px !important;
+  border: 2px solid black;
+}
+.prenextbtn {
+  background-color: black;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  color: white;
+}
+/* CarrerTable end */
