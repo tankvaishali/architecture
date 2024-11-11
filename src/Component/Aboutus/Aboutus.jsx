@@ -7,8 +7,8 @@ function Aboutus() {
     <div className="aboutusbg">
 
 
-      <div className="container overflow-hidden">
-        <div className="py-4">
+      <div className="container py-3 overflow-hidden">
+        <div className="py-5">
           <div className="row g-5">
             <div className="col-12 col-lg-6">
               <div style={{height:460}}>

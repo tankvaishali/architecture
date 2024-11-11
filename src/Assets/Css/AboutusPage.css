@@ -69,7 +69,7 @@
   }
   /* vission end */
   /* mission start */
-.missionbg{
+.missionbg ,.awardbg ,.contactredirectbg{
     background-image: url("../Image/Logo/h1-bg02.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -109,6 +109,45 @@
   }
 .missionno{
     color: #acb8c5;
+    font-size: 50px;
+font-weight: 700;
+}
+.missionno .line{
+  border-top: 1px solid #acb8c5;
+  margin-left: 10px;
+width: 60px;
+
 
 }
   /* mission end */
+  /* award start */
+  .awardbg{
+    background-image: url("https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8335.jpg?t=st=1731306175~exp=1731309775~hmac=d179c2fc8d9a76b34230ff494ff52c3c9a0a8034c18102a291850f0c1eb0ae13&w=1060");
+    box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.368);
+background-attachment: fixed;
+  }
+  /* award end */
+  /* contaCTREDIRECT START */
+  .contactredirectbg{
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/07/landing_img-1.jpg");
+
+  }
+  .stroktext{
+    -webkit-text-stroke-width: 0.8px !important;
+    stroke-width: 3px !important;
+    -webkit-text-stroke-color: #ffffff !important;
+    color: #fff0 !important;
+    font-size: 85px !important;
+    text-transform: capitalize !important;
+    line-height: 80px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width:761px) {
+    .stroktext{
+    width: 90% !important;
+    font-size: 50px !important;
+
+    }
+  }
+  /* contaCTREDIRECT SEND */
