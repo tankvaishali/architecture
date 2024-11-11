@@ -15,7 +15,7 @@ function Awards() {
             pera:"Most Innovative Scalable & Sustainable Green Building Architect In India",
         },
         {
-            img:"https://www.mindscapedesign.co.in/icon/big_img/IMG_6243257.jpeg",
+            img:"https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/rev_home1_1.jpg",
             name:"Pride Bharat Award ",
             year:"2023",
             pera:"Most Innovative Scalable & Sustainable Green Building Architect In India",
@@ -23,7 +23,7 @@ function Awards() {
     ]
   return (
 <>
-<div className='py-5 awardbg'>
+<div className='py-5 awardbg '>
 
     <div className="container">
         <div className="py-3 py-lg-5">
@@ -48,7 +48,7 @@ function Awards() {
     <div className="h-100 pera">{x.pera}</div>
 </div>
 <div className="col-3">
-    <div className="h-100 text-center"><img src={x.img} alt="" className='img-fluid' width={60} height={60} /></div>
+    <div className="h-100 text-center"><img src={x.img} alt="" className='img-fluid object-fit-cover' width={60} height={60} /></div>
 </div>
 </div> 
                     </>

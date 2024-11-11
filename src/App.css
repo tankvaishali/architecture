@@ -67,7 +67,7 @@
   top: 0;
   height: 100%;
   width: 0;
-  background-color: #75a8bfc7;
+  background-color: #94b0bdc7;
   transition: width 0.4s ease;
   z-index: -1;
 }
@@ -85,10 +85,10 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  transition: all 0.75s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .bg_button:hover .bg_iconbtn {
-  background-color: black !important;
+  background-color: var(--maincolor--) !important;
   color: white !important;
 }
 /* button end */
