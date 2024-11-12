@@ -256,8 +256,12 @@ function CareerTable() {
     };
 
     return (
-        <div className="container">
-            <div className="d-flex justify-content-center py-3">
+        <div className="container my-5">
+            <div className="about-section justify-content-center">
+                <div className="line"></div>
+                <span>JOB OPENING</span>
+            </div>
+            <div className="d-flex justify-content-center py-3 mt-2">
                 <div>
                     <select
                         name="JOB AREA"
