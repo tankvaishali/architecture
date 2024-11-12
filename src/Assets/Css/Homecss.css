@@ -1,0 +1,21 @@
+/* why choose us start */
+.whyno{
+    color: rgba(100, 100, 100, 0.212);
+    font-size: 50px;
+    font-weight: 900;
+}
+/* why choose us end */
+
+/* testimonial start */
+.testimonialbg{
+    background-color: var(--theme--);
+}
+.rowmargine{
+    margin-top: -248px;
+}
+@media screen and (min-width: 761px) and (max-width:991px){
+    .rowmargine{
+        margin-top: -195px;
+    }
+}
+/* testimonial end */
