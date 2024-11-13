@@ -2,8 +2,9 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { HiOutlineArrowSmRight } from "react-icons/hi";
 
-export default function Component() {
+export default function BeforeAfter() {
   const [position, setPosition] = useState(50);
   const [selectedCategory, setSelectedCategory] = useState("Residential");
 
@@ -12,20 +13,20 @@ export default function Component() {
 
   const images = {
     Residential: {
-      before: "https://happylifeclub.tokotema.com/wp-content/uploads/2023/09/portrait-of-a-successful-mature-businessman-inside-2023-02-08-23-57-44-utc-1.jpg",
-      after: "https://happylifeclub.tokotema.com/wp-content/uploads/2023/09/successful-asian-boss-near-the-office-looks-at-the-2022-12-08-03-58-39-utc-1.jpg",
+      before: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315646.jpg?t=st=1731407482~exp=1731411082~hmac=6152e8a429c6f0d0fd715cb2f17713bdadd08ddd0425b423c1fbdc65a77d29ea&w=1060",
+      after: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315647.jpg?t=st=1731407518~exp=1731411118~hmac=0bf957a4804f89f5304c04cc6933fa278b6d7b825a956a41814acf9159453283&w=1060",
+    },
+    "Light Design": {
+      before: "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf_105762-2175.jpg?t=st=1731407718~exp=1731411318~hmac=29473b08d3de49bb3f4c6598c254522c3bf34d42540f2589cec30d4ac01aff8a&w=900",
+      after: "https://img.freepik.com/free-photo/modern-dining-room-living-room-with-luxury-decor_105762-1672.jpg?ga=GA1.1.294526294.1713588320",
     },
     Commercial: {
-      before: "https://happylifeclub.tokotema.com/wp-content/uploads/2023/09/businesswomen-using-laptop-and-having-a-discussion-2021-08-28-16-45-18-utc-1.jpg",
-      after: "https://happylifeclub.tokotema.com/wp-content/uploads/2023/09/businesswomen-sitting-in-armchair-and-having-a-con-2021-08-28-16-45-26-utc-1-1024x521.png",
-    },
-    "Lighting Design": {
-      before: "https://example.com/lighting-before.jpg",
-      after: "https://example.com/lighting-after.jpg",
+      before: "https://img.freepik.com/free-photo/house-interior-background-zoom-calls_23-2149684471.jpg?ga=GA1.1.294526294.1713588320",
+      after: "https://img.freepik.com/free-photo/blonde-charming-woman-silk-black-jumpsuit-stylish-eyeglasses-sits-brown-big-soft-sofa-ho_197531-33650.jpg?t=st=1731407669~exp=1731411269~hmac=12438e5d9555cf00c47c8721a0e4ff0a0e60235dd91c6118931fcf50ee821468&w=740",
     },
     "Art Deco": {
-      before: "https://example.com/artdeco-before.jpg",
-      after: "https://example.com/artdeco-after.jpg",
+      before: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-8-850x520.jpg",
+      after: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-11-850x520.jpg",
     },
   };
 
@@ -76,6 +77,7 @@ export default function Component() {
       backgroundImage: `url(${images[selectedCategory].before})`,
       backgroundSize: "cover",
       zIndex: 1,
+      objectFit:"fill"
     },
     afterImage: {
       position: "absolute",
@@ -114,11 +116,10 @@ export default function Component() {
     },
     label: {
       position: "absolute",
-      padding: "0.3rem 0.7rem", // Smaller padding for mobile
-      backgroundColor: "#8B7355",
+    //   padding: "0.3rem 0.7rem", // Smaller padding for mobile
+      backgroundColor: "var(--theme--)",
       color: "white",
-      fontSize: "0.7rem",
-      letterSpacing: "0.1em",
+     
       zIndex: 4,
     },
     beforeLabel: {
@@ -132,26 +133,36 @@ export default function Component() {
   };
 
   return (
-    <div className="container py-5">
-      <header className="text-center mb-3">
-        <div className="text-muted mb-2" style={{ letterSpacing: "0.1em" }}>
-          BEFORE AND AFTER MAGIC
-        </div>
-        <h1 className="font-weight-bold mb-4" style={{ fontSize: "2rem" }}> {/* Adjust font size for mobile */}
-          Witness The Design Evolution
-        </h1>
-        <nav className="d-flex flex-wrap justify-content-center gap-2 mb-4">
+    <div className="container py-5 my-5">
+<div className="my-3">
+<div class="about-section justify-content-center ">
+                  <div class="line"></div>
+                  <span>BEFORE AND AFTER MAGIC</span>
+                </div>
+                <h1 class=" Discover  text-dark py- text-center">Witness The Design Evolution</h1>
+</div>
+      <header className="text-center ">
+     
+     
+
+        <nav className=" d-flex flex-wrap justify-content-center gap-3 gap-lg mb-5 pb-3 pb-lg-4">
           {Object.keys(images).map((label, i) => (
             <button
               key={label}
-              className={`btn ${
+              type="button"
+
+              className={` bg_button text-white Inter  ps-4 pe-5 py-2 my-2   position-relative ${
                 selectedCategory === label ? "btn-primary" : "btn-outline-primary"
-              } d-flex align-items-center gap-2`}
+              } d-flex align-items-center `}
               onClick={() => setSelectedCategory(label)}
             >
-              <i className={`bi ${["bi-house", "bi-building", "bi-lightbulb", "bi-palette"][i]}`} />
+                   <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
+                           <HiOutlineArrowSmRight className="fs-5" />
+                       </span>
+              {/* <i className={`bi ${["bi-house", "bi-building", "bi-lightbulb", "bi-palette"][i]}`} /> */}
               {label}
             </button>
+                      
           ))}
         </nav>
       </header>
@@ -164,15 +175,14 @@ export default function Component() {
       >
         <div style={styles.beforeImage} />
         <div style={styles.afterImage} />
-
         <div style={styles.slider}>
           <div style={styles.sliderIcon} >
-            <i className="bi bi-arrows-angle-expand" />Drag
+            <i className="bi bi-arrows-angle-expand shadow-lg" />Drag
           </div>
         </div>
 
-        <div style={{ ...styles.label, ...styles.beforeLabel }}>BEFORE</div>
-        <div style={{ ...styles.label, ...styles.afterLabel }}>AFTER</div>
+        <div className="fw-bold p-2" style={{ ...styles.label, ...styles.beforeLabel }}>BEFORE</div>
+        <div className="fw-bold p-2" style={{ ...styles.label, ...styles.afterLabel }}>AFTER</div>
       </div>
     </div>
   );

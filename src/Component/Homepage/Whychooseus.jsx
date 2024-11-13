@@ -9,7 +9,7 @@ function Whychooseus() {
     <div className="container overflow-hidden">
         <div className="row g-5 justify-content-center">
             <div className="col-12 col-lg-4">
-                <div className="h-100">
+                <div className="h-100 shadow">
                     <img src="https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/home4_img-10.jpg" alt="" className='img-fluid w-100 h-100 object-fit-cover' />
                 </div>
             </div>
@@ -63,7 +63,7 @@ function Whychooseus() {
                 </div>
             </div>
             <div className="col-12 col-lg-4">
-                <div className="h-100">
+                <div className="h-100 shadow">
                     <img src="https://img.freepik.com/free-photo/modern-styled-small-entryway_23-2150712887.jpg?ga=GA1.1.294526294.1713588320&semt=ais_hybrid" alt="" className='img-fluid w-100 h-100 object-fit-cover' />
                   
                 </div>
