@@ -8,13 +8,23 @@
 
 /* testimonial start */
 .testi_bg {
-  width: 100%;
-  height: auto;
-  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-04.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+    width: 100%;
+    height: auto;
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-04.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center; 
+  }
+  @media only screen and (max-width:998px) {
+    .testi_bg{
+        background-size: 100% 100%;
+
+        background-position: center center; 
+
+
+    }
+  }
 .sectesti_img {
   width: 65%;
 }
@@ -62,6 +72,16 @@
   }
 }
 /* testimonial end */
+.appointmentbg{
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-1.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left center; 
+    box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.404);
+    background-attachment: fixed;
+
+}
+/*  */
 
 /* ArchitectureDesign start */
 .Probg_img {
