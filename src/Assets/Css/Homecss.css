@@ -1,21 +1,64 @@
 /* why choose us start */
-.whyno{
-    color: rgba(100, 100, 100, 0.212);
-    font-size: 50px;
-    font-weight: 900;
+.whyno {
+  color: rgba(100, 100, 100, 0.212);
+  font-size: 50px;
+  font-weight: 900;
 }
 /* why choose us end */
 
 /* testimonial start */
-.testimonialbg{
-    background-color: var(--theme--);
+.testi_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-04.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.rowmargine{
-    margin-top: -248px;
+.sectesti_img {
+  width: 67%;
 }
-@media screen and (min-width: 761px) and (max-width:991px){
-    .rowmargine{
-        margin-top: -195px;
-    }
+.aboutslider {
+  width: 45%;
+}
+.aboutslide_sec {
+  margin-top: -200px;
+}
+.slider_imageaboutus {
+  width: 100%;
+  height: 300px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sectesti_img {
+    width: 61%;
+  }
+  .aboutslide_sec {
+    margin-top: -150px;
+  }
+  .aboutslider {
+    width: 48%;
+  }
+  .slider_imageaboutus {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (min-width: 355px) and (max-width: 520px) {
+  .sec1_imgtesti {
+    display: none !important;
+  }
+  .sectesti_img {
+    width: 82%;
+  }
+  .aboutslider {
+    width: 60%;
+  }
+  .slider_imageaboutus {
+    width: 100%;
+    height: 230px;
+  }
+  .aboutslide_sec {
+    margin-top: -130px;
+  }
 }
 /* testimonial end */
