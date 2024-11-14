@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './Component/Homepage/Homepage';
-import After from './HOC/After';
+
 import ContactUs from './Component/ContactUs/ContactUs';
 import AboutusPage from './Component/Aboutus/AboutusPage';
 import Carrer from './Component/CarrerPage/Carrer';
@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Homepage />} />
-          <Route path='/after' element={<After />} />
+
           <Route path='/aboutus' element={<AboutusPage />} />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/carrer' element={<Carrer />} />
