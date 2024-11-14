@@ -32,22 +32,19 @@ function Header() {
                         <div className="offcanvas-body">
                             <ul className="navbar-nav ms-auto me-0 pe-0 align-items-center">
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link text-dark letterspace Inter">HOME</a>
+                                    <a href="/" className="nav-link text-dark letterspace Inter">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="/aboutus" className="nav-link text-dark letterspace Inter">About Us</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link text-dark letterspace Inter">NEWS</a>
+                                    <a href="/" className="nav-link text-dark letterspace Inter">Projects</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link text-dark letterspace Inter">WORKS</a>
+                                    <a href="/carrer" className="nav-link text-dark letterspace Inter">Careers</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/carrer" className="nav-link text-dark letterspace Inter">CARRERS</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="/contactus" className="nav-link text-dark letterspace Inter">CONTACT US</a>
+                                    <a href="/contactus" className="nav-link text-dark letterspace Inter">Contact Us</a>
                                 </li>
                             </ul>
                             <a href="/" className="nav-link text-dark text-center ms-lg-5 me-0 pe-0 mt-1">

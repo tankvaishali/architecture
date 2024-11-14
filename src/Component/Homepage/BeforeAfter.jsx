@@ -133,7 +133,7 @@ export default function BeforeAfter() {
   };
 
   return (
-    <div className="container py-5 my-5">
+    <div className="container py-3 mb-5">
 <div className="my-3">
 <div class="about-section justify-content-center ">
                   <div class="line"></div>

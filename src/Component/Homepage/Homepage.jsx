@@ -4,12 +4,14 @@ import Whychooseus from './Whychooseus'
 import "../../Assets/Css/Homecss.css"
 import Testimonial from './Testimonial'
 import BeforeAfter from './BeforeAfter'
+import Bookappointment from './Bookappointment'
 
 function Homepage() {
     return (
         <>
            <Whychooseus/>
-     <BeforeAfter/>
+           <Bookappointment/>
+           <BeforeAfter/>
            <Testimonial/>
         </>
     )
