@@ -5,6 +5,7 @@ import "../../Assets/Css/Homecss.css"
 import Testimonial from './Testimonial'
 import BeforeAfter from './BeforeAfter'
 import Bookappointment from './Bookappointment'
+import Services from './Services'
 
 function Homepage() {
     return (
@@ -12,6 +13,7 @@ function Homepage() {
            <Whychooseus/>
            <Bookappointment/>
            <BeforeAfter/>
+           |<Services/>
            <Testimonial/>
         </>
     )
