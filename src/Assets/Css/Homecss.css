@@ -70,160 +70,16 @@
   }
 }
 /* testimonial end */
-.appointmentbg {
-  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-1.png");
-  background-size: 50% 100%;
-  background-repeat: no-repeat;
-  background-position: left center;
-  box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.404);
-  background-attachment: fixed;
+.appointmentbg{
+    background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-1.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left center; 
+    box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.404);
+    background-attachment: fixed;
+
 }
 /*  */
-
-/* ArchitectureDesign start */
-.Probg_img {
-  width: 100%;
-  height: 100vh;
-  overflow-x: hidden;
-  position: relative;
-  transition: background-image 0.5s ease-in-out;
-}
-.pro_tittle {
-  color: white;
-  position: relative;
-  z-index: 1;
-  opacity: 1;
-  transform: translateY(-10px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-.cont_main {
-  width: 100%;
-  background-color: transparent;
-  transform: translateY(40%);
-  transition: transform 0.5s ease, background-color 0.5s ease;
-}
-.pro_cont {
-  opacity: 0;
-  transform: translateY(50%);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-  color: var(--theme--);
-}
-.pro_mainbox {
-  transition: all 0.5s ease-in-out;
-}
-.pro_mainbox:hover .pro_tittle {
-  opacity: 1;
-  color: black;
-  transform: translateY(0px);
-  transition-delay: 1ms;
-}
-.pro_mainbox:hover .pro_cont {
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.3s;
-}
-.pro_mainbox:hover .cont_main {
-  background-color: white;
-  transform: translateY(0);
-}
-@media (max-width: 1200px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-width: 992px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-width: 768px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-  .pro_tittle {
-    font-size: 1.5rem;
-  }
-  .pro_cont {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 576px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-  .pro_tittle {
-    font-size: 1.25rem;
-  }
-  .pro_cont {
-    font-size: 0.875rem;
-  }
-}
-.custom-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  font-size: 2rem;
-  font-style: italic;
-  color: black;
-  cursor: pointer;
-  z-index: 10;
-  padding: 5px;
-  border-radius: 10px;
-  transition: all 0.4s ease-in-out;
-}
-.custom-arrow.prev {
-  top: 50px;
-  left: 30px;
-}
-.custom-arrow.next {
-  top: 50px;
-  left: 80px;
-}
-.custom-arrow:hover {
-  background-color: black;
-  color: white;
-}
-/* ArchitectureDesign end */
-
-/* About start */
-.about-company {
-  width: 100%;
-  height: auto;
-  background-color: var(--theme--);
-}
-.main_aboutSec {
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.content {
-  flex: 1 1 50%;
-  background-color: var(--theme--);
-  margin-right: -15%;
-  position: relative;
-}
-.image_about {
-  flex: 1 1 50%;
-  overflow: hidden;
-}
-.image_about .team-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-}
-@media (max-width: 768px) {
-  .content,
-  .image_about {
-    flex: 1 1 100%;
-    margin-right: 0;
-  }
-}
-/* About end */
 
 /* ClientLogo start */
 .logo_bg{
