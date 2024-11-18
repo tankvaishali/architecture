@@ -1,72 +1,9 @@
-/* HomeSlider ---Start--- */
-.left-section,
-.center-section,
-.right-section {
-  height: 100%;
-}
-
-.left-section {
-  background-color: white;
-  color: #333;
-  display: flex;
-  align-items: center;
-}
-
-.right-section {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.center-section {
-  background-color: #333;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.navigation-icons {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-.content h1 {
-  font-size: 3rem;
-  color: black;
-  font-weight: 700;
-}
-
-.btn-outline-dark {
-  border-radius: 0px;
-  border: 2px solid black;
-  padding: 2% 8%;
-}
-
-.section {
-  display: none;
-  height: 100vh;
-}
-
-.section.active {
-  display: block;
-}
-
-/* HomeSlider ---End--- */
-
 /* why choose us start */
 .whyno {
   color: rgba(100, 100, 100, 0.212);
   font-size: 50px;
   font-weight: 900;
 }
-
 /* why choose us end */
 
 /* testimonial start */
@@ -79,7 +16,6 @@ h1 {
   background-attachment: fixed;
   background-position: right center;
 }
-
 @media only screen and (max-width: 998px) {
   .testi_bg {
     background-size: 100% 100%;
@@ -87,66 +23,52 @@ h1 {
     background-position: center center;
   }
 }
-
 .sectesti_img {
   width: 65%;
 }
-
 .aboutslider {
   width: 45%;
 }
-
 .aboutslide_sec {
   margin-top: -200px;
 }
-
 .slider_imageaboutus {
   width: 100%;
   height: 300px;
 }
-
 @media (min-width: 992px) and (max-width: 1200px) {
   .sectesti_img {
     width: 61%;
   }
-
   .aboutslide_sec {
     margin-top: -150px;
   }
-
   .aboutslider {
     width: 48%;
   }
-
   .slider_imageaboutus {
     width: 100%;
     height: 250px;
   }
 }
-
 @media (min-width: 355px) and (max-width: 520px) {
   .sec1_imgtesti {
     display: none !important;
   }
-
   .sectesti_img {
     width: 82%;
   }
-
   .aboutslider {
     width: 60%;
   }
-
   .slider_imageaboutus {
     width: 100%;
     height: 230px;
   }
-
   .aboutslide_sec {
     margin-top: -130px;
   }
 }
-
 /* testimonial end */
 .appointmentbg {
   background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-1.png");
@@ -156,7 +78,6 @@ h1 {
   box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.404);
   background-attachment: fixed;
 }
-
 /*  */
 
 /* ArchitectureDesign start */
@@ -167,7 +88,6 @@ h1 {
   position: relative;
   transition: background-image 0.5s ease-in-out;
 }
-
 .pro_tittle {
   color: white;
   position: relative;
@@ -176,87 +96,72 @@ h1 {
   transform: translateY(-10px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
 .cont_main {
   width: 100%;
   background-color: transparent;
   transform: translateY(40%);
   transition: transform 0.5s ease, background-color 0.5s ease;
 }
-
 .pro_cont {
   opacity: 0;
   transform: translateY(50%);
   transition: opacity 0.5s ease, transform 0.5s ease;
   color: var(--theme--);
 }
-
 .pro_mainbox {
   transition: all 0.5s ease-in-out;
 }
-
 .pro_mainbox:hover .pro_tittle {
   opacity: 1;
   color: black;
   transform: translateY(0px);
   transition-delay: 1ms;
 }
-
 .pro_mainbox:hover .pro_cont {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.3s;
 }
-
 .pro_mainbox:hover .cont_main {
   background-color: white;
   transform: translateY(0);
 }
-
 @media (max-width: 1200px) {
   .pro_mainbox {
     width: 100%;
     height: auto;
   }
 }
-
 @media (max-width: 992px) {
   .pro_mainbox {
     width: 100%;
     height: auto;
   }
 }
-
 @media (max-width: 768px) {
   .pro_mainbox {
     width: 100%;
     height: auto;
   }
-
   .pro_tittle {
     font-size: 1.5rem;
   }
-
   .pro_cont {
     font-size: 1rem;
   }
 }
-
 @media (max-width: 576px) {
   .pro_mainbox {
     width: 100%;
     height: auto;
   }
-
   .pro_tittle {
     font-size: 1.25rem;
   }
-
   .pro_cont {
     font-size: 0.875rem;
   }
 }
-
 .custom-arrow {
   position: absolute;
   top: 50%;
@@ -271,22 +176,18 @@ h1 {
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
 }
-
 .custom-arrow.prev {
   top: 50px;
   left: 30px;
 }
-
 .custom-arrow.next {
   top: 50px;
   left: 80px;
 }
-
 .custom-arrow:hover {
   background-color: black;
   color: white;
 }
-
 /* ArchitectureDesign end */
 
 /* About start */
@@ -295,38 +196,31 @@ h1 {
   height: auto;
   background-color: var(--theme--);
 }
-
 .main_aboutSec {
   flex-wrap: wrap;
   gap: 20px;
 }
-
 .content {
   flex: 1 1 50%;
   background-color: var(--theme--);
   margin-right: -15%;
   position: relative;
 }
-
 .image_about {
   flex: 1 1 50%;
   overflow: hidden;
 }
-
 .image_about .team-image {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 5px;
 }
-
 @media (max-width: 768px) {
-
   .content,
   .image_about {
     flex: 1 1 100%;
     margin-right: 0;
   }
 }
-
 /* About end */
