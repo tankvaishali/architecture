@@ -6,15 +6,17 @@ import Testimonial from './Testimonial'
 import BeforeAfter from './BeforeAfter'
 import ArchitectureDesign from './ArchitectureDesign'
 import About from './About'
+import Homeslider from './Homeslider'
 
 function Homepage() {
     return (
         <>
-            <About/>
+            <Homeslider />
+            <About />
             <Whychooseus />
             <BeforeAfter />
             <Testimonial />
-            <ArchitectureDesign/>
+            <ArchitectureDesign />
         </>
     )
 }
