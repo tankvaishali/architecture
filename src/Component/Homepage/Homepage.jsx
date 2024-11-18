@@ -4,13 +4,17 @@ import Whychooseus from './Whychooseus'
 import "../../Assets/Css/Homecss.css"
 import Testimonial from './Testimonial'
 import BeforeAfter from './BeforeAfter'
+import ArchitectureDesign from './ArchitectureDesign'
+import About from './About'
 
 function Homepage() {
     return (
         <>
-           <Whychooseus/>
-     <BeforeAfter/>
-           <Testimonial/>
+            <About/>
+            <Whychooseus />
+            <BeforeAfter />
+            <Testimonial />
+            <ArchitectureDesign/>
         </>
     )
 }

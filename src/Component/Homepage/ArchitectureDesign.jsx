@@ -143,6 +143,8 @@ function ArchitectureDesign() {
         slidesToShow: 4,
         slidesToScroll: 1,
         adaptiveHeight: true,
+        nextArrow: <CustomArrow direction="next" />,
+        prevArrow: <CustomArrow direction="prev" />,
         responsive: [
             {
                 breakpoint: 1200,
@@ -180,6 +182,18 @@ function ArchitectureDesign() {
         };
     }, []);
 
+    function CustomArrow(props) {
+        const { onClick, direction } = props;
+        return (
+            <div
+                className={`custom-arrow ${direction}`}
+                onClick={onClick}
+            >
+                {direction === "next" ? '→' : '←'}
+            </div>
+        );
+    }
+
     return (
         <div
             className="Probg_img overflow-hidden"
@@ -205,10 +219,15 @@ function ArchitectureDesign() {
                         onMouseLeave={() => setHoverIndex(null)}
                     >
                         <div className="pro_mainbox col-lg-3 border border-1 border-white w-100 vh-100 d-flex align-items-end mx-auto">
-                            <div className="cont_main">
-                                <div className="py-3 px-4">
+                            <div className="cont_main py-3">
+                                <div className="px-4">
                                     <h3 className="pro_tittle fw-bold">
-                                        {slide.title} <div>{slide.subtitle}</div>
+                                        {slide.title}
+                                    </h3>
+                                </div>
+                                <div className="px-4">
+                                    <h3 className="pro_tittle fw-bold">
+                                        {slide.subtitle}
                                     </h3>
                                 </div>
                                 <div className="pro_cont px-4 pb-4">{slide.description}</div>

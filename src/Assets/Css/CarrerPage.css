@@ -23,13 +23,14 @@ input {
   padding: 6px;
 }
 .table th {
-  background-color: rgba(0, 0, 0, 0.361) !important;
+  background-color: var(--theme--) !important;
+  color: white;
 }
 .table tbody tr:nth-child(even) td {
-  background-color: lightgray;
+  background-color: #6c7a8991;
 }
 .table tbody tr:nth-child(odd) td {
-  background-color: rgba(30, 29, 29, 0.055);
+  background-color: #6c7a894e;
 }
 .form-select:focus {
   outline: none !important;
