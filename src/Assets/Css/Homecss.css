@@ -224,3 +224,15 @@
   }
 }
 /* About end */
+
+/* ClientLogo start */
+.logo_bg{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSg6RfIMGHvrWbD-J7CFgIhDd-ivN2h2pM7XzrTuQn6OQALYq8C");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+/* ClientLogo end */

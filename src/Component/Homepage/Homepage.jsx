@@ -6,6 +6,7 @@ import Testimonial from './Testimonial'
 import BeforeAfter from './BeforeAfter'
 import ArchitectureDesign from './ArchitectureDesign'
 import About from './About'
+import ClientLogo from './ClientLogo'
 
 function Homepage() {
     return (
@@ -15,6 +16,7 @@ function Homepage() {
             <BeforeAfter />
             <Testimonial />
             <ArchitectureDesign/>
+            <ClientLogo/>
         </>
     )
 }
