@@ -51,7 +51,7 @@ function CarrerForm() {
                             <div className='text-center py-3'>
                                 <button
                                     type="button"
-                                    className="bg_button text-white fs-6 ps-4 pe-5 py-2 fw-bold position-relative">
+                                    className="bg_button Inter text-white fs-6 ps-4 pe-5 py-2 fw-bold position-relative">
                                     Submit
                                     <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
                                         <HiOutlineArrowSmRight className="fs-5" />
