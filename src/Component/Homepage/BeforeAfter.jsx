@@ -77,7 +77,7 @@ export default function BeforeAfter() {
       backgroundImage: `url(${images[selectedCategory].before})`,
       backgroundSize: "cover",
       zIndex: 1,
-      objectFit:"fill"
+      objectFit: "fill"
     },
     afterImage: {
       position: "absolute",
@@ -106,7 +106,7 @@ export default function BeforeAfter() {
     sliderIcon: {
       width: "30px",
       height: "30px",
-      padding:"20px" ,
+      padding: "20px",
       backgroundColor: "white",
       borderRadius: "50%",
       display: "flex",
@@ -116,10 +116,10 @@ export default function BeforeAfter() {
     },
     label: {
       position: "absolute",
-    //   padding: "0.3rem 0.7rem", // Smaller padding for mobile
+      //   padding: "0.3rem 0.7rem", // Smaller padding for mobile
       backgroundColor: "var(--theme--)",
       color: "white",
-     
+
       zIndex: 4,
     },
     beforeLabel: {
@@ -134,16 +134,16 @@ export default function BeforeAfter() {
 
   return (
     <div className="container py-3 mb-5">
-<div className="my-3">
-<div class="about-section justify-content-center ">
-                  <div class="line"></div>
-                  <span>BEFORE AND AFTER MAGIC</span>
-                </div>
-                <h1 class=" Discover  text-dark py- text-center">Witness The Design Evolution</h1>
-</div>
+      <div className="my-3">
+        <div class="about-section justify-content-center " data-aos="fade-up" data-aos-duration="1500">
+          <div class="line"></div>
+          <span>BEFORE AND AFTER MAGIC</span>
+        </div>
+        <h1 class=" Discover  text-dark py- text-center" data-aos="fade-down" data-aos-duration="1500">Witness The Design Evolution</h1>
+      </div>
       <header className="text-center ">
-     
-     
+
+
 
         <nav className=" d-flex flex-wrap justify-content-center gap-3 gap-lg mb-5 pb-3 pb-lg-4">
           {Object.keys(images).map((label, i) => (
@@ -151,18 +151,17 @@ export default function BeforeAfter() {
               key={label}
               type="button"
 
-              className={` bg_button text-white Inter  ps-4 pe-5 py-2 my-2   position-relative ${
-                selectedCategory === label ? "btn-primary" : "btn-outline-primary"
-              } d-flex align-items-center `}
+              className={` bg_button text-white Inter  ps-4 pe-5 py-2 my-2   position-relative ${selectedCategory === label ? "btn-primary" : "btn-outline-primary"
+                } d-flex align-items-center `}
               onClick={() => setSelectedCategory(label)}
             >
-                   <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
-                           <HiOutlineArrowSmRight className="fs-5" />
-                       </span>
+              <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
+                <HiOutlineArrowSmRight className="fs-5" />
+              </span>
               {/* <i className={`bi ${["bi-house", "bi-building", "bi-lightbulb", "bi-palette"][i]}`} /> */}
               {label}
             </button>
-                      
+
           ))}
         </nav>
       </header>
