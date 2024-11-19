@@ -6,7 +6,7 @@ function About() {
         <>
             <div className="about-company my-5 d-flex align-items-center p-0 p-lg-5">
                 <div className="container main_aboutSec d-flex align-items-center justify-content-center p-4">
-                    <div className="content p-0 p-lg-4">
+                    <div className="content p-3 p-lg-4">
                         <div className="about-section text-dark">
                             <div className="line border border-1 border-dark"></div>
                             <span>Get to know us</span>

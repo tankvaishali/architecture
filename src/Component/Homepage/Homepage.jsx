@@ -8,6 +8,7 @@ import ArchitectureDesign from './ArchitectureDesign'
 import About from './About'
 import Homeslider from './Homeslider'
 import Bookappointment from './Bookappointment'
+import ClientLogo from './ClientLogo'
 
 function Homepage() {
     return (
@@ -19,6 +20,7 @@ function Homepage() {
             <ArchitectureDesign />
             <Bookappointment/>
             <Testimonial />
+            <ClientLogo/>
         </>
     )
 }
