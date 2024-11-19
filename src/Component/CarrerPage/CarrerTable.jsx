@@ -7,60 +7,70 @@ function CareerTable() {
             jobArea: "Interior",
             location: "Barcelona",
             deadline: "As soon as possible",
+            delay: "200",
         },
         {
             title: "Junior Bim Specialist",
             jobArea: "Architecture",
             location: "Barcelona",
             deadline: "As soon as possible",
+            delay: "400",
         },
         {
             title: "Project Manager",
             jobArea: "Architecture",
             location: "Barcelona",
             deadline: "As soon as possible",
+            delay: "600",
         },
         {
             title: "Landscape Design Assistant",
             jobArea: "Intern",
             location: "Barcelona",
             deadline: "As soon as possible",
+            delay: "800",
         },
         {
             title: "Landscape Architect",
             jobArea: "Landscape",
             location: "Barcelona",
             deadline: "Ongoing",
+            delay: "1000",
         },
         {
             title: "Senior Urban Designer. Project Manager",
             jobArea: "Architecture",
             location: "Barcelona",
             deadline: "As soon as possible",
+            delay: "1200",
         },
         {
             title: "Urban Designer",
             jobArea: "Architecture",
             location: "Barcelona",
             deadline: "As soon as possible",
+            delay: "1400",
         },
         {
             title: "Design Assistant",
             jobArea: "Intern",
             location: "Barcelona",
             deadline: "Ongoing",
+            delay: "1600",
         },
         {
             title: "Planting Specialist",
             jobArea: "Landscape",
             location: "Copenhagen",
             deadline: "As soon as possible",
+            delay: "1800",
         },
         {
             title: "Financial Controller (barselsvikariat)",
             jobArea: "Finance",
             location: "Copenhagen",
             deadline: "As soon as possible",
+            delay: "2000",
         },
         {
             title: "In-House Legal Advisor & Contract Manager",
@@ -257,11 +267,11 @@ function CareerTable() {
 
     return (
         <div className="container my-5">
-            <div className="about-section justify-content-center">
+            <div className="about-section justify-content-center" data-aos="fade-up" data-aos-duration="1500">
                 <div className="line"></div>
                 <span>JOB OPENING</span>
             </div>
-            <div className="d-flex justify-content-center py-3 mt-2">
+            <div className="d-flex justify-content-center py-3 mt-2" data-aos="zoom-in" data-aos-duration="1500">
                 <div>
                     <select
                         name="JOB AREA"
@@ -298,10 +308,10 @@ function CareerTable() {
                 </div>
             </div>
 
-            <div className="text-center table-responsive">
+            <div className="text-center table-responsive overflow-hidden">
                 <table className="table table-bordered table-striped">
                     <thead className="thead-dark">
-                        <tr className="text-start">
+                        <tr className="text-start" data-aos="fade-up" data-aos-duration="1500">
                             <th style={{ width: "35%", fontSize: "15px" }}>TITLE</th>
                             <th style={{ width: "25%", fontSize: "15px" }}>JOB AREA</th>
                             <th style={{ width: "20%", fontSize: "15px" }}>LOCATION</th>
@@ -311,7 +321,7 @@ function CareerTable() {
                     <tbody className="text-start">
                         {currentJobs.length > 0 ? (
                             currentJobs.map((job, index) => (
-                                <tr key={index}>
+                                <tr key={index} data-aos="fade-up" data-aos-duration="1500" data-aos-delay={job.delay}>
                                     <td style={{ width: "35%", fontSize: "15px" }}>{job.title}</td>
                                     <td style={{ width: "25%", fontSize: "15px" }}>{job.jobArea}</td>
                                     <td style={{ width: "20%", fontSize: "15px" }}>{job.location}</td>

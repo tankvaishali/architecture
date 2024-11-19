@@ -20,12 +20,12 @@ function ClientLogo() {
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center p-0 p-lg-4">
                     <div className="col-12 col-lg-4 p-4">
-                        <div className="about-section justify-content-start">
+                        <div className="about-section justify-content-start" data-aos="fade-up" data-aos-duration="1500">
                             <div className="line"></div>
                             <span>Our Partners</span>
                         </div>
-                        <h1 className="Discover text-dark">A Legacy of Excellence with Premium Clients</h1>
-                        <p className="pera">
+                        <h1 className="Discover text-dark" data-aos="fade-down" data-aos-duration="1500">A Legacy of Excellence with Premium Clients</h1>
+                        <p className="pera" data-aos="zoom-in" data-aos-duration="1500">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur eligendi inventore officiis nesciunt, voluptates quae aspernatur, quaerat, dicta provident ipsum maiores debitis atque dignissimos dolorem.
                         </p>
                     </div>

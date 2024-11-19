@@ -67,15 +67,15 @@ function Testimonial() {
                             </div>
                             <div className='h-100 col-12 col-lg-6 p-5'>
                                 <div>
-                                    <div className="about-section">
+                                    <div className="about-section" data-aos="fade-up" data-aos-duration="1500">
                                         <div className="line"></div>
                                         <span>Testimonial</span>
                                     </div>
-                                    <h1 className="Discover text-dark py-2">WHAT OUR CLIENT SAYS</h1>
+                                    <h1 className="Discover text-dark py-2" data-aos="fade-down" data-aos-duration="1500">WHAT OUR CLIENT SAYS</h1>
                                 </div>
                                 <Slider {...settings}>
                                     {testimonials.map((testimonial, index) => (
-                                        <div className='px-0 px-lg-5  py-3' key={index}>
+                                        <div className='px-0 px-lg-5  py-3' key={index} data-aos="fade-left" data-aos-duration="1500">
                                             <div><FaQuoteLeft className='fs-1 text-secondary' /></div>
                                             <div className='py-4' style={{ textAlign: "justify" }}>{testimonial.quote}</div>
                                             <div className='d-flex align-items-center align-content-center'>

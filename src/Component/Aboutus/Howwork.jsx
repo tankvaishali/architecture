@@ -17,21 +17,21 @@ function Howwork() {
         pauseOnHover: false,
         arrows: false,
         dots: false,
-     
+
         responsive: [
             {
-              breakpoint: 1024,
-              settings: { slidesToShow: 2 },
+                breakpoint: 1024,
+                settings: { slidesToShow: 2 },
             },
             {
-              breakpoint: 991,
-              settings: { slidesToShow: 1 },
+                breakpoint: 991,
+                settings: { slidesToShow: 1 },
             },
             {
-              breakpoint: 480,
-              settings: { slidesToShow: 1 },
+                breakpoint: 480,
+                settings: { slidesToShow: 1 },
             },
-          ],
+        ],
     };
 
     const ProductItemlist = [
@@ -46,12 +46,14 @@ function Howwork() {
             backgroundImage: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/step2.jpg",
             name: "Feasibility and assessment",
             title: "Concept design proposals are followed by the stage known as 'design development', which can also be referred to as 'schematic design' to capture the stage's purpose and intent.",
+            delay: "400",
         },
         {
             id: "03",
             backgroundImage: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/step3.jpg",
             name: "Concept design",
             title: "Concept design proposals are followed by the stage known as 'design development', which can also be referred to as 'schematic design' to capture the stage's purpose and intent.",
+            delay: "800",
         },
         {
             id: "04",
@@ -80,31 +82,31 @@ function Howwork() {
                     <div className="row g-4">
                         <div className="col-12 col-md-6 col-lg-3">
                             <div className="h-100">
-                                <div className="about-section">
+                                <div className="about-section" data-aos="fade-up" data-aos-duration="1500">
                                     <div className="line"></div>
                                     <span>HOW WE WORK</span>
                                 </div>
-                                <h1 className="Discover text-dark py-3">Our easy steps to get interior design</h1>
-                                <div className="pera">
+                                <h1 className="Discover text-dark py-3" data-aos="fade-down" data-aos-duration="1500">Our easy steps to get interior design</h1>
+                                <div className="pera" data-aos="zoom-in" data-aos-duration="1500">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero nisi eius dicta. Odit quo beatae nulla quibusdam unde dolor.
                                 </div>
                                 <div className="d-flex my-2">
                                     <div>
-                                        <div className="d-flex align-items-center align-content-center py-1">
+                                        <div className="d-flex align-items-center align-content-center py-1" data-aos="zoom-in" data-aos-duration="1500">
                                             <div className="fs-5"><IoMdCheckboxOutline /></div>
                                             <div className="pera ps-2 fw-bold">Concept</div>
                                         </div>
-                                        <div className="d-flex align-items-center align-content-center py-1">
+                                        <div className="d-flex align-items-center align-content-center py-1" data-aos="zoom-in" data-aos-duration="1500">
                                             <div className="fs-5"><IoMdCheckboxOutline /></div>
                                             <div className="pera ps-2 fw-bold">Idea</div>
                                         </div>
                                     </div>
                                     <div className="ms-3 ms-lg-5">
-                                        <div className="d-flex align-items-center align-content-center py-1">
+                                        <div className="d-flex align-items-center align-content-center py-1" data-aos="zoom-in" data-aos-duration="1500">
                                             <div className="fs-5"><IoMdCheckboxOutline /></div>
                                             <div className="pera ps-2 fw-bold">Design</div>
                                         </div>
-                                        <div className="d-flex align-items-center align-content-center py-1">
+                                        <div className="d-flex align-items-center align-content-center py-1" data-aos="zoom-in" data-aos-duration="1500">
                                             <div className="fs-5"><IoMdCheckboxOutline /></div>
                                             <div className="pera ps-2 fw-bold">Execution</div>
                                         </div>
@@ -112,24 +114,26 @@ function Howwork() {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-12 col-md-6 col-lg-9">
                             <div className="h-100">
-                                <Slider {...settings} className= " h-100 p-0 m-0">
+                                <Slider {...settings} className=" h-100 p-0 m-0">
                                     {ProductItemlist.map((item) => (
                                         <div
                                             key={item.id}
                                             className="px-2"
                                             onMouseEnter={() => setHoveredItem(item.id)}
                                             onMouseLeave={() => setHoveredItem(null)}
-                                           
-                                            style={{ transition: "all 0.3s ease-in-out"}}
+
+                                            style={{ transition: "all 0.3s ease-in-out" }}
+                                            data-aos="fade-left" data-aos-duration="1500"
+                                            data-aos-delay={item.delay}
                                         >
                                             <div
                                                 className="cardbox h-100 p-3 shadow-sm w-100 d-flex flex-column justify-content-between"
                                                 style={{
                                                     transition: "all 0.3s ease-in-out",
-                                                    background: hoveredItem === item.id 
+                                                    background: hoveredItem === item.id
                                                         ? `url(${item.backgroundImage}) center/cover`
                                                         : 'white',
                                                     color: hoveredItem === item.id ? 'white' : 'black',

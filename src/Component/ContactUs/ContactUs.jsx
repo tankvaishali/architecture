@@ -16,13 +16,13 @@ function ContactUs() {
                 <div className="container">
                     <div className='mx-auto py-5'>
                         <div className='contact_bg'>
-                            <div className='row mx-auto'>
+                            <div className='row mx-auto overflow-hidden'>
                                 <div className='col-12 col-lg-6'>
-                                    <h1 className='display-3 fw-bold pt-5'>Let's Talk</h1>
-                                    <p>We welcome opportunities for collaboration. Please submit invitations, business proposals, or general inquiries.</p>
-                                    <h5 className='fw-bold' style={{ paddingTop: "70px" }}>Call Us</h5>
-                                    <div className='fw-bold fs-3'>+91 12345 67890</div>
-                                    <div className='d-flex py-4'>
+                                    <h1 className='display-3 fw-bold pt-5' data-aos="fade-up" data-aos-duration="1500">Let's Talk</h1>
+                                    <p data-aos="zoom-in" data-aos-duration="1500">We welcome opportunities for collaboration. Please submit invitations, business proposals, or general inquiries.</p>
+                                    <h5 className='fw-bold' data-aos="zoom-in" data-aos-duration="1500" style={{ paddingTop: "70px" }}>Call Us</h5>
+                                    <div className='fw-bold fs-3' data-aos="zoom-in" data-aos-duration="1500">+91 12345 67890</div>
+                                    <div className='d-flex py-4' data-aos="zoom-in" data-aos-duration="1500">
                                         <div className="icon-wrapper">
                                             <FaFacebookF className='fs-4 icon facebook' />
                                         </div>
@@ -37,7 +37,7 @@ function ContactUs() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-12 col-lg-6 border border-2 border-dark rounded-4 p-3'>
+                                <div className='col-12 col-lg-6 border border-2 border-dark rounded-4 p-3' data-aos="fade-up" data-aos-duration="1500">
                                     <div className='d-lg-flex justify-content-between gap-3 my-3'>
                                         <input type="text" name="firstname" id="" placeholder='First Name' className='w-100 w-md-50 w-lg-50  px-4 py-2 rounded-3' />
                                         <input type="text" name="lastname" id="" placeholder='Last Name' className='w-100 w-md-50 w-lg-50 px-4 py-2 rounded-3 my-3 my-lg-0' />
@@ -126,7 +126,7 @@ function ContactUs() {
                         <div className='container'>
                             <div className='main_box row'>
                                 <div className='col-12 col-md-6 col-lg-4'>
-                                    <div className='bg-item_contact py-5 rounded-4 mb-3 vh-'>
+                                    <div className='bg-item_contact py-5 rounded-4 mb-3' style={{ height: "90%" }} data-aos="zoom-in" data-aos-duration="1500">
                                         <div className='text-white text-center'>
                                             <div>
                                                 <BiPhoneCall className='fs-1' />
@@ -137,7 +137,7 @@ function ContactUs() {
                                     </div>
                                 </div>
                                 <div className='col-12 col-md-6 col-lg-4'>
-                                    <div className='bg-item_contact py-5 rounded-4 mb-3 vh-'>
+                                    <div className='bg-item_contact py-5 rounded-4 mb-3' style={{ height: "90%" }} data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
                                         <div className='text-white text-center'>
                                             <div>
                                                 <GrLocation className='fs-1' />
@@ -148,7 +148,7 @@ function ContactUs() {
                                     </div>
                                 </div>
                                 <div className='col-12 col-md-6 col-lg-4'>
-                                    <div className='bg-item_contact py-5 rounded-4 mb-3 vh-'>
+                                    <div className='bg-item_contact py-5 rounded-4 mb-3' style={{ height: "90%" }} data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
                                         <div className='text-white text-center'>
                                             <div>
                                                 <IoMailOpenOutline className='fs-1' />
@@ -164,7 +164,7 @@ function ContactUs() {
                 </div>
 
                 <div className="container">
-                    <div className='w-100 my-5'>
+                    <div className='w-100 my-5' data-aos="zoom-in" data-aos-duration="1500">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.6435468552745!2d72.83498737380307!3d21.206314581659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fab21103b69%3A0xa299912d3085be89!2sASHUTOSH%20PROSTHETICS%20%26%20ORTHOTICS%20CENTER!5e0!3m2!1sen!2sus!4v1718857447832!5m2!1sen!2sus"
                             height="450"

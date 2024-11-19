@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiOutlineArrowSmRight } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
 
 function About() {
     return (
@@ -25,12 +26,14 @@ function About() {
                             nuse ane sene voice the volume the miss drana inc fermen.
                         </p>
                         <div className="py-3">
-                            <button type="button" className="bg_button Inter text-white fs-6 ps-4 pe-5 py-2 fw-bold position-relative">
-                                About Us
-                                <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
-                                    <HiOutlineArrowSmRight className="fs-5" />
-                                </span>
-                            </button>
+                            <Link to="/aboutus">
+                                <button type="button" className="bg_button Inter text-white fs-6 ps-4 pe-5 py-2 fw-bold position-relative">
+                                    About Us
+                                    <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
+                                        <HiOutlineArrowSmRight className="fs-5" />
+                                    </span>
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="image_about">

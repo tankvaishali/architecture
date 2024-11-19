@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiSolidPhoneCall } from 'react-icons/bi'
 import { GoDotFill } from 'react-icons/go'
+import { IoCheckmarkDoneSharp } from 'react-icons/io5'
 
 function Whychooseus() {
     return (
@@ -26,42 +27,42 @@ function Whychooseus() {
                                 <div className="d-block d-lg-flex justify-content-center py-2">
                                     <div>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                     </div>
                                     <div className=' ps-0 ps-4'>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' data-aos="zoom-in" data-aos-duration="1500">
-                                            <div className='theme fs-5'><GoDotFill /></div>
+                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
                                             <div className='pera ps-1'>Lorem ipsum dolor.</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='whyno' data-aos="zoom-in" data-aos-duration="1500"><BiSolidPhoneCall /> 12345 67890</div>
+                                <div className='whyno' data-aos="zoom-in" data-aos-duration="1500"><BiSolidPhoneCall /> 81538 27482</div>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4" data-aos="fade-left" data-aos-duration="1500">
