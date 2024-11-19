@@ -9,6 +9,7 @@ import About from './About'
 import Homeslider from './Homeslider'
 import Bookappointment from './Bookappointment'
 import ClientLogo from './ClientLogo'
+import News from './News'
 
 function Homepage() {
     return (
@@ -18,9 +19,10 @@ function Homepage() {
             <Whychooseus />
             <BeforeAfter />
             <ArchitectureDesign />
-            <Bookappointment/>
+            <Bookappointment />
             <Testimonial />
-            <ClientLogo/>
+            <News />
+            <ClientLogo />
         </>
     )
 }

@@ -388,7 +388,7 @@ function Homeslider() {
       < Carousel.Item>
         <div className='position-relative'>
           <img
-            src={require('../../Assets/Image/9e39a24a-0446-4597-8e6d-ca4476630d79_jpg-removebg-preview hd.png')}
+            src={"https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/home4_img-10.jpg"}
             className="vh-100 img-fluid w-100 object-fit-cover shadowed-image"
             alt="First slide"
           />
@@ -406,7 +406,7 @@ function Homeslider() {
               </div>
               <div className={`col-lg-6 col-md-6 p-lg-2 p-0 col-12 animate__animated ${imageAnimationClass}`}>
                 <img
-                  src={require("../../Assets/Image/9e39a24a-0446-4597-8e6d-ca4476630d79_jpg-removebg-preview hd.png")}
+                  src={"https://img.freepik.com/free-photo/modern-styled-small-entryway_23-2150712887.jpg?ga=GA1.1.294526294.1713588320&semt=ais_hybrid"}
                   alt=""
                   className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0'
                 />
@@ -420,7 +420,7 @@ function Homeslider() {
       <Carousel.Item>
         <div className='position-relative'>
           <img
-            src={require('../../Assets/Image/9e39a24a-0446-4597-8e6d-ca4476630d79_jpg-removebg-preview.png')}
+            src={"https://darkarc.liquid-themes.com/wp-content/uploads/2022/04/2.jpg "}
             className="vh-100 img-fluid w-100 object-fit-cover shadowed-image custom-shadow "
             alt="First slide"
           />
@@ -437,9 +437,9 @@ function Homeslider() {
                 </h1>
               </div>
               <div className={`col-lg-6 col-md-6 p-lg-2 p-0 col-12 animate__animated ${imageAnimationClass}`}>
-                <img src={require('../../Assets/Image/about_img.jpg')}
+                <img src={"https://darkarc.liquid-themes.com/wp-content/uploads/2022/04/3.jpg"}
                   alt=""
-                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0'
+                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-cover animate__animated animate__fadeLeft p-lg-2 p-0'
                 />
               </div>
               <div className={`border-bottom border-2 py-3 animate__animated  animate__fadeInLeft ${textAnimationClass}`}></div>
