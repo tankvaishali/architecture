@@ -29,7 +29,7 @@ function ClientLogo() {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur eligendi inventore officiis nesciunt, voluptates quae aspernatur, quaerat, dicta provident ipsum maiores debitis atque dignissimos dolorem.
                         </p>
                     </div>
-                    <div className="col-12 col-lg-8 p-4">
+                    <div className="col-12 col-lg-8 p-5">
                         <div className="logo-slider">
                             <div className="slide-track">
                                 {logoRows.map((logo, index) => (
