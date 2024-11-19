@@ -7,6 +7,7 @@ import BeforeAfter from './BeforeAfter'
 import ArchitectureDesign from './ArchitectureDesign'
 import About from './About'
 import Homeslider from './Homeslider'
+import Bookappointment from './Bookappointment'
 
 function Homepage() {
     return (
@@ -15,8 +16,9 @@ function Homepage() {
             <About />
             <Whychooseus />
             <BeforeAfter />
-            <Testimonial />
             <ArchitectureDesign />
+            <Bookappointment/>
+            <Testimonial />
         </>
     )
 }
