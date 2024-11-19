@@ -363,7 +363,7 @@ function Homeslider() {
           <div className="shadow_inset"></div>
         </div>
         <Carousel.Caption>
-          <div className="container col-lg-9 col-ms-10 col-12">
+          <div className="container col-lg-9 col-ms-10 col-12 p-0">
             <div className="row align-items-sm-center align-items-start justify-content-center mx-auto py-5 container">
               <div className={`border-top border-2 py-2 animate__animated ${imageAnimationClass}`}></div>
               <div className={`lh-lg col-lg-6 col-md-6 col-12 ps-sm-0 ps-4 text-sm-start text-center animate__animated ${textAnimationClass}`}>
@@ -374,9 +374,9 @@ function Homeslider() {
               </div>
               <div className={`col-lg-6 col-md-6 p-lg-2 p-0 col-12 animate__animated ${imageAnimationClass}`}>
                 <img
-                  src={"https://visualizingarchitecture.com/wp-content/uploads/2016/05/Culture_Center_Intro_06_Final.jpg"}
+                  src={"https://www.mindscapedesign.co.in/product/big_img/v%203740.jpeg"}
                   alt=""
-                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0'
+                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0 carousalimage'
                 />
               </div>
               <div className={`border-bottom border-2 py-3 animate__animated  animate__fadeInLeft ${textAnimationClass}`}></div>
@@ -388,14 +388,14 @@ function Homeslider() {
       < Carousel.Item>
         <div className='position-relative'>
           <img
-            src={require('../../Assets/Image/9e39a24a-0446-4597-8e6d-ca4476630d79_jpg-removebg-preview hd.png')}
+            src={"https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/home4_img-10.jpg"}
             className="vh-100 img-fluid w-100 object-fit-cover shadowed-image"
             alt="First slide"
           />
           <div className="shadow_inset"></div>
         </div>
         <Carousel.Caption>
-          <div className="container col-lg-9 col-ms-10 col-12">
+          <div className="container col-lg-9 col-ms-10 col-12 p-0">
             <div className="row align-items-sm-center align-items-start justify-content-center mx-auto py-5 container">
               <div className={`border-top border-2 py-2 animate__animated ${imageAnimationClass}`}></div>
               <div className={`lh-lg col-lg-6 col-md-6 col-12 ps-sm-0 ps-4 text-sm-start text-center animate__animated ${textAnimationClass}`}>
@@ -406,9 +406,9 @@ function Homeslider() {
               </div>
               <div className={`col-lg-6 col-md-6 p-lg-2 p-0 col-12 animate__animated ${imageAnimationClass}`}>
                 <img
-                  src={require("../../Assets/Image/9e39a24a-0446-4597-8e6d-ca4476630d79_jpg-removebg-preview hd.png")}
+                  src={"https://www.mindscapedesign.co.in/product/big_img/A_18%20-%20Photo878.jpeg"}
                   alt=""
-                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0'
+                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0 carousalimage'
                 />
               </div>
               <div className={`border-bottom border-2 py-3 animate__animated  animate__fadeInLeft ${textAnimationClass}`}></div>
@@ -420,14 +420,14 @@ function Homeslider() {
       <Carousel.Item>
         <div className='position-relative'>
           <img
-            src={require('../../Assets/Image/9e39a24a-0446-4597-8e6d-ca4476630d79_jpg-removebg-preview.png')}
-            className="vh-100 img-fluid w-100 object-fit-cover shadowed-image custom-shadow "
+            src={"https://darkarc.liquid-themes.com/wp-content/uploads/2022/04/2.jpg "}
+            className="vh-100 img-fluid w-100 object-fit-cover shadowed-image custom-shadow"
             alt="First slide"
           />
           <div className="shadow_inset"></div>
         </div>
         <Carousel.Caption>
-          <div className="container col-lg-9 col-ms-10 col-12">
+          <div className="container col-lg-9 col-ms-10 col-12 p-0">
             <div className="row align-items-sm-center align-items-start justify-content-center mx-auto py-5 container">
               <div className={`border-top border-2 py-2 animate__animated ${imageAnimationClass}`}></div>
               <div className={`lh-lg col-lg-6 col-md-6 col-12 ps-sm-0 ps-4 text-sm-start text-center animate__animated ${textAnimationClass}`}>
@@ -437,9 +437,10 @@ function Homeslider() {
                 </h1>
               </div>
               <div className={`col-lg-6 col-md-6 p-lg-2 p-0 col-12 animate__animated ${imageAnimationClass}`}>
-                <img src={require('../../Assets/Image/about_img.jpg')}
+                <img
+                  src={"https://www.mindscapedesign.co.in/product/big_img/f_18%20-%20Photo-min-min984.jpeg"}
                   alt=""
-                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0'
+                  className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-cover animate__animated animate__fadeLeft p-lg-2 p-0 carousalimage'
                 />
               </div>
               <div className={`border-bottom border-2 py-3 animate__animated  animate__fadeInLeft ${textAnimationClass}`}></div>
