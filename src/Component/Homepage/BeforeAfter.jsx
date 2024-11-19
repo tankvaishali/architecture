@@ -135,11 +135,11 @@ export default function BeforeAfter() {
   return (
     <div className="container py-3 mb-5">
       <div className="my-3">
-        <div class="about-section justify-content-center " data-aos="fade-up" data-aos-duration="1500">
+        <div class="about-section justify-content-center " data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
           <div class="line"></div>
           <span>BEFORE AND AFTER MAGIC</span>
         </div>
-        <h1 class=" Discover  text-dark py- text-center" data-aos="fade-down" data-aos-duration="1500">Witness The Design Evolution</h1>
+        <h1 class=" Discover  text-dark py- text-center" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Witness The Design Evolution</h1>
       </div>
       <header className="text-center ">
 
@@ -154,7 +154,7 @@ export default function BeforeAfter() {
               className={` bg_button text-white Inter  ps-4 pe-5 py-2 my-2   position-relative ${selectedCategory === label ? "btn-primary" : "btn-outline-primary"
                 } d-flex align-items-center `}
               onClick={() => setSelectedCategory(label)}
-              data-aos="zoom-in" data-aos-duration="1500"
+              data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"
             >
               <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
                 <HiOutlineArrowSmRight className="fs-5" />
@@ -172,6 +172,7 @@ export default function BeforeAfter() {
         style={styles.container}
         onMouseDown={startDrag}
         onTouchStart={startDrag}
+                      data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"
       >
         <div style={styles.beforeImage} />
         <div style={styles.afterImage} />

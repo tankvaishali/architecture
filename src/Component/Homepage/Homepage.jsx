@@ -20,8 +20,8 @@ function Homepage() {
             <BeforeAfter />
             <ArchitectureDesign />
             <Bookappointment />
-            <Testimonial />
             <News />
+            <Testimonial />
             <ClientLogo />
         </>
     )
