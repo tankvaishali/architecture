@@ -44,7 +44,7 @@ function Service() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
 
-          boxShadow: "inset 0px 0px 1500px 1000px rgba(0,0,0,0.5)",
+          boxShadow: "inset 0px 0px 1500px 1000px #e3e2e2bf",
         }}
       >
         <div className="container-lg my-5">

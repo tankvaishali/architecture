@@ -154,7 +154,7 @@ export default function BeforeAfter() {
               className={` bg_button text-white Inter  ps-4 pe-5 py-2 my-2   position-relative ${selectedCategory === label ? "btn-primary" : "btn-outline-primary"
                 } d-flex align-items-center `}
               onClick={() => setSelectedCategory(label)}
-              data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"
+              
             >
               <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
                 <HiOutlineArrowSmRight className="fs-5" />

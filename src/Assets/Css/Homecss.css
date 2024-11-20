@@ -38,7 +38,7 @@
 
 .carousalimage {
   height: 350px !important;
-  width: 100% !important  ;
+  width: 100% !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -68,6 +68,7 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
 /* Quality end */
 /* appointment start */
 .appointmentbg {
@@ -88,6 +89,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .play-icon-overlay {
   position: absolute;
   top: 0;
@@ -99,6 +101,7 @@
   align-items: center;
   cursor: pointer;
 }
+
 .play-icon-wrapper {
   width: 80px;
   height: 80px;
@@ -109,20 +112,25 @@
   align-items: center;
   transition: transform 0.3s ease;
 }
+
 .play-icon-wrapper:hover {
   transform: scale(1.1);
 }
+
 .play-icon-wrapper .play_icon {
   font-size: 2rem;
   transition: transform 0.3s ease;
 }
+
 .play-icon-wrapper:hover .play_icon {
   transform: scale(1.1);
 }
+
 .video_image img {
   outline: 1px solid white;
   outline-offset: -14px;
 }
+
 /* promoVideo end */
 /* testimonial start */
 .testi_bg {
@@ -372,6 +380,7 @@
 }
 
 @media (max-width: 768px) {
+
   .content,
   .image_about {
     flex: 1 1 100%;
@@ -390,6 +399,7 @@
   background-attachment: fixed;
   background-position: right center;
 }
+
 .sec1_imgtesti {
   width: 25%;
   height: 100%;
@@ -469,6 +479,7 @@
   object-position: top center;
   box-shadow: inset 0px 0px 1500px 1000px #5a717c70 !important;
 }
+
 .news-section {
   padding: 4rem 2rem;
   max-width: 1400px;
@@ -526,11 +537,11 @@
   border-radius: 1rem;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.2s ease;
+  transition: transform 0.4s ease !important;
 }
 
 .news-item:hover {
-  transform: translateX(10px);
+  transform: translateX(10px) !important;
 }
 
 .news-item:hover .arrow-icon {
@@ -665,6 +676,7 @@
   border: 2px solid var(--maincolor--);
   transform: rotate(20deg);
 }
+
 .servicebg:hover .servicetext {
   transform: rotate(-65deg);
 }
