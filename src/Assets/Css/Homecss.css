@@ -41,7 +41,7 @@
   width: 100% !important  ;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .carousalimage {
     height: auto !important;
     width: 200px !important;
@@ -204,7 +204,6 @@
 
 /* testimonial end */
 
-
 /* ArchitectureDesign start */
 .Probg_img {
   width: 100%;
@@ -238,7 +237,7 @@
 }
 
 .pro_mainbox {
-  border:0.1px solid white !important;
+  border: 0.1px solid white !important;
   transition: all 0.5s ease-in-out;
 }
 
@@ -355,7 +354,7 @@
 
 .content {
   flex: 1 1 50%;
-  background-color:#4d5966;
+  background-color: #4d5966;
   margin-right: -10%;
   position: relative;
 }
@@ -373,7 +372,6 @@
 }
 
 @media (max-width: 768px) {
-
   .content,
   .image_about {
     flex: 1 1 100%;
@@ -392,7 +390,7 @@
   background-attachment: fixed;
   background-position: right center;
 }
-.sec1_imgtesti{
+.sec1_imgtesti {
   width: 25%;
   height: 100%;
 }
@@ -466,8 +464,7 @@
 
 /* testimonial end */
 /* Latest News ---Start--- */
-.newsbg{
-
+.newsbg {
   background-attachment: scroll !important;
   object-position: top center;
   box-shadow: inset 0px 0px 1500px 1000px #5a717c70 !important;
@@ -503,7 +500,7 @@
 }
 
 .view-all {
-  background: linear-gradient(to right, #FFA07A, #FF6347);
+  background: linear-gradient(to right, #ffa07a, #ff6347);
   border: none;
   color: black;
   padding: 1rem 2rem;
@@ -536,16 +533,13 @@
   transform: translateX(10px);
 }
 
-
 .news-item:hover .arrow-icon {
   color: var(--theme--);
 }
 
-
 .category {
   color: var(--maincolor--);
 }
-
 
 .news-item-content {
   display: flex;
@@ -650,3 +644,99 @@
 }
 
 /* ClientLogo end */
+
+/* / Service Section ---Start--- / */
+
+.servicesec {
+  transform: rotate(45deg);
+  margin-right: 30px;
+}
+
+.servicebg {
+  background: var(--maincolor--);
+  color: white;
+  border: 2px solid var(--maincolor--);
+  transition: all 0.5s;
+}
+
+.servicebg:hover {
+  background: #fff;
+  color: black;
+  border: 2px solid var(--maincolor--);
+  transform: rotate(20deg);
+}
+.servicebg:hover .servicetext {
+  transform: rotate(-65deg);
+}
+
+.servmain {
+  margin-right: 14.5px !important;
+  margin-left: 7.5px !important;
+}
+
+.servicebox {
+  height: 112px;
+  width: 112px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.servicetext {
+  transform: rotate(-45deg);
+  text-align: center;
+  font-size: 12px;
+  margin-right: 13px;
+  margin-top: 3px;
+}
+
+@media screen and (max-width: 992px) {
+  .servicebox {
+    height: 96px;
+    width: 96px;
+  }
+
+  .servmain {
+    margin-right: 12.5px !important;
+    margin-left: 6.5px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .servicebox {
+    height: 109px;
+    width: 109px;
+    padding: 5px;
+  }
+
+  .servicesec {
+    transform: rotate(0deg);
+    margin-right: 0px;
+  }
+
+  .servicetext {
+    transform: rotate(0deg);
+    margin-right: 1px;
+    margin-top: 10px;
+  }
+
+  .servnum3 {
+    display: flex;
+  }
+
+  .servnum3 div {
+    margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .servnum3 {
+    display: inline;
+  }
+
+  .servnum2 div {
+    margin-top: 0px !important;
+  }
+}
+
+/* / Service Section ---End--- / */
