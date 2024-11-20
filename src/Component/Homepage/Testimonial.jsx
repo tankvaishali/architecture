@@ -7,8 +7,8 @@ function Testimonial() {
     {
       quote:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, suscipit. Repellendus, voluptatem! Magni pariatur reprehenderit praesentium ipsa ipsam, facere atque illum nulla error dolore omnis. Quos, omnis. Quisquam, rem maxime, voluptas fuga quia ipsa asperiores perferendis id aliquam laborum iusto sapiente cum atque est tempore repudiandae at assumenda, necessitatibus cumque!",
-      name: "parishi Diamond",
-      title: "dfghjkl",
+      name: "parishi ",
+      title: "LOREM",
       img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/avatar_003.png",
       logo: "https://www.mindscapedesign.co.in/testimonial/big_img/evoq703.jpeg",
     },
@@ -16,7 +16,7 @@ function Testimonial() {
       quote:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, suscipit. Repellendus, voluptatem! Magni pariatur reprehenderit praesentium ipsa ipsam, facere atque illum nulla error dolore omnis. Quos, omnis. Quisquam, rem maxime, voluptas fuga quia ipsa asperiores perferendis id aliquam laborum iusto sapiente cum atque est tempore repudiandae at assumenda, necessitatibus cumque!",
       name: "Fine Star",
-      title: "kjhgfds",
+      title: "LOREM",
       img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/avatar_002.png",
       logo: "https://www.mindscapedesign.co.in/testimonial/big_img/fine%20star356.jpeg",
     },
@@ -24,7 +24,7 @@ function Testimonial() {
       quote:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, suscipit. Repellendus, voluptatem! Magni pariatur reprehenderit praesentium ipsa ipsam, facere atque illum nulla error dolore omnis. Quos, omnis. Quisquam, rem maxime, voluptas fuga quia ipsa asperiores perferendis id aliquam laborum iusto sapiente cum atque est tempore repudiandae at assumenda, necessitatibus cumque!",
       name: "Asian Star",
-      title: "jjhyutdc",
+      title: "LOREM",
       img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/avatar_003.png",
       logo: "https://www.mindscapedesign.co.in/testimonial/big_img/evoq703.jpeg",
     },
@@ -111,7 +111,7 @@ function Testimonial() {
                     data-aos-once="true"
                   >
                     <div className="line"></div>
-                    <span>Testimonial</span>
+                    <span>TESTIMONIAL</span>
                   </div>
                   <h1
                     className="Discover text-dark py-2"
@@ -146,8 +146,8 @@ function Testimonial() {
                           />
                         </div>
                         <div className="ms-3">
-                          <h4>{testimonial.name}</h4>
-                          <div className="text-secondary">
+                          <h4 className="text-uppercase">{testimonial.name}</h4>
+                          <div className="text-secondary text-capitalize">
                             {testimonial.title}
                           </div>
                         </div>
