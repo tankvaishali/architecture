@@ -5,7 +5,8 @@
 :root {
   --maincolor--: #5a717c;
   --inset--: #5a717cfc;
-  --theme--:#6C7A89;
+  /* --theme--:#6C7A89; */
+   --theme--:#30373e; 
   --mainHedingfontsize--: 30px;
   --subheadingfontsize--: 15px;
 }

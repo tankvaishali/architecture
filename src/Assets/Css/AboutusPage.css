@@ -1,5 +1,5 @@
 .aboutusbg{
-    background-color: #e7ecef8d;
+    background-color: var(--theme--);
 }
 
 .stat-item {
@@ -10,7 +10,10 @@
   .stat-item:hover {
     transform: translateY(-8px);
   }
-  
+  .noshadow{
+    border-top: 6px solid gray;
+   box-shadow: inset 0px 0px 35px 0px rgb(154, 154, 154);
+  }
   .stat-number {
     font-family: 'Georgia', serif;
     font-size: 42px;
@@ -35,8 +38,11 @@
 
 
   /* How We Work start */
-  .cardbox{
-    transition: all 0.4s ease-in-out;
+  .cardbox , .hoverimagehow {
+    transition: all 0.4s ease-in-out !important;
+  }
+.hoverimagehow {
+    transition: all 0.5s ease-in-out !important;
   }
   .howworkbg{
     background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/h1-frame.png");
@@ -45,7 +51,7 @@
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    box-shadow: inset 0px 0px 1500px 1000px rgba(227, 226, 226, 0.155);
+    box-shadow: inset 0px 0px 1500px 1000px #5a717c70 ;
   }
   .howno{
     -webkit-text-stroke-color: #e6e6e6;
@@ -83,7 +89,7 @@
     justify-content: space-between; 
     font-family: Arial, sans-serif;
     font-size: 20px;
-    color: #acb8c5;
+    color: #c8daed;
     width: 100%;
   }
   

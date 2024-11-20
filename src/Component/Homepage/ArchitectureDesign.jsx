@@ -194,8 +194,11 @@ function ArchitectureDesign() {
     }
 
     return (
-        <div
-            className="Probg_img overflow-hidden"
+  <>
+  <div className='py-0 py-lg-5 overflow-hidden'>
+  <div
+            className="Probg_img shadow-lg my-5 "
+            
             style={{
                 backgroundImage: inView && hoverIndex === null
                     ? `url(${slides[0].backgroundImage})`
@@ -217,7 +220,7 @@ function ArchitectureDesign() {
                         onMouseEnter={() => setHoverIndex(index)}
                         onMouseLeave={() => setHoverIndex(null)}
                     >
-                        <div className="pro_mainbox col-lg-3 border border-1 border-white w-100 vh-100 d-flex align-items-end mx-auto">
+                        <div className="pro_mainbox col-lg-3  w-100 vh-100 d-flex align-items-end mx-auto">
                             <div className="cont_main py-3">
                                 <div className="px-4">
                                     <h3 className="pro_tittle fw-bold">
@@ -236,6 +239,8 @@ function ArchitectureDesign() {
                 ))}
             </Slider>
         </div>
+  </div>
+  </>
     );
 }
 

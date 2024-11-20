@@ -388,9 +388,10 @@ function Homeslider() {
       < Carousel.Item>
         <div className='position-relative'>
           <img
-            src={"https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/home4_img-10.jpg"}
+            src={"https://www.mindscapedesign.co.in/slider/big_img/ADARSHBHAI990.jpeg"}
             className="vh-100 img-fluid w-100 object-fit-cover shadowed-image"
             alt="First slide"
+          style={{objectPosition:"top center"}}
           />
           <div className="shadow_inset"></div>
         </div>
@@ -406,7 +407,7 @@ function Homeslider() {
               </div>
               <div className={`col-lg-6 col-md-6 p-lg-2 p-0 col-12 animate__animated ${imageAnimationClass}`}>
                 <img
-                  src={"https://www.mindscapedesign.co.in/product/big_img/A_18%20-%20Photo878.jpeg"}
+                  src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1diC2JaZ35iSpU0GwHyl2u2RN_FbdfQKYw&s"}
                   alt=""
                   className='col-lg-12 col-md-9 col-sm-7 col-10 img-fluid object-fit-fill animate__animated animate__fadeLeft p-lg-2 p-0 carousalimage'
                 />

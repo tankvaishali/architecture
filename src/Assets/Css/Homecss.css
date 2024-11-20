@@ -1,6 +1,6 @@
 /* / Carousel ---Start--- / */
 .shadow_inset {
-  background-color: rgba(0, 0, 0, 0.41) !important;
+  background-color: rgba(0, 0, 0, 0.498) !important;
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -59,6 +59,71 @@
 
 /* why choose us end */
 
+/* Quality start */
+.quality_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/About_BG_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Quality end */
+/* appointment start */
+.appointmentbg {
+  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-1.png");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.404);
+  background-attachment: fixed;
+}
+
+/* appointment end */
+/* promoVideo start */
+.PromoVideo_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/About_BG_02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.play-icon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.play-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+.play-icon-wrapper:hover {
+  transform: scale(1.1);
+}
+.play-icon-wrapper .play_icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+.play-icon-wrapper:hover .play_icon {
+  transform: scale(1.1);
+}
+.video_image img {
+  outline: 1px solid white;
+  outline-offset: -14px;
+}
+/* promoVideo end */
 /* testimonial start */
 .testi_bg {
   width: 100%;
@@ -138,16 +203,7 @@
 }
 
 /* testimonial end */
-.appointmentbg {
-  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-1.png");
-  background-size: 50% 100%;
-  background-repeat: no-repeat;
-  background-position: left center;
-  box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.404);
-  background-attachment: fixed;
-}
 
-/*  */
 
 /* ArchitectureDesign start */
 .Probg_img {
@@ -182,6 +238,7 @@
 }
 
 .pro_mainbox {
+  border:0.1px solid white !important;
   transition: all 0.5s ease-in-out;
 }
 
@@ -287,7 +344,7 @@
   background-image: url("https://solarpanel-nine.vercel.app/static/media/hero-bg-abstract.54e8f6f3d5f65e12c49b.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 0px 0px 120px 1200px #e7ecee97;
+  box-shadow: inset 0px 0px 120px 1200px #ffffff34;
   background-attachment: fixed;
 }
 
@@ -298,7 +355,7 @@
 
 .content {
   flex: 1 1 50%;
-  background-color: var(--theme--);
+  background-color:#4d5966;
   margin-right: -10%;
   position: relative;
 }
@@ -325,8 +382,96 @@
 }
 
 /* About end */
+/* testimonial start */
+.testi_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://demo2.themelexus.com/kitchor/wp-content/uploads/2023/04/h8-bg-04.png");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right center;
+}
+.sec1_imgtesti{
+  width: 25%;
+  height: 100%;
+}
 
+@media only screen and (max-width: 998px) {
+  .testi_bg {
+    background-size: 100% 100%;
+
+    background-position: center center;
+  }
+}
+
+.sectesti_img {
+  width: 65%;
+}
+
+.aboutslider {
+  width: 45%;
+}
+
+.aboutslide_sec {
+  margin-top: -200px;
+}
+
+.slider_imageaboutus {
+  width: 100%;
+  height: 300px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sectesti_img {
+    width: 61%;
+  }
+
+  .aboutslide_sec {
+    margin-top: -150px;
+  }
+
+  .aboutslider {
+    width: 48%;
+  }
+
+  .slider_imageaboutus {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media (min-width: 355px) and (max-width: 520px) {
+  .sec1_imgtesti {
+    display: none !important;
+  }
+
+  .sectesti_img {
+    width: 82%;
+  }
+
+  .aboutslider {
+    width: 60%;
+  }
+
+  .slider_imageaboutus {
+    width: 100%;
+    height: 230px;
+  }
+
+  .aboutslide_sec {
+    margin-top: -130px;
+  }
+}
+
+/* testimonial end */
 /* Latest News ---Start--- */
+.newsbg{
+
+  background-attachment: scroll !important;
+  object-position: top center;
+  box-shadow: inset 0px 0px 1500px 1000px #5a717c70 !important;
+}
 .news-section {
   padding: 4rem 2rem;
   max-width: 1400px;

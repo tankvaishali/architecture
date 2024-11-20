@@ -1,4 +1,13 @@
 /* CarrerForm start */
+.carrer_form_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://solarpanel-nine.vercel.app/static/media/hero-bg-abstract.54e8f6f3d5f65e12c49b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px 0px 1200px 120px #6c7a8956;
+  background-attachment: fixed;
+}
 input {
   background-color: whitesmoke;
 }
@@ -58,7 +67,7 @@ input {
   background-size: cover;
   background-attachment: fixed;
 }
-.main_hr{
+.main_hr {
   border: 1px solid black !important;
 }
 /* CarrerIntro end */
