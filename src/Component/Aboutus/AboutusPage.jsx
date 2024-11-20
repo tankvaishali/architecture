@@ -12,9 +12,9 @@ function AboutusPage() {
   return (
    <>
    <Aboutus/>
-   <Howwork/>
    <Vission/>
    <Mission/>
+   <Howwork/>
    <Awards/>
    <Contactredirect/>
    </>
