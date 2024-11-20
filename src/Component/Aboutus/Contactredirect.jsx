@@ -20,7 +20,7 @@ function Contactredirect() {
               </span>
             </div>
 
-            <div className="stroktext  py-3">
+            <div className="stroktext  py-3 ">
               Let's start your new dream project
             </div>
             <div className="text-center py-3">

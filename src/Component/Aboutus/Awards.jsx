@@ -35,10 +35,10 @@ function Awards() {
               data-aos-once="true"
             >
               <div className="line  "></div>
-              <span className=" ">HOW WE WORK</span>
+              <span className=" ">OUR ACHIVEMENT</span>
             </div>
             <h1
-              className="Discover text-dark py-3 text-center"
+              className="Discover text-capitalize text-dark py-3 text-center "
               data-aos="fade-down"
               data-aos-duration="1500"
               data-aos-once="true"

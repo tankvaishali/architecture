@@ -105,7 +105,7 @@ function Howwork() {
                   <span>HOW WE WORK</span>
                 </div>
                 <h1
-                  className="Discover text-dark fw-bold py-3"
+                  className="Discover text-dark fw-bold py-3 text-capitalize"
                   data-aos="fade-down"
                   data-aos-duration="1500"
                   

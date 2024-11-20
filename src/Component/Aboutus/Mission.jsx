@@ -54,7 +54,7 @@ function Mission() {
               <div class="linebck"></div>
             </div>
             <h1
-              class=" Discover  text-white py-2"
+              class=" Discover  text-white py-2 text-capitalize"
               data-aos="fade-down"
               data-aos-duration="1500"
               data-aos-once="true"

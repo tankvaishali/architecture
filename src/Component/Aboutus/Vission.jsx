@@ -22,7 +22,7 @@ function Vission() {
                       <span>OUR VISION</span>
                     </div>
                     <h1
-                      className="Discover text-dark py-3"
+                      className="Discover text-dark py-3 text-capitalize"
                       data-aos="fade-down"
                       data-aos-duration="1500"
                       data-aos-once="true"
