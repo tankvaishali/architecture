@@ -1,5 +1,6 @@
 import React from 'react'
 import { AlignRight, Share2 } from 'lucide-react'
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -32,24 +33,24 @@ function Header() {
                         <div className="offcanvas-body">
                             <ul className="navbar-nav ms-auto me-0 pe-0 align-items-center">
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link text-dark letterspace Inter">Home</a>
+                                    <Link  to={"/" } className="nav-link text-dark text-decoration-none letterspace Inter">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/aboutus" className="nav-link text-dark letterspace Inter">About Us</a>
+                                    <Link  to={"/aboutus"}  className="nav-link text-dark text-decoration-none letterspace Inter">About Us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/project" className="nav-link text-dark letterspace Inter">Projects</a>
+                                    <Link  to={"/project"}  className="nav-link text-dark text-decoration-none letterspace Inter">Projects</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/carrer" className="nav-link text-dark letterspace Inter">Careers</a>
+                                    <Link  to={"/carrer"}  className="nav-link text-dark text-decoration-none letterspace Inter">Careers</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/contactus" className="nav-link text-dark letterspace Inter">Contact Us</a>
+                                    <Link  to={"/contactus"}  className="nav-link text-dark text-decoration-none letterspace Inter">Contact Us</Link>
                                 </li>
                             </ul>
-                            <a href="/" className="nav-link text-dark text-center ms-lg-5 me-0 pe-0 mt-1">
+                            <Link  to={"/"}  className="nav-link text-dark text-decoration-none text-center ms-lg-5 me-0 pe-0 mt-1">
                                 <Share2 width={16} height={16} />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -245,7 +245,8 @@
 }
 
 .pro_mainbox {
-  border: 0.1px solid white !important;
+  border: 5.1px solid white !important;
+  border-radius: 20px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -264,6 +265,7 @@
 
 .pro_mainbox:hover .cont_main {
   background-color: white;
+  border-radius: 0px 0px 10px 10px;
   transform: translateY(0);
 }
 
@@ -333,14 +335,13 @@
 
 .custom-arrow.next {
   top: 50px;
-  left: 80px;
+  right: 30px;
 }
 
 .custom-arrow:hover {
   background-color: black;
   color: white;
 }
-
 /* ArchitectureDesign end */
 
 /* About start */
@@ -595,11 +596,12 @@
 .clientlogo_bgImage {
   width: 100%;
   height: auto;
-  background-image: url("https://solarpanel-nine.vercel.app/static/media/testi_bg.f45dc51be227a3befcbe.png");
+  background-image: url("https://media.istockphoto.com/id/172965727/photo/brick-wall.jpg?s=612x612&w=0&k=20&c=R-tiG4gjsqnQIiCcNGcm_cTHMEiC-Dv-9QOWy65leXo=");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0px 0px 1200px 120px #e7ecee9e !important;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .logo-slider {

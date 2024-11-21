@@ -27,41 +27,43 @@ function Whychooseus() {
                                 <h1 className="Discover text-dark pt-2 text-center" data-aos="fade-down"
                                     data-aos-duration="1800" data-aos-once="true">We Can Build Your Dreams</h1>
                                 <div className=" " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorem voluptate quos laboriosam consectetur reprehenderit magni alias recusandae dignissimos atque!</div>
-                                <div className="d-block d-lg-flex justify-content-center py-2">
+                                <div className="d-block d-md-flex justify-content-center py-2">
                                     <div>
-                                        <div className='d-flex  align-content-center align-items-center' >
+                                    <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Architecture & interior</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Project planing</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Product design</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Custom solution</div>
                                         </div>
+                                      
                                     </div>
-                                    <div className=' ps-0 ps-4'>
+                                    <div className=' ps-0 ps-md-4'>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Design development</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Building concept</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Feasibility</div>
                                         </div>
+                                     
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Lorem ipsum dolor.</div>
+                                            <div className='pera ps-1'>Renovating</div>
                                         </div>
                                     </div>
                                 </div>

@@ -1,0 +1,5 @@
+
+.slick-next:before, .slick-prev:before{
+    color:var(--theme--);
+font-size: 42px;
+}
