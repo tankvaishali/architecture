@@ -11,6 +11,7 @@ import AboutusPage from './Component/Aboutus/AboutusPage';
 import Carrer from './Component/CarrerPage/Carrer';
 import { useEffect } from 'react';
 import Aos from 'aos';
+import Projectdata from './Component/Project/Projectdata';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/aboutus' element={<AboutusPage />} />
+          <Route path='/project' element={<Projectdata />} />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/carrer' element={<Carrer />} />
         </Routes>

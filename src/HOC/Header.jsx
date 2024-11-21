@@ -38,7 +38,7 @@ function Header() {
                                     <a href="/aboutus" className="nav-link text-dark letterspace Inter">About Us</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/" className="nav-link text-dark letterspace Inter">Projects</a>
+                                    <a href="/project" className="nav-link text-dark letterspace Inter">Projects</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="/carrer" className="nav-link text-dark letterspace Inter">Careers</a>
