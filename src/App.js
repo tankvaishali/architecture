@@ -12,8 +12,9 @@ import Carrer from './Component/CarrerPage/Carrer';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import Projectdata from './Component/Project/Projectdata';
-import Residential from './Component/Project/Residential';
-import Commercial from './Component/Project/Commercial';
+
+import ProjectListing from './Component/Project/ProjectListing';
+import ProjectInnerList from './Component/Project/ProjectInnerList';
 
 function App() {
 
@@ -30,8 +31,8 @@ function App() {
           <Route path='/' element={<Homepage />} />
           <Route path='/aboutus' element={<AboutusPage />} />
           <Route path='/project' element={<Projectdata />} />
-          <Route path='/residencial' element={<Residential />} />
-          <Route path='/Comercial' element={<Commercial />} />
+     <Route path='/project/:id' element={<ProjectListing/>}/>
+     <Route path='/project/:id/id2' element={<ProjectInnerList/>}/>
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/carrer' element={<Carrer />} />
         </Routes>
