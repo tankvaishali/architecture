@@ -41,7 +41,7 @@ function ProjectListing() {
                     </h1>
                     <div className="row align-items-center justify-content-center">
                             <div>
-                                <Slider {...settings} className="product_slickdot resid">
+                                <Slider {...settings} className="product_slickdot resid ">
                                     {item.inner_data.map((inner_data) => {
                                         return (
                                             <div

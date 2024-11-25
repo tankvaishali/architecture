@@ -35,11 +35,11 @@ function Projectdata() {
   };
   return (
     <>
-      <ArchitectureDesign />
-      <div className="container">
+
+      <div className="container my-5 py-3">
         {/* <Slider {...settings}> */}
        
-          <div className="row g-3">
+          <div className="row g-3 ">
             {ProjectList.map((item, i) => (
               // <div key={i} className="col-lg-4 col-md-6 col-sm-6 ">
               //   <div className="col-md-10  col-sm-12 col-11 project-item mx-auto mt-2 ">
