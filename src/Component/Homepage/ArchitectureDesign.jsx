@@ -5,38 +5,36 @@ import Slider from "react-slick";
 function ArchitectureDesign() {
     const [hoverIndex, setHoverIndex] = useState(null);
     const [inView, setInView] = useState(true);  // Defaulting to true to show the background initially
-    let navigate=useNavigate()
+
     const slides = [
         {
-            link:"/residencial",
+           
             title: "RESIDENCIAL",
             subtitle: "Manufacturing",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, voluptatibus.",
             backgroundImage: 'https://darkarc.liquid-themes.com/wp-content/uploads/2022/04/1.jpg',
         },
         {
-            link:"/Comercial",
-            title: "COMMERCIAL",
+                      title: "COMMERCIAL",
             subtitle: "Renovating",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, impedit.",
             backgroundImage: 'https://darkarc.liquid-themes.com/wp-content/uploads/2022/04/2.jpg',
         },
         {
-            link:"/residencial",
+           
             title: "RESIDENCIAL",
             subtitle: "Manufacturing",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, perferendis.",
             backgroundImage: 'https://darkarc.liquid-themes.com/wp-content/uploads/2022/04/3.jpg',
         },
         {
-            link:"/Comercial",
-            title: "COMMERCIAL",
+                      title: "COMMERCIAL",
             subtitle: "Renovating",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, impedit.",
             backgroundImage: 'https://darkarc.liquid-themes.com/wp-content/uploads/2022/04/2.jpg',
         },
         {
-            link:"/residencial",
+           
             title: "RESIDENCIAL",
             subtitle: "Manufacturing",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, perferendis.",
@@ -129,7 +127,7 @@ function ArchitectureDesign() {
                                 className="col-12"
                                 onMouseEnter={() => setHoverIndex(index)}
                                 onMouseLeave={() => setHoverIndex(null)}
-                                onClick={()=>navigate(slide.link)}
+                                
                             >
                                 <div className="pro_mainbox col-lg-4 w-100 vh-100 d-flex align-items-end mx-auto">
                                     <div className="cont_main py-3">

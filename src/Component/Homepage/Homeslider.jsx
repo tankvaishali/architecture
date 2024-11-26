@@ -354,7 +354,7 @@ function Homeslider() {
       onSlide={handleSlideChange}
     >
       <Carousel.Item>
-        <div className='position-relative'>
+        <div className='position-relative '>
           <img
             src={"https://illustrarch.com/wp-content/uploads/2024/08/digital_CV_information_of_an_architect_-ar_32_-_5f7938fa-46d5-47bd-b064-80e57c7dd18c_3-3-min.jpg"}
             className="vh-100 img-fluid w-100 object-fit-cover shadowed-image"

@@ -33,7 +33,7 @@ function ClientLogo() {
                         <div className="logo-slider">
                             <div className="slide-track">
                                 {logoRows.map((logo, index) => (
-                                    <div className="slide" key={index}>
+                                    <div className="slidelogo" key={index}>
                                         <img
                                             src={require(`../../Assets/Image/Logo/${logo}`)}
                                             alt={`Client Logo ${index + 1}`}

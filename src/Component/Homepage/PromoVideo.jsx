@@ -6,7 +6,7 @@ function PromoVideo() {
     return (
         <>
             <div>
-                <div className='PromoVideo_bg  py-5'>
+                <div className='PromoVideo_bg  py-5 overflow-hidden'>
                     <div className='container py-0 py-lg-3'>
                         <div className='row p-2 p-lg-5 d-flex justify-content-center align-items-center align-content-center'>
                             <div className='col-12 col-lg-5 py-3'>
