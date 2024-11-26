@@ -8,7 +8,7 @@ function Vission() {
           <div className="container py-3 py-lg-5">
             <div className="row g-4 overflow-hidden">
               <div className="col-12 col-lg-6">
-                <div className="h-100 bg-white shadow p-3 p-lg-5"  data-aos="fade-right"
+                <div className="h-100 bg-white shadow p-3 p-lg-5 d-flex align-content-center align-items-center"  data-aos="fade-right"
                       data-aos-duration="1500"
                       data-aos-once="true">
                   <div>

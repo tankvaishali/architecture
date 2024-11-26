@@ -59,7 +59,7 @@ function Mission() {
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Designing inspiring and enduring spaces is our mission .
+              Designing inspiring and enduring spaces is our mission 
             </h1>
 
             <div className="row g-5 pt-0 pt-lg-4 overflow-hidden">

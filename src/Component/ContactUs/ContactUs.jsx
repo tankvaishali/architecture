@@ -8,6 +8,7 @@ import { GrLocation } from "react-icons/gr";
 import "../../Assets/Css/ContactusPage.css";
 import HOC from "../../HOC/HOC";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 function ContactUs() {
   return (
@@ -30,10 +31,10 @@ function ContactUs() {
                     invitations, business proposals, or general inquiries.
                   </p>
                   <h5
-                    className="fw-bold"
+                    className="fw-bold pt-2 pt-lg-5"
                     data-aos="zoom-in"
                     data-aos-duration="1500" data-aos-once="true"
-                    style={{ paddingTop: "70px" }}
+
                   >
                     Call Us
                   </h5>
@@ -42,7 +43,9 @@ function ContactUs() {
                     data-aos="zoom-in"
                     data-aos-duration="1500" data-aos-once="true"
                   >
-                    +91 70483 13227
+                  <Link to={"tel:7048313227"} className="text-decoration-none text-dark">
+                  +91 70483 13227
+                  </Link>
                   </div>
                   <div
                     className="d-flex py-4"
@@ -234,27 +237,32 @@ function ContactUs() {
           <video autoPlay loop muted>
             <source src={contactVideo}></source>
           </video>
-          <div className="video-overlay">
+          <div className="video-overlay  d-flex align-content-center align-items-center">
             <div className="container">
-              <div className="main_box row">
+              <div className="main_box  row ">
                 <div className="col-12 col-md-6 col-lg-4">
-                  <div
+                <Link to={"tel:12345 67890"} className="text-decoration-none">
+                <div
                     className="bg-item_contact py-5 rounded-4 mb-3"
                     style={{ height: "90%" }}
                     data-aos="zoom-in"
                     data-aos-duration="1500" data-aos-once="true"
                   >
                     <div className="text-white text-center">
-                      <div>
+                      <div className="contacticon fw-bold">
                         <BiPhoneCall className="fs-1" />
                       </div>
                       <h3 className="py-3">Call Us</h3>
                       <div>+91 12345 67890</div>
                     </div>
                   </div>
+                </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
-                  <div
+              <Link onClick={() => {
+      window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.6435468552745!2d72.83498737380307!3d21.206314581659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fab21103b69%3A0xa299912d3085be89!2sASHUTOSH%20PROSTHETICS%20%26%20ORTHOTICS%20CENTER!5e0!3m2!1sen!2sus!4v1718857447832!5m2!1sen!2sus", "_blank");
+    }} target="_blank"   rel="noopener noreferrer" className="text-decoration-none" >
+              <div
                     className="bg-item_contact py-5 rounded-4 mb-3"
                     style={{ height: "90%" }}
                     data-aos="zoom-in"
@@ -262,7 +270,7 @@ function ContactUs() {
                     data-aos-delay="400"
                   >
                     <div className="text-white text-center">
-                      <div>
+                      <div className="contacticon fw-bold">
                         <GrLocation className="fs-1" />
                       </div>
                       <h3 className="py-3">Location</h3>
@@ -271,9 +279,11 @@ function ContactUs() {
                       </div>
                     </div>
                   </div>
+              </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
-                  <div
+               <Link to={"mailto:abc@gmail.com"} className="text-decoration-none" target="_blank">
+               <div
                     className="bg-item_contact py-5 rounded-4 mb-3"
                     style={{ height: "90%" }}
                     data-aos="zoom-in"
@@ -281,13 +291,14 @@ function ContactUs() {
                     data-aos-delay="600"
                   >
                     <div className="text-white text-center">
-                      <div>
-                        <IoMailOpenOutline className="fs-1" />
+                      <div className="contacticon fw-bold">
+                        <IoMailOpenOutline className="fs-1 " />
                       </div>
                       <h3 className="py-3">E-mail</h3>
                       <div>abc@gmail.com</div>
                     </div>
                   </div>
+               </Link>
                 </div>
               </div>
             </div>

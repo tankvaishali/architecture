@@ -18,10 +18,7 @@ input::placeholder {
 select::placeholder {
   color: black;
 }
-.main_box {
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
+
 .contact_location {
   position: relative;
   width: 100%;
@@ -46,6 +43,16 @@ select::placeholder {
 .bg-item_contact {
   backdrop-filter: blur(15px) !important;
   background-color: rgba(0, 0, 0, 0.199) !important;
+}
+.contacticon{
+  transition: all 0.3s ease-in-out;
+  transform: scale(1) rotateY(0deg);
+
+}
+.bg-item_contact:hover .contacticon{
+  transform: scale(1.2) rotateY(180deg);
+  color:#88a5b3;
+
 }
 .icon-wrapper .icon {
   transition: color 0.3s;

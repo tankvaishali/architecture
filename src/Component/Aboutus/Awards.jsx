@@ -25,7 +25,7 @@ function Awards() {
   ];
   return (
     <>
-      <div className="py-5 awardbg ">
+      <div className="py-5 awardbg my-3 my-lg-5">
         <div className="container">
           <div className="py-3 py-lg-5">
             <div

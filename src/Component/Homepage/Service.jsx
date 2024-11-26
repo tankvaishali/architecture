@@ -50,7 +50,7 @@ function Service() {
         <div className="container-lg my-5">
           <div className="about-section">
             <div className="line"></div>
-            <span>Our Service</span>
+            <span>OUR SERVICES</span>
           </div>
           <h1 className="Discover text-dark py-2">WHAT WE SERVE</h1>
           <div className="d-flex justify-content-center flex-wrap">

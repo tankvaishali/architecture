@@ -55,6 +55,10 @@
   color: rgba(100, 100, 100, 0.212);
   font-size: 50px;
   font-weight: 900;
+  transition: all 0.2s ease-in-out;
+}
+.whyno:hover{
+color: var(--maincolor--);
 }
 
 /* why choose us end */

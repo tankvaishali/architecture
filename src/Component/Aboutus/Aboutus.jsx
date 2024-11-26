@@ -62,7 +62,7 @@ function Aboutus() {
                   </div>
                 </div>
                 <div class="col-md-3 mt-4 mt-md-0 " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800" data-aos-once="true"  >
-                  <div class="stat-ite noshadow bg-white p-4 rounded-4 text-center" >
+                  <div class="stat-item noshadow bg-white p-4 rounded-4 text-center" >
                     <div class="stat-number fw-bold"><CountUp end={560} enableScrollSpy={true} /> +</div>
                     <div class="stat-label fw-bold">Happy Patient</div>
                   </div>

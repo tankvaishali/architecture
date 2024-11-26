@@ -175,8 +175,7 @@ function Howwork() {
                       onMouseEnter={() => setHoveredItem(item.id)}
                       onMouseLeave={() => setHoveredItem(null)}
                       data-aos="fade-left"
-                      data-aos-duration="1500"
-                      
+                      data-aos-duration="1500"                      
                       data-aos-delay={item.delay}
                       data-aos-once="true"
                     >
@@ -188,6 +187,7 @@ function Howwork() {
                               ? `url(${item.backgroundImage}) center/cover`
                               : "white",
                           color: hoveredItem === item.id ? "white" : "black",
+                          transition:" all 0.7s linear"
                         }}
                       >
                         <div className="howno p-1">{item.id}</div>
