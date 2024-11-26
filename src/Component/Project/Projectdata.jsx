@@ -6,6 +6,7 @@ import ArchitectureDesign from '../Homepage/ArchitectureDesign'
 
 import { Card } from 'react-bootstrap'
 import '../../Assets/Css/Project.css'
+import ClientLogo from '../Homepage/ClientLogo'
 
 function Projectdata() {
 
@@ -70,6 +71,7 @@ function Projectdata() {
             ))}
           </div>
         </div>
+        <ClientLogo/>
         {/* {ProjectList.map((item, i) => (
             <div key={i} className="project-item">
               <Link to={`/project/${item.id}`}>

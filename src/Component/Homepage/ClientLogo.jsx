@@ -16,7 +16,7 @@ function ClientLogo() {
     const logoRows = [...logos, ...logos];
 
     return (
-        <div className="my-5 clientlogo_bgImage">
+        <div className="py-5 clientlogo_bgImage">
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center p-0 p-lg-4">
                     <div className="col-12 col-lg-4 p-4" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">

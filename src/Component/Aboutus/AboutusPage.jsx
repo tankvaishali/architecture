@@ -7,6 +7,7 @@ import Vission from './Vission'
 import Mission from './Mission'
 import Awards from './Awards'
 import Contactredirect from './Contactredirect'
+import ClientLogo from '../Homepage/ClientLogo'
 
 function AboutusPage() {
   return (
@@ -17,6 +18,7 @@ function AboutusPage() {
    <Howwork/>
    <Awards/>
    <Contactredirect/>
+  <ClientLogo/>
    </>
   )
 }
