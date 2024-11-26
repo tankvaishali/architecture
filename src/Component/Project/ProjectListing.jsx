@@ -22,24 +22,24 @@ function ProjectListing() {
         pauseOnHover: false,
         adaptiveHeight: true,
         swipe: false,               // Disable swipe gestures
-        draggable: false,  
+        draggable: false,
     };
 
     return (
         <>
             <div className="about-company bg_slideImage w-100">
-                    {data.map((item, index) => (
-                <div className="container">
-                    <div className="about-section justify-content-center pt-4" data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-once="true" >
-                        <div className="line"></div>
-                        <span className="fw-medium">{item.id}</span>
-                    </div>
-                    <h1 className="Discover text-dark pt-2 text-center" data-aos="fade-down"
-                        data-aos-duration="1800" data-aos-once="true">
-                        We Can Build Your {item.id} Projects
-                    </h1>
-                    <div className="row align-items-center justify-content-center">
+                {data.map((item, index) => (
+                    <div className="container">
+                        <div className="about-section justify-content-center pt-4" data-aos="fade-up"
+                            data-aos-duration="1500" data-aos-once="true" >
+                            <div className="line"></div>
+                            <span className="fw-medium">{item.id}</span>
+                        </div>
+                        <h1 className="Discover text-dark pt-2 text-center" data-aos="fade-down"
+                            data-aos-duration="1800" data-aos-once="true">
+                            We Can Build Your {item.id} Projects
+                        </h1>
+                        <div className="row align-items-center justify-content-center">
                             <div>
                                 <Slider {...settings} className="product_slickdot resid">
                                     {item.inner_data.map((inner_data) => {
@@ -59,19 +59,19 @@ function ProjectListing() {
                                                     <div>
                                                         <div className="d-flex align-content-center align-items-center">
                                                             <div style={{ color: "rgba(245, 245, 245, 0.523)" }} className="fs-1 fw-bold pe-3 fs-5">01</div>
-                                                            <div className="text-white fs-6"><span className="fw-bold">Project: </span>{inner_data.h1}</div>
+                                                            <div className="text-white fs-6 text-capitalize"><span className="fw-bold">Project: </span>{inner_data.h1}</div>
                                                         </div>
                                                         <div className="d-flex align-content-center align-items-center">
                                                             <div style={{ color: "rgba(245, 245, 245, 0.523)" }} className="fs-1 fw-bold pe-3 fs-5">02</div>
-                                                            <div className="text-white fs-6"><span className="fw-bold">Clients: </span>{item.client}</div>
+                                                            <div className="text-white fs-6 text-capitalize"><span className="fw-bold">Client: </span>{inner_data.clients}</div>
                                                         </div>
                                                         <div className="d-flex align-content-center align-items-center">
                                                             <div style={{ color: "rgba(245, 245, 245, 0.523)" }} className="fs-1 fw-bold pe-3 fs-5">03</div>
-                                                            <div className="text-white fs-6"><span className="fw-bold">Construction: </span>{item.construction}</div>
+                                                            <div className="text-white fs-6 text-capitalize"><span className="fw-bold">Construction: </span>{inner_data.constructions}</div>
                                                         </div>
                                                         <div className="d-flex align-content-center align-items-center">
                                                             <div style={{ color: "rgba(245, 245, 245, 0.523)" }} className="fs-1 fw-bold pe-3 fs-5">04</div>
-                                                            <div className="text-white fs-6"><span className="fw-bold">Location: </span>{item.location}</div>
+                                                            <div className="text-white fs-6 text-capitalize"><span className="fw-bold">Location: </span>{inner_data.locate}</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -84,9 +84,9 @@ function ProjectListing() {
 
                                 </Slider>
                             </div>
+                        </div>
                     </div>
-                </div>
-                        ))}
+                ))}
             </div>
         </>
     );
