@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 function Quality() {
   return (
     <div className="quality_bg my-5">
-      <div className="container">
+      <div className="container py-5 ">
         <div className="row p-2 p-lg-5 d-flex justify-content-center align-items-center align-content-center">
           <div className="col-12 col-md-7 col-lg-8 p-4">
             <div

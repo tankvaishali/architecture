@@ -43,7 +43,7 @@ function About() {
                 data-aos-duration="1500"
                 data-aos-once="true"
                 data-aos-delay="0">
-                        <img src={require("../../Assets/Image/about_img.jpg")} alt="" className="team-image" />
+                        <img src={require("../../Assets/Image/about_img.jpg")} alt="" className="team-image rounded-0" />
                     </div>
                 </div>
             </div>

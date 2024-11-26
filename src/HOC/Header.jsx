@@ -26,6 +26,7 @@ function Header() {
                         tabIndex="-1"
                         id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"
+                        data-bs-scroll="true"
                     >
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">MODERN</h5>
