@@ -42,7 +42,7 @@ function ContactUs() {
                     data-aos="zoom-in"
                     data-aos-duration="1500" data-aos-once="true"
                   >
-                    +91 12345 67890
+                    +91 70483 13227
                   </div>
                   <div
                     className="d-flex py-4"
