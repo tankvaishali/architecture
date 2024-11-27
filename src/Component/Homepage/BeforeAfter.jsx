@@ -12,17 +12,18 @@ export default function BeforeAfter() {
   const isDragging = useRef(false);
 
   const images = {
+    Commercial: {
+      before: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/After-2.webp",
+      after: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/Before-2.webp",
+    },
+   
+    "Light Design": {
+      before: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/After-4.webp",
+      after: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/Before-4.webp",
+    },
     Residential: {
       before: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315646.jpg?t=st=1731407482~exp=1731411082~hmac=6152e8a429c6f0d0fd715cb2f17713bdadd08ddd0425b423c1fbdc65a77d29ea&w=1060",
       after: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315647.jpg?t=st=1731407518~exp=1731411118~hmac=0bf957a4804f89f5304c04cc6933fa278b6d7b825a956a41814acf9159453283&w=1060",
-    },
-    "Light Design": {
-      before: "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf_105762-2175.jpg?t=st=1731407718~exp=1731411318~hmac=29473b08d3de49bb3f4c6598c254522c3bf34d42540f2589cec30d4ac01aff8a&w=900",
-      after: "https://img.freepik.com/free-photo/modern-dining-room-living-room-with-luxury-decor_105762-1672.jpg?ga=GA1.1.294526294.1713588320",
-    },
-    Commercial: {
-      before: "https://img.freepik.com/free-photo/house-interior-background-zoom-calls_23-2149684471.jpg?ga=GA1.1.294526294.1713588320",
-      after: "https://img.freepik.com/free-photo/blonde-charming-woman-silk-black-jumpsuit-stylish-eyeglasses-sits-brown-big-soft-sofa-ho_197531-33650.jpg?t=st=1731407669~exp=1731411269~hmac=12438e5d9555cf00c47c8721a0e4ff0a0e60235dd91c6118931fcf50ee821468&w=740",
     },
     "Art Deco": {
       before: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-8-850x520.jpg",
@@ -63,7 +64,7 @@ export default function BeforeAfter() {
   const styles = {
     container: {
       height: "80vh", // Responsive height based on viewport
-      maxHeight: "480px",
+      maxHeight: "700px",
       overflow: "hidden",
       position: "relative",
       userSelect: "none",
@@ -145,14 +146,14 @@ export default function BeforeAfter() {
 
 
 
-        <nav className=" d-flex flex-wrap justify-content-center gap-3 gap-lg mb-5 pb-3 pb-lg-4">
+        <nav className=" d-block d-lg-flex mx-auto flex-wrap justify-content-center gap-3 gap-lg mb-5 pb-3 pb-lg-4">
           {Object.keys(images).map((label, i) => (
             <button
               key={label}
               type="button"
 
-              className={` bg_button text-white Inter  ps-4 pe-5 py-2 my-2   position-relative ${selectedCategory === label ? "btn-primary" : "btn-outline-primary"
-                } d-flex align-items-center `}
+              className={` bg_button text-white Inter  ps-4 pe-5 py-2 my-2  position-relative ${selectedCategory === label ? "btn-primary" : "btn-outline-primary"
+                } d-flex align-items-center  `}
               onClick={() => setSelectedCategory(label)}
               
             >
@@ -172,6 +173,7 @@ export default function BeforeAfter() {
         style={styles.container}
         onMouseDown={startDrag}
         onTouchStart={startDrag}
+        className="w-100"
                       data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"
       >
         <div style={styles.beforeImage} />

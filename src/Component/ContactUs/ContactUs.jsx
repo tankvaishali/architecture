@@ -2,7 +2,7 @@ import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
-import contactVideo from "../../Assets/Video/contact_architecture.mp4";
+import contactVideo from "../../Assets/Video/8449347-uhd_2560_1440_25fps.mp4";
 import { BiPhoneCall } from "react-icons/bi";
 import { GrLocation } from "react-icons/gr";
 import "../../Assets/Css/ContactusPage.css";
@@ -44,7 +44,8 @@ function ContactUs() {
                     data-aos-duration="1500" data-aos-once="true"
                   >
                   <Link to={"tel:7048313227"} className="text-decoration-none text-dark">
-                  +91 70483 13227
+                  +91 81538 27482
+
                   </Link>
                   </div>
                   <div
@@ -253,7 +254,8 @@ function ContactUs() {
                         <BiPhoneCall className="fs-1" />
                       </div>
                       <h3 className="py-3">Call Us</h3>
-                      <div>+91 12345 67890</div>
+                      <div>+91 81538 27482
+                      </div>
                     </div>
                   </div>
                 </Link>
