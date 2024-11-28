@@ -160,7 +160,11 @@
 .xyz .dropdown-menu {
   --bs-dropdown-min-width: 3.4rem !important;
   margin: -14px;
-  --bs-dropdown-border-radius: none !important
+  border-radius: none !important;
+  color: var(--bs-body-color) !important;
+  background: none !important;
+  border-color: transparent !important;
+  border-width: 0 !important;
 }
 
 .animate__animated.animate__delay1 {

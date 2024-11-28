@@ -8,18 +8,20 @@ import Mission from './Mission'
 import Awards from './Awards'
 import Contactredirect from './Contactredirect'
 import ClientLogo from '../Homepage/ClientLogo'
+import Team from './Team'
 
 function AboutusPage() {
   return (
-   <>
-   <Aboutus/>
-   <Vission/>
-   <Mission/>
-   <Howwork/>
-   <Awards/>
-   <Contactredirect/>
-  <ClientLogo/>
-   </>
+    <>
+      <Aboutus />
+      <Vission />
+      <Mission />
+      <Team />
+      <Howwork />
+      <Awards />
+      <Contactredirect />
+      <ClientLogo />
+    </>
   )
 }
 
