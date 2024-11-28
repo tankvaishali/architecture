@@ -9,7 +9,7 @@ function Header() {
     return (
         <>
             <nav className="navbar navbar-expand-md bg-white border-bottom py-3 px-5">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="d-flex align-items-center">
                         <a href="/" className="navbar-brand fs-4 fw-bold">
                             <img
@@ -132,7 +132,7 @@ function Header() {
                             </div> */}
                             <div className="dropdown ms-lg-5 mt-1 xyz" style={{ backgroundColor: '#f8f9fa', borderRadius: '5px', padding: '10px' }}>
                                 <button
-                                    className="btn btn-link nav-link text-dark text-decoration-none "
+                                    className="btn btn-link nav-link text-dark text-decoration-none mx-auto"
                                     id="dropdownMenuButton"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
