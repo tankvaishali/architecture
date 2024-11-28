@@ -1,4 +1,5 @@
 import React from "react";
+import MainHeadings from "../../HOC/MainHeadings";
 
 function Vission() {
   return (
@@ -12,26 +13,10 @@ function Vission() {
                       data-aos-duration="1500"
                       data-aos-once="true">
                   <div>
+               
+                    <div><MainHeadings title={"    Create a World Where Every Individual is Empowered to Lead  a Life of Purpose"} name={"OUR VISION"}/></div>
                     <div
-                      className="about-section"
-                      data-aos="fade-up"
-                      data-aos-duration="1500"
-                      data-aos-once="true"
-                    >
-                      <div className="line"></div>
-                      <span>OUR VISION</span>
-                    </div>
-                    <h1
-                      className="Discover text-dark py-3 text-capitalize"
-                      data-aos="fade-down"
-                      data-aos-duration="1500"
-                      data-aos-once="true"
-                    >
-                      Create a World Where Every Individual is Empowered to Lead
-                      a Life of Purpose
-                    </h1>
-                    <div
-                      className="pera"
+                      className="pera pt-1"
                       data-aos="zoom-in"
                       data-aos-duration="1500"
                       data-aos-once="true"

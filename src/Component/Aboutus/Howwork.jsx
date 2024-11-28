@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import { IoMdCheckboxOutline } from "react-icons/io";
 import Slider from "react-slick";
+import MainHeadings from "../../HOC/MainHeadings";
 
 function Howwork() {
   const [hoveredItem, setHoveredItem] = useState(null);
@@ -94,25 +95,8 @@ function Howwork() {
           <div className="row g-4 d-flex align-content-center align-items-center">
             <div className="col-12 col-md-6 col-lg-3">
               <div className="h-100">
-                <div
-                  className="about-section"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  
-                  data-aos-once="true"
-                >
-                  <div className="line"></div>
-                  <span>HOW WE WORK</span>
-                </div>
-                <h1
-                  className="Discover text-dark fw-bold py-3 text-capitalize"
-                  data-aos="fade-down"
-                  data-aos-duration="1500"
-                  
-                  data-aos-once="true"
-                >
-                  Our easy steps to get interior design
-                </h1>
+            
+                <div><MainHeadings title={" Our easy steps to get interior design"} name={"HOW WE WORK"}/></div>
                 <div
                   className="pera"
                   data-aos="zoom-in"

@@ -1,4 +1,5 @@
 import React from 'react';
+import MainHeadings from '../../HOC/MainHeadings';
 
 function ClientLogo() {
     const logos = [
@@ -20,11 +21,8 @@ function ClientLogo() {
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center p-0 p-lg-4">
                     <div className="col-12 col-lg-4 p-4" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
-                        <div className="about-section justify-content-start" data-aos="fade-up" data-aos-duration="1800" data-aos-once="true">
-                            <div className="line"></div>
-                            <span >OUR PARTNERS</span>
-                        </div>
-                        <h1 className="Discover text-dark" data-aos="fade-down" data-aos-duration="1800" data-aos-once="true">A Legacy of Excellence with Premium Clients</h1>
+                       
+                      <div><MainHeadings title={"A Legacy of Excellence with Premium Clients"} name={"OUR PARTNERS"}/></div>
                         <p className="pera" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur eligendi inventore officiis nesciunt, voluptates quae aspernatur, quaerat, dicta provident ipsum maiores debitis atque dignissimos dolorem.
                         </p>

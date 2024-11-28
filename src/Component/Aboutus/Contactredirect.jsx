@@ -14,7 +14,7 @@ function Contactredirect() {
             data-aos-once="true"
           >
             <div className="about-section justify-content-center">
-              <div className="line  "></div>
+              <div className="line  " style={{border: "1px solid #acb8c5"}}></div>
               <span className="fw-bold fs-5 " style={{color:"#acb8c5"}}>
                 YOUR BEST CHOICE
               </span>

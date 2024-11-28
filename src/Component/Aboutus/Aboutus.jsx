@@ -23,7 +23,7 @@ function Aboutus() {
                 <div className="h-100">
                   <div class="about-section " data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <div class="line" style={{color:"#acb8c5",borderBlockColor:"#acb8c5"}}></div>
-                    <span className=" " style={{color:"#acb8c5"}}>ABOUT US</span>
+                    <span className=" fw-medium" style={{color:"#acb8c5"}}>ABOUT US</span>
                   </div>
                   <h1 class=" Discover  text-white py-2" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Mr. Hiten Patel</h1>
                   <div className="pera" style={{color:"#acb8c5"}} data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
