@@ -25,8 +25,8 @@ function Homepage() {
       <ArchitectureDesign />
       <Bookappointment />
       <PromoVideo />
-      <News />
       <Service />
+      <News />
       <Testimonial />
       <ClientLogo />
     </>

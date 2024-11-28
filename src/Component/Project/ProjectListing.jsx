@@ -11,7 +11,7 @@ function ProjectListing() {
     const settings = {
         dots: false,
         infinite: true,
-        arrows: true,
+        arrows: false,
         speed: 1000, // Adjust speed for smooth transitions
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -20,7 +20,7 @@ function ProjectListing() {
         pauseOnHover: false,
         adaptiveHeight: true,
         swipe: true,
-        draggable: false, // Disable dragging to match your requirements
+        draggable: true, // Disable dragging to match your requirements
     };
 
     return (
@@ -34,10 +34,10 @@ function ProjectListing() {
                         data-aos-once="true"
                     >
                         <div className="line"></div>
-                        <span className="fw-medium">{item.id}</span>
+                        <span className="fw-medium text-uppercase">{item.id}</span>
                     </div>
                     <h1
-                        className="Discover text-dark pt-2 text-center"
+                        className="Discover text-dark pt-2 text-center text-capitalize"
                         data-aos="fade-down"
                         data-aos-duration="1800"
                         data-aos-once="true"
@@ -52,7 +52,7 @@ function ProjectListing() {
                                     <div className="text-light col-md-6 col-10 py-5 px-3">
                                         <div className="bg-dark p-5 inner_data1">
                                             <h1
-                                                className="text-white py-2 display-5"
+                                                className="text-white py-2 display-5 text-capitalize"
                                                 style={{ letterSpacing: "1px" }}
                                             >
                                                 {inner_data.h1}

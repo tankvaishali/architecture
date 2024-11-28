@@ -3,6 +3,7 @@ import React from 'react'
 import { BiSolidPhoneCall } from 'react-icons/bi'
 import { GoDotFill } from 'react-icons/go'
 import { IoCheckmarkDoneSharp } from 'react-icons/io5'
+import { SiPolestar } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 
 function Whychooseus() {
@@ -19,55 +20,55 @@ function Whychooseus() {
                         <div className="col-12 col-lg-4" data-aos="zoom-in"
                                     data-aos-duration="1500" data-aos-once="true">
                             <div className="h-100 text-center d-flex flex-column justify-content-between">
-                                <div className="about-section justify-content-center pt-4" data-aos="fade-up"
+                                <div className="about-section justify-content-start justify-content-lg-center pt-4" data-aos="fade-up"
                                     data-aos-duration="1500" data-aos-once="true">
                                     <div className="line  "></div>
                                     <span className=''>WHY CHOOSE US</span>
                                 </div>
-                                <h1 className="Discover text-dark pt-2 text-center" data-aos="fade-down"
+                                <h1 className="Discover text-dark pt-2 text-start text-lg-center" data-aos="fade-down"
                                     data-aos-duration="1800" data-aos-once="true">We Can Build Your Dreams</h1>
-                                <div className=" " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorem voluptate quos laboriosam consectetur reprehenderit magni alias recusandae dignissimos atque!</div>
+                                <div className="text-start text-lg-center " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorem voluptate quos laboriosam consectetur reprehenderit magni alias recusandae dignissimos atque!</div>
                                 <div className="d-block d-md-flex justify-content-center py-2">
                                     <div>
                                     <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Architecture & interior</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Architecture & interior</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Project planing</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Project planing</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Product design</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Product design</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Custom solution</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Custom solution</div>
                                         </div>
                                       
                                     </div>
                                     <div className=' ps-0 ps-md-4'>
                                         <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Design development</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Design development</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Building concept</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Building concept</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Feasibility</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Feasibility</div>
                                         </div>
                                      
                                         <div className='d-flex  align-content-center align-items-center' >
-                                            <div className='theme fs-5'><IoCheckmarkDoneSharp /></div>
-                                            <div className='pera ps-1'>Renovating</div>
+                                            <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
+                                            <div className='pera ps-1 fw-bold'>Renovating</div>
                                         </div>
                                     </div>
                                 </div>
-                        <Link to={"tel:8153827482"} className="text-decoration-none"> <div className='whyno'  ><BiSolidPhoneCall /> 81538 27482</div></Link>
+                        <Link to={"tel:8153827482"} className="text-decoration-none text-start text-lg-center"> <div className='whyno'  ><BiSolidPhoneCall /> 81538 27482</div></Link>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4" data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
