@@ -90,8 +90,8 @@ function Howwork() {
   return (
     <div className="howworkbg py-5">
       <div className="py-5">
-        <div className="container">
-          <div className="row g-4">
+        <div className="container py-5">
+          <div className="row g-4 d-flex align-content-center align-items-center">
             <div className="col-12 col-md-6 col-lg-3">
               <div className="h-100">
                 <div
@@ -167,11 +167,11 @@ function Howwork() {
 
             <div className="col-12 col-md-6 col-lg-9">
               <div className="h-100">
-                <Slider {...settings} className="hoverimagehow h-100 p-0 m-0">
+                <Slider {...settings} className="hoverimagehow  h-100 m-0">
                   {ProductItemlist.map((item) => (
                     <div
                       key={item.id}
-                      className="px-2 hoverimagehow"
+                      className="px-2 hoverimagehow shadow-lg my-2"
                       onMouseEnter={() => setHoveredItem(item.id)}
                       onMouseLeave={() => setHoveredItem(null)}
                       data-aos="fade-left"
@@ -180,7 +180,7 @@ function Howwork() {
                       data-aos-once="true"
                     >
                       <div
-                        className="cardbox h-100 p-3 shadow-sm w-100 d-flex flex-column justify-content-between"
+                        className="cardbox h-100 p-3 shadow  w-100 d-flex flex-column justify-content-between"
                         style={{
                           background:
                             hoveredItem === item.id

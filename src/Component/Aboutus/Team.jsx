@@ -11,7 +11,7 @@ function Team() {
             name: "Williamson",
             post: "Web Developer",
             aos: "fade-up"
-        },
+        },  
         {
             imgSrc: "https://bestjquery.com/tutorial/our-team/demo74/images/img-2.jpg",
             name: "Kristiana",

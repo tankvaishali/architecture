@@ -395,9 +395,10 @@ color: #919eac !important;
 
 .content {
   flex: 1 1 50%;
-  background-color: #4d5966;
+  background-color: var(--theme--);
   margin-right: -10%;
   position: relative;
+
 }
 
 .image_about {

@@ -130,7 +130,7 @@ function Header() {
                                     </li>
                                 </ul>
                             </div> */}
-                            <div className="dropdown ms-lg-5 mt-1 xyz" style={{ backgroundColor: '#f8f9fa', borderRadius: '5px', padding: '10px' }}>
+                            <div className="dropdown ms-lg-5 mt-1 xyz" >
                                 <button
                                     className="btn btn-link nav-link text-dark text-decoration-none mx-auto"
                                     id="dropdownMenuButton"
@@ -144,44 +144,44 @@ function Header() {
                                     aria-labelledby="dropdownMenuButton"
                                 >
                                     <li className="li1 animate__animated animate__fadeIn animate__delay1">
-                                        <a
-                                            href="https://facebook.com"
+                                        <Link
+                                            to={"https://facebook.com"}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
                                             <Facebook className='text-light ' />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="li2 animate__animated animate__fadeIn animate__delay2">
-                                        <a
-                                            href="https://twitter.com"
+                                        <Link
+                                            to={"https://twitter.com"}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
                                             <Twitter className='text-light ' />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="li3 animate__animated animate__fadeIn animate__delay3">
-                                        <a
-                                            href="https://instagram.com"
+                                        <Link
+                                            to={"https://instagram.com"}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
                                             <Instagram className='text-light ' />
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="li4 animate__animated animate__fadeIn animate__delay4">
-                                        <a
-                                            href="https://linkedin.com"
+                                        <Link
+                                            to={"https://linkedin.com"}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
                                             <Linkedin className='text-light ' />
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

@@ -13,6 +13,7 @@ import News from "./News";
 import Quality from "./Quality";
 import PromoVideo from "./PromoVideo";
 import Service from "./Service";
+import Team from "../Aboutus/Team";
 
 function Homepage() {
   return (
@@ -22,6 +23,7 @@ function Homepage() {
       <Whychooseus />
       <Quality />
       <BeforeAfter />
+      <Team/>
       <ArchitectureDesign />
       <Bookappointment />
       <PromoVideo />

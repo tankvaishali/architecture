@@ -290,7 +290,7 @@ export default function BeforeAfter() {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      cursor: "ew-resize",
+      cursor: "grab",
       zIndex: 3,
     },
     sliderIcon: {

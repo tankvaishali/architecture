@@ -16,10 +16,10 @@ function AboutusPage() {
       <Aboutus />
       <Vission />
       <Mission />
-      <Team />
       <Howwork />
-      <Awards />
       <Contactredirect />
+      <Awards />
+      {/* <Team /> */}
       <ClientLogo />
     </>
   )
