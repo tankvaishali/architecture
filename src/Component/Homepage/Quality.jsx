@@ -1,5 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
+import { HiOutlineArrowSmRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 function Quality() {
   return (
@@ -24,6 +26,20 @@ function Quality() {
             >
               Milestones That We Proudly Accomplished & Lead Us Forward.
             </h1>
+            <div className="py-4"  
+             data-aos="fade-right"
+             data-aos-duration="1800"
+             data-aos-once="true"
+            >
+                                    <Link to={"/project"}>
+                                    <button type="button" className="bg_button Inter text-white fs-6 ps-4 pe-5 py-2 fw-bold position-relative">
+                                            Show More 
+                                            <span className="bg_iconbtn py-3 px-2 text-dark position-absolute end-0">
+                                                <HiOutlineArrowSmRight className="fs-5" />
+                                            </span>
+                                        </button>
+                                    </Link>
+                                    </div>
           </div>
           <div
             className="col-12 col-md-5 col-lg-4 p-4"
