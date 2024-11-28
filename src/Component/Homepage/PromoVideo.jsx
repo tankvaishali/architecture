@@ -28,7 +28,7 @@ function PromoVideo() {
                                     <div className='text-white py-2'>
                                         We’re following all protocols to ensure your safety and vaccination drives are underway to ensure our employees are ready to meet you safely.
                                     </div>
-                         <div className=' d-flex mt-1 '>
+                         <div className=' d-block d-lg-flex mt-1 '>
                          <div style={{width:80}}  data-aos="zoom-in"
               data-aos-duration="1800"
               data-aos-once="true" className='mt-3' >

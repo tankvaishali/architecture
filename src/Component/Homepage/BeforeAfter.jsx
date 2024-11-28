@@ -188,37 +188,38 @@
 //       </div>
 //     </div>
 //   );
-// }
-import { useState, useRef, useEffect, useCallback } from "react";
+// }import { useState, useRef, useEffect, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 
+// Define images object before using it in the state
+const images = {
+  Commercial: {
+    before: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/After-2.webp",
+    after: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/Before-2.webp",
+  },
+  "Light Design": {
+    before: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/After-4.webp",
+    after: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/Before-4.webp",
+  },
+  Residential: {
+    before: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315646.jpg?t=st=1731407482~exp=1731411082~hmac=6152e8a429c6f0d0fd715cb2f17713bdadd08ddd0425b423c1fbdc65a77d29ea&w=1060",
+    after: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315647.jpg?t=st=1731407518~exp=1731411118~hmac=0bf957a4804f89f5304c04cc6933fa278b6d7b825a956a41814acf9159453283&w=1060",
+  },
+  "Art Deco": {
+    before: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-8-850x520.jpg",
+    after: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-11-850x520.jpg",
+  },
+};
+
 export default function BeforeAfter() {
+  // Set default category dynamically based on the first category in images
   const [position, setPosition] = useState(50);
-  const [selectedCategory, setSelectedCategory] = useState("Residential");
+  const [selectedCategory, setSelectedCategory] = useState(Object.keys(images)[0]);
 
   const containerRef = useRef(null);
   const isDragging = useRef(false);
-
-  const images = {
-    Commercial: {
-      before: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/After-2.webp",
-      after: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/Before-2.webp",
-    },
-   
-    "Light Design": {
-      before: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/After-4.webp",
-      after: "https://wdtwelcome.wpengine.com/wp-content/uploads/2024/07/Before-4.webp",
-    },
-    Residential: {
-      before: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315646.jpg?t=st=1731407482~exp=1731411082~hmac=6152e8a429c6f0d0fd715cb2f17713bdadd08ddd0425b423c1fbdc65a77d29ea&w=1060",
-      after: "https://img.freepik.com/free-photo/shot-panoramic-composition-living-room_23-2150315647.jpg?t=st=1731407518~exp=1731411118~hmac=0bf957a4804f89f5304c04cc6933fa278b6d7b825a956a41814acf9159453283&w=1060",
-    },
-    "Art Deco": {
-      before: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-8-850x520.jpg",
-      after: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-11-850x520.jpg",
-    },
-  };
 
   const handleMove = useCallback(
     (event) => {
@@ -325,9 +326,9 @@ export default function BeforeAfter() {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
         document.documentElement.style.setProperty('--container-height', '40vh');
-      } else    if (window.innerWidth <= 761) {
+      } else if (window.innerWidth <= 761) {
         document.documentElement.style.setProperty('--container-height', '60vh');
-      }else{
+      } else {
         document.documentElement.style.setProperty('--container-height', '80vh');
       }
     };

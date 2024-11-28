@@ -12,11 +12,11 @@ function ProjectListing() {
         dots: false,
         infinite: true,
         arrows: false,
-        speed: 1000, // Adjust speed for smooth transitions
+        speed: 2000, // Adjust speed for smooth transitions
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000, // Keep reasonable timing
+        autoplaySpeed: 4000, // Keep reasonable timing
         pauseOnHover: false,
         adaptiveHeight: true,
         swipe: true,
@@ -24,7 +24,7 @@ function ProjectListing() {
     };
 
     return (
-        <div className="about-company bg_slideImage w-100">
+        <div className="about-company bg_slideImage w-100 py-5" >
             {data.map((item) => (
                 <div key={item.id} className="container">
                     <div
@@ -49,8 +49,8 @@ function ProjectListing() {
                             <div key={index}>
                                 <div className="row align-items-center justify-content-center">
                                     {/* {/ Left Section (Text) /} */}
-                                    <div className="text-light col-md-6 col-10 py-5 px-3">
-                                        <div className="bg-dark p-5 inner_data1">
+                                    <div className="text-light col-md-6 col-10 py-5 px-0 px-lg-3">
+                                        <div className="bg-dark p-3 p-lg-5 inner_data1">
                                             <h1
                                                 className="text-white py-2 display-5 text-capitalize"
                                                 style={{ letterSpacing: "1px" }}
@@ -116,12 +116,12 @@ function ProjectListing() {
                                         </div>
                                     </div>
                                     {/* {/ Right Section (Image) /} */}
-                                    <div className="col-md-6 col-10">
+                                    <div className="col-md-6 col-10 p-0 p-lg-3">
                                         <div className="inner_data2">
                                             <img
                                                 src={inner_data.mainimg}
                                                 alt="Project Visual"
-                                                className="img-fluid border border-5 border-dark"
+                                                className="img-fluid border border-5 border-dark w-100"
                                             />
                                         </div>
                                     </div>

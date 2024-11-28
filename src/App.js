@@ -15,6 +15,7 @@ import Projectdata from './Component/Project/Projectdata';
 
 import ProjectListing from './Component/Project/ProjectListing';
 import ProjectInnerList from './Component/Project/ProjectInnerList';
+import ScrollToTop from './HOC/ScrollToTop';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop/>
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/aboutus' element={<AboutusPage />} />

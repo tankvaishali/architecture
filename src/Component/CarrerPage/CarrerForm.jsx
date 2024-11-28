@@ -145,7 +145,7 @@ function CarrerForm() {
                   </label>
                   <textarea
                     name="message"
-                    className="inpText text-white w-100 d-block px-3 py-2 shadow my-2"
+                    className="inpText text-white w-100 d-block px-3 py-4 shadow my-2"
                     id=""
                   ></textarea>
                 </div>
