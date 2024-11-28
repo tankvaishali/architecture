@@ -62,7 +62,18 @@ color: #919eac !important;
 }
 
 /* why choose us end */
+/* Afterbefore start */
+.afterbeforebutton {
+  width: auto; /* Default width for screens larger than 761px */
+}
 
+/* Media query for screens with a width of 761px or less */
+@media (max-width: 991px) {
+  .afterbeforebutton {
+    width: 100%; /* Set width to 100% for screens smaller than or equal to 761px */
+  }
+}
+/* Afterbefore end */
 
 /* Quality start */
 .quality_bg {
