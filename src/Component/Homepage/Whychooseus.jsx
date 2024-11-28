@@ -30,41 +30,41 @@ function Whychooseus() {
                                 <div className="text-start text-lg-center " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorem voluptate quos laboriosam consectetur reprehenderit magni alias recusandae dignissimos atque!</div>
                                 <div className="d-block d-md-flex justify-content-center py-2">
                                     <div>
-                                    <div className='d-flex  align-content-center align-items-center' >
+                                    <div className='d-flex  align-content-center align-items-center ' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Architecture & interior</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Architecture & interior</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Project planing</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Project planing</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Product design</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Product design</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Custom solution</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Custom solution</div>
                                         </div>
                                       
                                     </div>
                                     <div className=' ps-0 ps-md-4'>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Design development</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Design development</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Building concept</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Building concept</div>
                                         </div>
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Feasibility</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Feasibility</div>
                                         </div>
                                      
                                         <div className='d-flex  align-content-center align-items-center' >
                                             <div className='theme fs-4 fw-bold '><SiPolestar  /></div>
-                                            <div className='pera ps-1 fw-bold'>Renovating</div>
+                                            <div className='pera ps-1 fw-bold text-nowrap'>Renovating</div>
                                         </div>
                                     </div>
                                 </div>
