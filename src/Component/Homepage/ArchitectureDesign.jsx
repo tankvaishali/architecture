@@ -245,7 +245,7 @@ function ArchitectureDesign() {
         <>
             <div className='py-0 py-lg-5 overflow-hidden'>
                 <div
-                    className="Probg_img shadow-lg mb-5"
+                    className="Probg_img shadow-lg my-5 my-lg-0"
                     style={{
                         backgroundImage: hoverIndex === null && inView
                             ? `url(${slides[0].backgroundImage})`
