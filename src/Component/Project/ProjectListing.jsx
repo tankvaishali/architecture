@@ -12,15 +12,15 @@ function ProjectListing() {
         dots: false,
         infinite: true,
         arrows: false,
-        speed: 2000, // Adjust speed for smooth transitions
+        speed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000, // Keep reasonable timing
+        autoplaySpeed: 4000,
         pauseOnHover: false,
         adaptiveHeight: true,
         swipe: true,
-        draggable: true, // Disable dragging to match your requirements
+        draggable: true,
     };
 
     return (
@@ -48,7 +48,6 @@ function ProjectListing() {
                         {item.inner_data?.map((inner_data, index) => (
                             <div key={index}>
                                 <div className="row align-items-center justify-content-center">
-                                    {/* {/ Left Section (Text) /} */}
                                     <div className="text-light col-md-6 col-10 py-5 px-0 px-lg-3">
                                         <div className="bg-dark p-3 p-lg-5 inner_data1">
                                             <h1
@@ -115,7 +114,6 @@ function ProjectListing() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* {/ Right Section (Image) /} */}
                                     <div className="col-md-6 col-10 p-0 p-lg-3">
                                         <Link to={`/project/${id}/${inner_data.id}`}>
                                             <div className="inner_data2">
