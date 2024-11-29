@@ -270,7 +270,7 @@ function CareerTable() {
 
   return (
     <div className="container my-5">
-             <div className="about-section justify-content-start justify-content-lg-center pt-4" data-aos="fade-up"
+             <div className="about-section  justify-content-center pt-4" data-aos="fade-up"
                                     data-aos-duration="1500" data-aos-once="true">
                                     <div className="line  "  style={{color:"rgb(90, 113, 124)",borderBlockColor:"rgb(90, 113, 124)"}}></div>
                                     <span  style={{color:"rgb(90, 113, 124)"}}>JOB OPENING</span>
@@ -326,7 +326,7 @@ function CareerTable() {
         </div>
       </div>
 
-      <div className="text-center table-responsive overflow-hidden">
+      <div className="text-center table-responsive overflow-y-hidden">
         <table className="table table-bordered table-striped">
           <thead className="thead-dark">
             <tr

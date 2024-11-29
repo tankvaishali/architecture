@@ -158,6 +158,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 import { ProjectList } from '../Project/ProjectListItem';
+import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
 
 function ArchitectureDesign() {
     const [hoverIndex, setHoverIndex] = useState(null);
@@ -236,7 +237,7 @@ function ArchitectureDesign() {
                 className={`custom-arrow ${direction}`}
                 onClick={onClick}
             >
-                {direction === "next" ? '→' : '←'}
+               {direction === "next" ? <FaLongArrowAltRight /> : <FaLongArrowAltLeft />}
             </div>
         );
     }
