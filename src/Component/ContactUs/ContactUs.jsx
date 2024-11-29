@@ -73,7 +73,7 @@ function ContactUs() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                 >
-                  <div className="d-lg-flex justify-content-between gap-3 my-3">
+                  <div className="d-lg-flex justify-content-between gap-3 my-lg-3">
                     <input
                       type="text"
                       name="firstname"
@@ -89,7 +89,7 @@ function ContactUs() {
                       className="w-100 w-md-50 w-lg-50 px-4 py-2 rounded-3 my-3 my-lg-0"
                     />
                   </div>
-                  <div className="d-lg-flex justify-content-between gap-3 my-3">
+                  <div className="d-lg-flex justify-content-between gap-3 my-lg-3">
                     <input
                       type="text"
                       name="companyemail"
@@ -105,7 +105,7 @@ function ContactUs() {
                       className="w-100 w-md-50 w-lg-50 px-4 py-2 rounded-3 my-3 my-lg-0"
                     />
                   </div>
-                  <div className="d-lg-flex justify-content-between gap-3 my-3">
+                  <div className="d-lg-flex justify-content-between gap-3 my-lg-3">
                     <select
                       name="industry"
                       className="w-100 w-md-50 w-lg-50 px-4 py-2 rounded-3"
@@ -148,7 +148,7 @@ function ContactUs() {
                       <option value="5,001+ employees">5,001+ employees</option>
                     </select>
                   </div>
-                  <div className="d-lg-flex justify-content-between gap-3 my-3">
+                  <div className="d-lg-flex justify-content-between gap-3 my-lg-3">
                     <select
                       name="role"
                       className="w-100 w-md-50 w-lg-50 px-4 py-2 rounded-3"
@@ -185,7 +185,7 @@ function ContactUs() {
                       className="w-100 w-md-50 w-lg-50 px-4 py-2 rounded-3 my-3 my-lg-0"
                     />
                   </div>
-                  <div className="d-lg-flex justify-content-between gap-3 my-3">
+                  <div className="d-lg-flex justify-content-between gap-3 my-lg-3">
                     <input
                       type="text"
                       name="city"

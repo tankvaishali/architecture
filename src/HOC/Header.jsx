@@ -11,14 +11,14 @@ function Header() {
             <nav className="navbar navbar-expand-md bg-white border-bottom py-3 px-5">
                 <div className="container">
                     <div className="d-flex align-items-center">
-                        <a href="/" className="navbar-brand fs-4 fw-bold">
+                        <Link to={"/"} className="navbar-brand fs-4 fw-bold">
                             <img
                                 src={require('../Assets/Image/Logo/MSD Logo.png')}
                                 alt=""
                                 className="img-fluid"
                                 style={{ height: '50px' }}
                             />
-                        </a>
+                        </Link>
                     </div>
 
                     <button
