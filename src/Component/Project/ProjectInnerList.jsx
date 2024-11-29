@@ -54,7 +54,7 @@ function ProjectInnerList() {
             },
             {
                 breakpoint: 640,
-                settings: { slidesToShow: 1 },
+                settings: { slidesToShow: 2 },
             },
         ],
     };
