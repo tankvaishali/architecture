@@ -251,8 +251,10 @@ color: #919eac !important;
   overflow-x: hidden;
   position: relative;
   transition: background-image 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
 .pro_tittle {
   color: white;
   position: relative;
@@ -261,90 +263,40 @@ color: #919eac !important;
   transform: translateY(-10px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
 .cont_main {
   width: 100%;
   background-color: transparent;
   transform: translateY(40%);
   transition: transform 0.5s ease, background-color 0.5s ease;
 }
-
 .pro_cont {
   opacity: 0;
   transform: translateY(50%);
   transition: opacity 0.5s ease, transform 0.5s ease;
   color: var(--theme--);
 }
-
 .pro_mainbox {
+  height: 100vh;
   border: 5.1px solid white !important;
   border-radius: 20px;
   transition: all 0.5s ease-in-out;
 }
-
 .pro_mainbox:hover .pro_tittle {
   opacity: 1;
   color: black;
   transform: translateY(0px);
   transition-delay: 1ms;
 }
-
 .pro_mainbox:hover .pro_cont {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.3s;
 }
-
 .pro_mainbox:hover .cont_main {
   background-color: white;
   border-radius: 0px 0px 10px 10px;
   transform: translateY(0);
 }
-
-@media (max-width: 1200px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-width: 992px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-
-  .pro_tittle {
-    font-size: 1.5rem;
-  }
-
-  .pro_cont {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .pro_mainbox {
-    width: 100%;
-    height: auto;
-  }
-
-  .pro_tittle {
-    font-size: 1.25rem;
-  }
-
-  .pro_cont {
-    font-size: 0.875rem;
-  }
-}
-
 .custom-arrow {
   position: absolute;
   top: 50%;
@@ -359,20 +311,67 @@ color: #919eac !important;
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
 }
-
 .custom-arrow.prev {
   top: 50px;
   left: 30px;
 }
-
 .custom-arrow.next {
   top: 50px;
   right: 30px;
 }
-
 .custom-arrow:hover {
   background-color: black;
   color: white;
+}
+@media (max-width: 1200px) {
+  .pro_mainbox {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media (max-width: 992px) {
+  .pro_mainbox {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media (max-width: 768px) {
+  .pro_mainbox {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media (max-width: 576px) {
+  .Probg_img {
+    height: 250px !important;
+    background-size: cover;
+  }
+  .pro_mainbox {
+    height: 250px !important;
+  }
+  .pro_tittle {
+    transform: translateY(30px) !important;
+    font-size: 1.25rem;
+  }
+  .pro_mainbox:hover .pro_tittle {
+    transform: translateY(20px) !important;
+  }
+  .pro_cont {
+    transform: translateY(0) !important;
+    font-size: 0.875rem;
+  }
+  .pro_mainbox:hover .pro_cont {
+    transform: translateY(20px) !important;
+  }
+  .custom-arrow {
+    font-size: 20px !important;
+  }
+  .custom-arrow.prev {
+    top: 35px;
+  }
+  .custom-arrow.next {
+    top: 35px;
+  }
 }
 /* ArchitectureDesign end */
 

@@ -26,7 +26,7 @@ function Aboutus() {
                     <span className=" fw-medium" style={{color:"#acb8c5"}}>ABOUT US</span>
                   </div>
                   <h1 class=" Discover  text-white py-2" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Mr. Hiten Patel</h1>
-                  <div className="pera" style={{color:"#acb8c5"}} data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
+                  <div className="pera" style={{ color: "rgb(184, 184, 184)" }} data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
                     Founded by Hiten Patel, and located in the vibrant city of
                     Surat, Mindscape Design is a pioneering firm in Architecture,
                     Interior Design, Landscape, and beyond. With over 24 years of
@@ -39,7 +39,7 @@ function Aboutus() {
                     reflects our commitment not only to our client's visions but
                     also to creating a more sustainable future.
                   </div>
-                  <div className="pera pt-3" style={{color:"#acb8c5"}} data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
+                  <div className="pera pt-3" style={{ color: "rgb(184, 184, 184)" }} data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam repellat eaque voluptas quos excepturi quisquam quod pariatur sapiente, veniam cum. Aut praesentium consectetur perferendis voluptates. 
                   </div>
                 </div>

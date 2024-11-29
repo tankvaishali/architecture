@@ -12,16 +12,16 @@ function CarrerIntro() {
               data-aos="fade-up"
               data-aos-duration="1500" data-aos-once="true"
             >
-              <div className="line  "></div>
-              <span className=" ">POSITIONS</span>
+              <div className="line  " style={{color:"rgb(90, 113, 124)",borderBlockColor:"rgb(90, 113, 124)"}}></div>
+              <span  style={{color:"rgb(90, 113, 124)"}}>POSITIONS</span>
             </div>
-            <h2
-              className="text-center fw-bold mt-3"
+            <h1
+              className="Discover text-dark pt-2 text-center text-capitalize"
               data-aos="fade-down"
               data-aos-duration="1500" data-aos-once="true"
             >
               Architecture Design - Projects
-            </h2>
+            </h1>
             <div>
               <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                 <h5 className="fw-bold mt-3">Job Overview</h5>
@@ -32,8 +32,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="200"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> An architecture
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> An architecture
                   designer is responsible for creating functional and
                   aesthetically pleasing designs for buildings and structures.
                 </p>
@@ -41,8 +42,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="300"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> This role includes
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> This role includes
                   meeting with clients to understand their vision and
                   translating it into architectural plans.
                 </p>
@@ -50,8 +52,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="400"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> Architecture designers
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> Architecture designers
                   collaborate with engineers, contractors, and project managers
                   to bring projects from concept to completion.
                 </p>
@@ -59,8 +62,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="500"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> The position requires
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> The position requires
                   a balance of creativity and technical precision in every
                   project.
                 </p>
@@ -76,8 +80,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="200"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> A degree from an
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> A degree from an
                   accredited Bachelor’s or Master’s program in Architecture or a
                   related field is required, with an architecture license
                   preferred.
@@ -86,8 +91,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="300"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> Candidates should have
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> Candidates should have
                   a minimum of 4 years and ideally up to 7 years of professional
                   experience in architectural design or a related field.
                 </p>
@@ -95,8 +101,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="400"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> Technical knowledge,
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> Technical knowledge,
                   including a thorough understanding of building codes, zoning
                   regulations, and accessibility standards, is essential.
                 </p>
@@ -104,7 +111,7 @@ function CarrerIntro() {
             </div>
             <div>
               <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                <h5 className="fw-bold mt-5">Require Skills</h5>
+                <h5 className="fw-bold mt-5" >Require Skills</h5>
                 <hr className="main_hr" />
               </div>
               <div style={{ color: "var(--theme--)" }}>
@@ -112,8 +119,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="200"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> The role requires
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> The role requires
                   strong creative and technical skills in architectural design,
                   along with proficiency in design software such as AutoCAD,
                   Revit, and SketchUp.
@@ -122,8 +130,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="300"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> Knowledge of
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> Knowledge of
                   Construction Drawing Standards, Building Codes, and
                   Accessibility Requirements.
                 </p>
@@ -131,8 +140,9 @@ function CarrerIntro() {
                   data-aos="fade-up"
                   data-aos-duration="1500" data-aos-once="true"
                   data-aos-delay="400"
+                  
                 >
-                  <MdDoubleArrow className="text-dark" /> Able to identify and
+                  <MdDoubleArrow style={{color:"rgb(90, 113, 124)"}}  /> Able to identify and
                   resolve code compliance issues during the design phase,
                   streamlining project approvals.
                 </p>

@@ -343,8 +343,8 @@ export default function BeforeAfter() {
     <div className="container py-3 mb-5">
       <div className="my-3">
         <div className="about-section justify-content-center " data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-          <div className="line"></div>
-          <span>BEFORE AND AFTER MAGIC</span>
+          <div className="line" style={{color:"rgb(90, 113, 124)",borderBlockColor:"rgb(90, 113, 124)"}}></div>
+          <span style={{color:"rgb(90, 113, 124)"}}>BEFORE AND AFTER MAGIC</span>
         </div>
         <h1 className="Discover text-dark py- text-center" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Witness The Design Evolution</h1>
       </div>

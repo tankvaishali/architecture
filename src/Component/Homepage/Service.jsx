@@ -48,11 +48,11 @@ function Service() {
         }}
       >
         <div className="container-lg my-5">
-          <div className="about-section">
-            <div className="line"></div>
-            <span>OUR SERVICES</span>
+          <div className="about-section justify-content-center">
+            <div className="line" style={{color:"rgb(90, 113, 124)",borderBlockColor:"rgb(90, 113, 124)"}}></div>
+            <span style={{color:"rgb(90, 113, 124)"}}>OUR SERVICES</span>
           </div>
-          <h1 className="Discover text-dark py-2">WHAT WE SERVE</h1>
+          <h1 className="Discover text-dark py-2 text-center">What We Are Serving</h1>
           <div className="d-flex justify-content-center flex-wrap">
             {serviceColumns.map((column, Index) => (
               <div key={Index} className={`servicesec servnum${Index}`}>

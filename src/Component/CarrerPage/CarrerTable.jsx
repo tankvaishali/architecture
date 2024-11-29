@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MainHeadings from "../../HOC/MainHeadings";
 
 function CareerTable() {
   const jobData = [
@@ -269,15 +270,14 @@ function CareerTable() {
 
   return (
     <div className="container my-5">
-      <div
-        className="about-section justify-content-center"
-        data-aos="fade-up"
-        data-aos-duration="1500"
-        data-aos-once="true"
-      >
-        <div className="line"></div>
-        <span>JOB OPENING</span>
-      </div>
+             <div className="about-section justify-content-start justify-content-lg-center pt-4" data-aos="fade-up"
+                                    data-aos-duration="1500" data-aos-once="true">
+                                    <div className="line  "  style={{color:"rgb(90, 113, 124)",borderBlockColor:"rgb(90, 113, 124)"}}></div>
+                                    <span  style={{color:"rgb(90, 113, 124)"}}>JOB OPENING</span>
+                                </div>
+                                <h1 className="Discover text-dark pt-2 text-center text-capitalize" data-aos="fade-down"
+                                    data-aos-duration="1800" data-aos-once="true">It's time to start living the life we've imagined</h1>
+ 
       <div
         className="d-flex justify-content-center py-3 mt-2"
         data-aos="zoom-in"

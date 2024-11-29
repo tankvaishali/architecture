@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiOutlineArrowSmRight } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
+import MainHeadings from '../../HOC/MainHeadings'
 
 function Bookappointment() {
   return (
@@ -11,11 +12,8 @@ function Bookappointment() {
             <div className="row g-3">
               <div className="col-12  col-lg-4">
                 <div className="h-100">
-                  <div className="about-section  pt-4" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <div className="line  "></div>
-                    <span className=''>APPOINTMENT</span>
-                  </div>
-                  <h1 className="Discover text-dark py-3 " data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Book Your Appointment Now !</h1>
+             
+                  <div><MainHeadings title={"Book Your Appointment Now !"} name={"APPOINTMENT"}/></div>
 
                   <div className="py-3 pera" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo doloribus quam aperiam iure ratione expedita quidem harum necessitatibus, veniam sequi maiores magnam nostrum error. Porro provident vitae eius beatae explicabo.

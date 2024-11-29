@@ -43,7 +43,7 @@ function Awards() {
               data-aos-duration="1500"
               data-aos-once="true"
             >
-              Our easy steps to get interior design
+          our Success is the fulfillment of your dreams
             </h1>
           </div>
           {awardData.map((x, i) => {

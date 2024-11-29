@@ -1,6 +1,7 @@
 import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import Slider from "react-slick";
+import MainHeadings from "../../HOC/MainHeadings";
 
 function Testimonial() {
   const testimonials = [
@@ -104,25 +105,9 @@ function Testimonial() {
                 </div>
               </div>
               <div className="h-100 col-12 col-lg-6 p-5">
-                <div>
-                  <div
-                    className="about-section"
-                    data-aos="fade-up"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    <div className="line"></div>
-                    <span>TESTIMONIAL</span>
-                  </div>
-                  <h1
-                    className="Discover text-dark py-2"
-                    data-aos="fade-down"
-                    data-aos-duration="1500"
-                    data-aos-once="true"
-                  >
-                    WHAT OUR CLIENT SAYS
-                  </h1>
-                </div>
+               
+                  <div><MainHeadings title={" What Our Client Says"} name={"TESTIMONIAL"}/></div>
+           
                 <Slider {...settings}>
                   {testimonials.map((testimonial, index) => (
                     <div

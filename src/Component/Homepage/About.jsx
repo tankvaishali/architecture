@@ -17,13 +17,13 @@ function About() {
                         <h1 className="text-white py-2 display-5" style={{ letterSpacing: "1px" }}>
                             About Company
                         </h1>
-                        <p style={{ color: "rgba(245, 245, 245, 0.523)" }}>
+                        <p style={{ color: "rgb(184, 184, 184)" }}>
                             Architecture the inila duman aten elit finibus vivera alacus company
                             design drudean seneice muiscibe noneten the fermen. The design
                             architecture duiman finibus viverra nec a lacus drudeane sene voice
                             fermen.
                         </p>
-                        <p style={{ color: "rgba(245, 245, 245, 0.523)" }}>
+                        <p style={{ color: "rgb(184, 184, 184)" }}>
                             Design architecture duiman et elit finibus viverra nec a lacus vivento
                             nuse ane sene voice the volume the miss drana inc fermen.
                         </p>

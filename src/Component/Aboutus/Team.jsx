@@ -9,27 +9,27 @@ function Team() {
         {
             imgSrc: "https://bestjquery.com/tutorial/our-team/demo74/images/img-1.jpg",
             name: "Williamson",
-            post: "Web Developer",
+            post: "Architecture Designer",
             aos: "fade-up"
         },  
         {
             imgSrc: "https://bestjquery.com/tutorial/our-team/demo74/images/img-2.jpg",
             name: "Kristiana",
-            post: "Web Designer",
+            post: "Interior Designer",
             aos: "fade-up",
             delay: "400"
         },
         {
             imgSrc: "https://bestjquery.com/tutorial/our-team/demo74/images/img-3.jpg",
             name: "Steve Thomas",
-            post: "Web Developer",
+            post: "Architecture Designer",
             aos: "fade-up",
             delay: "800"
         },
         {
             imgSrc: "https://bestjquery.com/tutorial/our-team/demo74/images/img-1.jpg",
             name: "Williamson",
-            post: "Web Developer",
+            post: "Architecture Designer",
             aos: "fade-up",
             delay: "1200"
         },
