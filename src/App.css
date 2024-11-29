@@ -20,16 +20,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  /* background-color: #f1f1f1; */
   box-shadow: inset 3px 3px 10px 10px rgba(196, 196, 196, 0.308);
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--theme--);
 }
+
 ::selection {
-  background-color: var(--theme--); /* Change this to your desired color */
-  color: white; /* Optionally, change the text color */
+  background-color: var(--theme--);
+  color: white;
 }
 
 
@@ -62,16 +62,12 @@
   font-family: Arial, sans-serif;
   font-size: 18px;
   color: var(--theme--);
-  /* Adjust this color to match */
 }
 
 .about-section .line {
   border-top: 1px solid var(--theme--);
-  /* Adjust this color to match */
   width: 40px;
-  /* Adjust the length of the line */
   margin-right: 10px;
-  /* Adjust space between line and text */
 }
 
 /* line tittle end */
@@ -183,6 +179,18 @@
   background: none !important;
   border-color: transparent !important;
   border-width: 0 !important;
+}
+
+
+@media screen and (max-width:768px) {
+  .dropdown-menu.show {
+    display: flex !important;
+  }
+
+  .xyz .dropdown-menu {
+    margin: 11px !important;
+  }
+
 }
 
 .animate__animated.animate__delay1 {

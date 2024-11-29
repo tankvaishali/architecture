@@ -73,63 +73,6 @@ function Header() {
                                     </Link>
                                 </li>
                             </ul>
-
-                            {/* Dropdown for Social Icons */}
-                            {/* <div className="dropdown ms-lg-5 mt-1 xyz">
-                                <button
-                                    className="btn btn-link nav-link text-dark text-decoration-none"
-                                    id="dropdownMenuButton"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    <Share2 width={16} height={16} />
-                                </button>
-                                <ul
-                                    className="dropdown-menu dropdown-menu-end w-50"
-                                    aria-labelledby="dropdownMenuButton"
-                                >
-                                    <li className=' bg-light'>
-                                        <a
-                                            href="https://facebook.com"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="dropdown-item py-3"
-                                        >
-                                            <Facebook />
-                                        </a>
-                                    </li>
-                                    <li className='my-3 bg-light'>
-                                        <a
-                                            href="https://twitter.com"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="dropdown-item"
-                                        >
-                                            <Twitter />
-                                        </a>
-                                    </li>
-                                    <li className='my-3 bg-light'>
-                                        <a
-                                            href="https://instagram.com"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="dropdown-item"
-                                        >
-                                            <Instagram />
-                                        </a>
-                                    </li>
-                                    <li className='my-3 bg-light'>
-                                        <a
-                                            href="https://linkedin.com"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="dropdown-item"
-                                        >
-                                            <Linkedin />
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> */}
                             <div className="dropdown ms-lg-5 mt-1 xyz" >
                                 <button
                                     className="btn btn-link nav-link text-dark text-decoration-none mx-auto"
@@ -140,7 +83,7 @@ function Header() {
                                     <Share2 width={16} height={16} />
                                 </button>
                                 <ul
-                                    className="dropdown-menu dropdown-menu-end w-50 py-0 animate__animated animate__fadeIn"
+                                    className="dropdown-menu dropdown-menu-end  py-0 animate__animated animate__fadeIn"
                                     aria-labelledby="dropdownMenuButton"
                                 >
                                     <li className="li1 animate__animated animate__fadeIn animate__delay1">
