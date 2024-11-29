@@ -57,22 +57,26 @@
   font-weight: 900;
   transition: all 0.2s ease-in-out;
 }
-.whyno:hover{
-color: #919eac !important;
+
+.whyno:hover {
+  color: #919eac !important;
 }
 
 /* why choose us end */
 /* Afterbefore start */
 .afterbeforebutton {
-  width: auto; /* Default width for screens larger than 761px */
+  width: auto;
+  /* Default width for screens larger than 761px */
 }
 
 /* Media query for screens with a width of 761px or less */
 @media (max-width: 991px) {
   .afterbeforebutton {
-    width: 100%; /* Set width to 100% for screens smaller than or equal to 761px */
+    width: 100%;
+    /* Set width to 100% for screens smaller than or equal to 761px */
   }
 }
+
 /* Afterbefore end */
 
 /* Quality start */
@@ -146,15 +150,18 @@ color: #919eac !important;
   outline: 1px solid white;
   outline-offset: -14px;
 }
+
 @keyframes upDown {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
+
   50% {
-      transform: translateY(-18px); 
+    transform: translateY(-18px);
   }
+
   100% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
@@ -163,6 +170,7 @@ color: #919eac !important;
   margin: 0 auto;
   animation: upDown 3s ease-in-out infinite;
 }
+
 /* promoVideo end */
 /* testimonial start */
 .testi_bg {
@@ -255,6 +263,7 @@ color: #919eac !important;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .pro_tittle {
   color: white;
   position: relative;
@@ -263,40 +272,47 @@ color: #919eac !important;
   transform: translateY(-10px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
 .cont_main {
   width: 100%;
   background-color: transparent;
   transform: translateY(40%);
   transition: transform 0.5s ease, background-color 0.5s ease;
 }
+
 .pro_cont {
   opacity: 0;
   transform: translateY(50%);
   transition: opacity 0.5s ease, transform 0.5s ease;
   color: var(--theme--);
 }
+
 .pro_mainbox {
   height: 100vh;
   border: 5.1px solid white !important;
   border-radius: 20px;
   transition: all 0.5s ease-in-out;
 }
+
 .pro_mainbox:hover .pro_tittle {
   opacity: 1;
   color: black;
   transform: translateY(0px);
   transition-delay: 1ms;
 }
+
 .pro_mainbox:hover .pro_cont {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.3s;
 }
+
 .pro_mainbox:hover .cont_main {
   background-color: white;
   border-radius: 0px 0px 10px 10px;
   transform: translateY(0);
 }
+
 .custom-arrow {
   position: absolute;
   top: 50%;
@@ -311,68 +327,84 @@ color: #919eac !important;
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
 }
+
 .custom-arrow.prev {
   top: 50px;
   left: 30px;
 }
+
 .custom-arrow.next {
   top: 50px;
   right: 30px;
 }
+
 .custom-arrow:hover {
   background-color: black;
   color: white;
 }
+
 @media (max-width: 1200px) {
   .pro_mainbox {
     width: 100%;
     height: 100vh;
   }
 }
+
 @media (max-width: 992px) {
   .pro_mainbox {
     width: 100%;
     height: 100vh;
   }
 }
+
 @media (max-width: 768px) {
   .pro_mainbox {
     width: 100%;
     height: 100vh;
   }
 }
+
 @media (max-width: 576px) {
   .Probg_img {
     height: 250px !important;
     background-size: cover;
   }
+
   .pro_mainbox {
     height: 250px !important;
   }
+
   .pro_tittle {
     transform: translateY(30px) !important;
     font-size: 1.25rem;
   }
+
   .pro_mainbox:hover .pro_tittle {
     transform: translateY(20px) !important;
   }
+
   .pro_cont {
     transform: translateY(0) !important;
     font-size: 0.875rem;
   }
+
   .pro_mainbox:hover .pro_cont {
     transform: translateY(20px) !important;
   }
+
   .custom-arrow {
     font-size: 20px !important;
   }
+
   .custom-arrow.prev {
     top: 35px;
   }
+
   .custom-arrow.next {
     top: 35px;
   }
 }
+
 /* ArchitectureDesign end */
 
 /* About start */
@@ -514,6 +546,7 @@ color: #919eac !important;
   overflow: hidden;
   box-shadow: inset 0px 0px 1200px 1200px rgba(0, 0, 0, 0.662) !important;
 }
+
 .news_video_bg {
   position: absolute;
   top: 0;
@@ -523,6 +556,7 @@ color: #919eac !important;
   object-fit: cover;
   z-index: -1;
 }
+
 /* .newsbg {
   background-attachment: scroll !important;
   object-position: top center;
@@ -584,7 +618,7 @@ color: #919eac !important;
 .news-item {
   backdrop-filter: blur(15px) !important;
   background-color: rgba(0, 0, 0, 0.247) !important;
-    padding: 2rem;
+  padding: 2rem;
   border-radius: 1rem;
   text-decoration: none;
   color: inherit;
@@ -600,7 +634,7 @@ color: #919eac !important;
 }
 
 .category {
-  color:#919eac;
+  color: #919eac;
 }
 
 .news-item-content {
@@ -793,7 +827,7 @@ color: #919eac !important;
   }
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 434px) {
   .servnum3 {
     display: inline;
   }
