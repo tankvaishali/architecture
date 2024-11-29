@@ -4,7 +4,7 @@
 input,
 select,
 textarea {
-  background-color: rgba(227, 225, 225, 0.534);
+  background-color: rgba(227, 225, 225, 0.534) !important;
   border: none;
   outline: none !important;
   border-bottom: 2px solid black;
@@ -18,27 +18,21 @@ input::placeholder {
 select::placeholder {
   color: black;
 }
-
 .contact_location {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 1200px 1200px rgba(0, 0, 0, 0.662) !important;
 }
-.contact_location video {
+.contact_video_bg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
-}
-.video-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  box-shadow: inset 0 1800px 2000px rgba(0, 0, 0, 0.658);
+  z-index: -1;
 }
 .bg-item_contact {
   backdrop-filter: blur(15px) !important;
@@ -47,12 +41,10 @@ select::placeholder {
 .contacticon{
   transition: all 0.3s ease-in-out;
   transform: scale(1) rotateY(0deg);
-
 }
 .bg-item_contact:hover .contacticon{
   transform: scale(1.2) rotateY(180deg);
   color:#88a5b3;
-
 }
 .icon-wrapper .icon {
   transition: color 0.3s;

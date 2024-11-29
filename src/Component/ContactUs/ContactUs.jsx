@@ -9,6 +9,7 @@ import "../../Assets/Css/ContactusPage.css";
 import HOC from "../../HOC/HOC";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import videolinkConatct from "../../Assets/Video/8449347-uhd_2560_1440_25fps.mp4";
 
 function ContactUs() {
   return (
@@ -43,10 +44,10 @@ function ContactUs() {
                     data-aos="zoom-in"
                     data-aos-duration="1500" data-aos-once="true"
                   >
-                  <Link to={"tel:7048313227"} className="text-decoration-none text-dark">
-                  +91 81538 27482
+                    <Link to={"tel:7048313227"} className="text-decoration-none text-dark">
+                      +91 81538 27482
 
-                  </Link>
+                    </Link>
                   </div>
                   <div
                     className="d-flex py-4"
@@ -234,7 +235,7 @@ function ContactUs() {
           </div>
         </div>
 
-        <div className="contact_location mb-5">
+        {/* <div className="contact_location mb-5">
           <video autoPlay loop muted>
             <source src={contactVideo}></source>
           </video>
@@ -242,65 +243,144 @@ function ContactUs() {
             <div className="container">
               <div className="main_box  row ">
                 <div className="col-12 col-md-6 col-lg-4">
-                <Link to={"tel:12345 67890"} className="text-decoration-none">
-                <div
-                    className="bg-item_contact py-5 rounded-4 mb-3"
-                    style={{ height: "90%" }}
-                    data-aos="zoom-in"
-                    data-aos-duration="1500" data-aos-once="true"
-                  >
-                    <div className="text-white text-center">
-                      <div className="contacticon fw-bold">
-                        <BiPhoneCall className="fs-1" />
-                      </div>
-                      <h3 className="py-3">Call Us</h3>
-                      <div>+91 81538 27482
+                  <Link to={"tel:12345 67890"} className="text-decoration-none">
+                    <div
+                      className="bg-item_contact py-5 rounded-4 mb-3"
+                      style={{ height: "90%" }}
+                      data-aos="zoom-in"
+                      data-aos-duration="1500" data-aos-once="true"
+                    >
+                      <div className="text-white text-center">
+                        <div className="contacticon fw-bold">
+                          <BiPhoneCall className="fs-1" />
+                        </div>
+                        <h3 className="py-3">Call Us</h3>
+                        <div>+91 81538 27482
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
-              <Link onClick={() => {
-      window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.6435468552745!2d72.83498737380307!3d21.206314581659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fab21103b69%3A0xa299912d3085be89!2sASHUTOSH%20PROSTHETICS%20%26%20ORTHOTICS%20CENTER!5e0!3m2!1sen!2sus!4v1718857447832!5m2!1sen!2sus", "_blank");
-    }} target="_blank"   rel="noopener noreferrer" className="text-decoration-none" >
-              <div
-                    className="bg-item_contact py-5 rounded-4 mb-3"
-                    style={{ height: "90%" }}
-                    data-aos="zoom-in"
-                    data-aos-duration="1500" data-aos-once="true"
-                    data-aos-delay="400"
-                  >
-                    <div className="text-white text-center">
-                      <div className="contacticon fw-bold">
-                        <GrLocation className="fs-1" />
-                      </div>
-                      <h3 className="py-3">Location</h3>
-                      <div className="p-1">
-                        56 Tulip Terrace, 1023 EF Amsterdam, Netherlands
+                  <Link onClick={() => {
+                    window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.6435468552745!2d72.83498737380307!3d21.206314581659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fab21103b69%3A0xa299912d3085be89!2sASHUTOSH%20PROSTHETICS%20%26%20ORTHOTICS%20CENTER!5e0!3m2!1sen!2sus!4v1718857447832!5m2!1sen!2sus", "_blank");
+                  }} target="_blank" rel="noopener noreferrer" className="text-decoration-none" >
+                    <div
+                      className="bg-item_contact py-5 rounded-4 mb-3"
+                      style={{ height: "90%" }}
+                      data-aos="zoom-in"
+                      data-aos-duration="1500" data-aos-once="true"
+                      data-aos-delay="400"
+                    >
+                      <div className="text-white text-center">
+                        <div className="contacticon fw-bold">
+                          <GrLocation className="fs-1" />
+                        </div>
+                        <h3 className="py-3">Location</h3>
+                        <div className="p-1">
+                          56 Tulip Terrace, 1023 EF Amsterdam, Netherlands
+                        </div>
                       </div>
                     </div>
-                  </div>
-              </Link>
+                  </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
-               <Link to={"mailto:abc@gmail.com"} className="text-decoration-none" target="_blank">
-               <div
-                    className="bg-item_contact py-5 rounded-4 mb-3"
-                    style={{ height: "90%" }}
-                    data-aos="zoom-in"
-                    data-aos-duration="1500" data-aos-once="true"
-                    data-aos-delay="600"
-                  >
-                    <div className="text-white text-center">
-                      <div className="contacticon fw-bold">
-                        <IoMailOpenOutline className="fs-1 " />
+                  <Link to={"mailto:abc@gmail.com"} className="text-decoration-none" target="_blank">
+                    <div
+                      className="bg-item_contact py-5 rounded-4 mb-3"
+                      style={{ height: "90%" }}
+                      data-aos="zoom-in"
+                      data-aos-duration="1500" data-aos-once="true"
+                      data-aos-delay="600"
+                    >
+                      <div className="text-white text-center">
+                        <div className="contacticon fw-bold">
+                          <IoMailOpenOutline className="fs-1 " />
+                        </div>
+                        <h3 className="py-3">E-mail</h3>
+                        <div>abc@gmail.com</div>
                       </div>
-                      <h3 className="py-3">E-mail</h3>
-                      <div>abc@gmail.com</div>
                     </div>
-                  </div>
-               </Link>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+        <div>
+          <div className="contact_location py-5 px-0 p-lg-5">
+            <video
+              className="contact_video_bg"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src={videolinkConatct} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div className="container">
+              <div className="main_box  row ">
+                <div className="col-12 col-lg-4">
+                  <Link to={"tel:12345 67890"} className="text-decoration-none">
+                    <div
+                      className="bg-item_contact py-5 rounded-4 mb-3"
+                      style={{ height: "90%" }}
+                      data-aos="zoom-in"
+                      data-aos-duration="1500" data-aos-once="true"
+                    >
+                      <div className="text-white text-center">
+                        <div className="contacticon fw-bold">
+                          <BiPhoneCall className="fs-1" />
+                        </div>
+                        <h3 className="py-3">Call Us</h3>
+                        <div>+91 81538 27482
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+                <div className="col-12 col-lg-4">
+                  <Link onClick={() => {
+                    window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.6435468552745!2d72.83498737380307!3d21.206314581659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fab21103b69%3A0xa299912d3085be89!2sASHUTOSH%20PROSTHETICS%20%26%20ORTHOTICS%20CENTER!5e0!3m2!1sen!2sus!4v1718857447832!5m2!1sen!2sus", "_blank");
+                  }} target="_blank" rel="noopener noreferrer" className="text-decoration-none" >
+                    <div
+                      className="bg-item_contact py-5 rounded-4 mb-3"
+                      style={{ height: "90%" }}
+                      data-aos="zoom-in"
+                      data-aos-duration="1500" data-aos-once="true"
+                      data-aos-delay="400"
+                    >
+                      <div className="text-white text-center">
+                        <div className="contacticon fw-bold">
+                          <GrLocation className="fs-1" />
+                        </div>
+                        <h3 className="py-3">Location</h3>
+                        <div className="p-1">
+                          56 Tulip Terrace, 1023 EF Amsterdam, Netherlands
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+                <div className="col-12 col-lg-4">
+                  <Link to={"mailto:abc@gmail.com"} className="text-decoration-none" target="_blank">
+                    <div
+                      className="bg-item_contact py-5 rounded-4 mb-3"
+                      style={{ height: "90%" }}
+                      data-aos="zoom-in"
+                      data-aos-duration="1500" data-aos-once="true"
+                      data-aos-delay="600"
+                    >
+                      <div className="text-white text-center">
+                        <div className="contacticon fw-bold">
+                          <IoMailOpenOutline className="fs-1 " />
+                        </div>
+                        <h3 className="py-3">E-mail</h3>
+                        <div>abc@gmail.com</div>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
