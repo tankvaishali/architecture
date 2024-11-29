@@ -1,6 +1,6 @@
 import React from 'react';
 import HOC from '../../HOC/HOC';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { ProjectList } from './ProjectListItem';
 import Slider from "react-slick";
 
@@ -117,13 +117,15 @@ function ProjectListing() {
                                     </div>
                                     {/* {/ Right Section (Image) /} */}
                                     <div className="col-md-6 col-10 p-0 p-lg-3">
-                                        <div className="inner_data2">
-                                            <img
-                                                src={inner_data.mainimg}
-                                                alt="Project Visual"
-                                                className="img-fluid border border-5 border-dark w-100"
-                                            />
-                                        </div>
+                                        <Link to={`/project/${id}/${inner_data.id}`}>
+                                            <div className="inner_data2">
+                                                <img
+                                                    src={inner_data.mainimg}
+                                                    alt="Project Visual"
+                                                    className="img-fluid border border-5 border-dark w-100"
+                                                />
+                                            </div>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

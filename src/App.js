@@ -28,13 +28,13 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/aboutus' element={<AboutusPage />} />
           <Route path='/project' element={<Projectdata />} />
-     <Route path='/project/:id' element={<ProjectListing/>}/>
-     <Route path='/project/:id/id2' element={<ProjectInnerList/>}/>
+          <Route path='/project/:id' element={<ProjectListing />} />
+          <Route path='/project/:id/id2' element={<ProjectInnerList />} />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/carrer' element={<Carrer />} />
         </Routes>

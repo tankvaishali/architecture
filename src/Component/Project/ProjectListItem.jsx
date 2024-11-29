@@ -154,13 +154,17 @@ export const ProjectList = [
                 ]
             },
             {
-                id: 'Ketanbhai Desai',
+                id: 'florida_bungalow',
                 h1: 'Florida Bungalow',
                 clients: 'Ketan Desai',
                 constructions: '2001',
                 locate: "Surat",
                 mainimg: 'https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid',
                 img: [
+                    "https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid",
+                    "https://www.mindscapedesign.co.in/productF/big_img/v%203644.jpeg",
+                    "https://www.mindscapedesign.co.in/productF/big_img/v%204%20(2)596.jpeg",
+                    "https://www.mindscapedesign.co.in/productF/big_img/v%202667.jpeg",
                     "https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid",
                     "https://www.mindscapedesign.co.in/productF/big_img/v%203644.jpeg",
                     "https://www.mindscapedesign.co.in/productF/big_img/v%204%20(2)596.jpeg",
