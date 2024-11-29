@@ -37,8 +37,8 @@ function Team() {
 
     return (
         <>
-            <div className='team_bg bg-white position-relative pb-5'>
-                <div className="container py-5 position-relative z-2">
+            <div className='team_bg bg-white position-relative pb-5' style={{marginTop:"6rem"}}>
+                <div className="container py-5 position-relative z-2 ">
                     <div className='py-3'>
                         <div
                             className="about-section justify-content-start" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
