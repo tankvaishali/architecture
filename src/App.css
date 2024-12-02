@@ -137,6 +137,21 @@
   padding: 12px;
 }
 
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-link.active {
+  color: #007bff;
+  font-weight: 900 !important;
+}
+
 .offcanvas.show .offcanvas-body .nav-item {
   width: 100% !important;
   text-align: center;

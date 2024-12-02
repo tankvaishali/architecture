@@ -1,10 +1,13 @@
 import React from 'react';
 import { AlignRight, Facebook, Instagram, Linkedin, Share2, Twitter } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { FaFacebook } from 'react-icons/fa';
+import { Link, useLocation } from 'react-router-dom';
 import 'animate.css';
 
 function Header() {
+    const location = useLocation();
+
+    // Function to determine if a link is active
+    const isActive = (path) => location.pathname === path;
 
     return (
         <>
@@ -42,38 +45,65 @@ function Header() {
                     >
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                                MODERN
+                                <Link to={"/"} className="navbar-brand fs-4 fw-bold">
+                                    <img
+                                        src={require('../Assets/Image/Logo/MSD Logo.png')}
+                                        alt=""
+                                        className="img-fluid"
+                                        style={{ height: '50px' }}
+                                    />
+                                </Link>
                             </h5>
                         </div>
                         <div className="offcanvas-body">
                             <ul className="navbar-nav ms-auto me-0 pe-0 align-items-center">
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link text-dark text-decoration-none letterspace Inter">
+                                    <Link
+                                        to="/"
+                                        className={`nav-link text-dark text-decoration-none letterspace Inter ${isActive('/') ? 'active' : ''
+                                            }`}
+                                    >
                                         Home
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/aboutus" className="nav-link text-dark text-decoration-none letterspace Inter">
+                                    <Link
+                                        to="/aboutus"
+                                        className={`nav-link text-dark text-decoration-none letterspace Inter ${isActive('/aboutus') ? 'active' : ''
+                                            }`}
+                                    >
                                         About Us
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/project" className="nav-link text-dark text-decoration-none letterspace Inter">
+                                    <Link
+                                        to="/project"
+                                        className={`nav-link text-dark text-decoration-none letterspace Inter ${isActive('/project') ? 'active' : ''
+                                            }`}
+                                    >
                                         Projects
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/carrer" className="nav-link text-dark text-decoration-none letterspace Inter">
+                                    <Link
+                                        to="/carrer"
+                                        className={`nav-link text-dark text-decoration-none letterspace Inter ${isActive('/carrer') ? 'active' : ''
+                                            }`}
+                                    >
                                         Careers
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/contactus" className="nav-link text-dark text-decoration-none letterspace Inter">
+                                    <Link
+                                        to="/contactus"
+                                        className={`nav-link text-dark text-decoration-none letterspace Inter ${isActive('/contactus') ? 'active' : ''
+                                            }`}
+                                    >
                                         Contact Us
                                     </Link>
                                 </li>
                             </ul>
-                            <div className="dropdown ms-lg-5 mt-1 xyz" >
+                            <div className="dropdown ms-lg-5 mt-1 xyz">
                                 <button
                                     className="btn btn-link nav-link text-dark text-decoration-none mx-auto"
                                     id="dropdownMenuButton"
@@ -93,7 +123,7 @@ function Header() {
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
-                                            <Facebook className='text-light ' />
+                                            <Facebook className="text-light " />
                                         </Link>
                                     </li>
                                     <li className="li2 animate__animated animate__fadeIn animate__delay2">
@@ -103,7 +133,7 @@ function Header() {
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
-                                            <Twitter className='text-light ' />
+                                            <Twitter className="text-light " />
                                         </Link>
                                     </li>
                                     <li className="li3 animate__animated animate__fadeIn animate__delay3">
@@ -113,7 +143,7 @@ function Header() {
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
-                                            <Instagram className='text-light ' />
+                                            <Instagram className="text-light " />
                                         </Link>
                                     </li>
                                     <li className="li4 animate__animated animate__fadeIn animate__delay4">
@@ -123,12 +153,11 @@ function Header() {
                                             rel="noopener noreferrer"
                                             className="dropdown-item py-3 "
                                         >
-                                            <Linkedin className='text-light ' />
+                                            <Linkedin className="text-light " />
                                         </Link>
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
                     </div>
                 </div>
