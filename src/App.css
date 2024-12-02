@@ -267,8 +267,12 @@
   display: none;
 }
 
-.accordion-button {
-  justify-content: center !important;
+.footerTittle{
+  transition: all 0.3s ease-in-out;
+}
+.footerTittle:hover{
+  color: var(--theme--) !important;
+  font-weight: 500 !important;
 }
 
 /* Footer End  */

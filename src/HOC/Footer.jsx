@@ -1,5 +1,8 @@
 import { Plus } from 'lucide-react'
 import React from 'react'
+import { IoLocation, IoMail } from 'react-icons/io5'
+import { PiPhoneCallFill } from 'react-icons/pi'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -10,29 +13,27 @@ function Footer() {
 
                     <div class="accordion-item border-0 col-md-3 col-12">
                         <h2 class="accordion-header" id="headingEmail">
-                            <button class="accordion-button text-lg fw-normal bg-white text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEmail" aria-expanded="true" aria-controls="collapseEmail">
-                                EMAIL <Plus className='mx-3' width={16} height={16} />
+                            <button class="accordion-button text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEmail" aria-expanded="true" aria-controls="collapseEmail">
+                                OUR LINKS <Plus className='mx-3' width={16} height={16} />
                             </button>
                         </h2>
                         <div id="collapseEmail" class="accordion-collapse collapse" aria-labelledby="headingEmail" data-bs-parent="#footerAccordion">
                             <div class="accordion-body">
                                 <div class="list-group">
-
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-secondary small">NEW PROJECTS</span>
-                                        <a href="mailto:newbiz@big.dk" class="text-primary small">newbiz@big.dk</a>
+                                    <div className='text-start'>
+                                        <Link to={"/"} className='text-decoration-none'><span class="text-secondary footerTittle">Home</span></Link>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-secondary small">PRESS</span>
-                                        <a href="mailto:press@big.dk" class="text-primary small">press@big.dk</a>
+                                    <div className='text-start'>
+                                        <Link to={"/aboutus"} className='text-decoration-none'><span class="text-secondary footerTittle">About Us</span></Link>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-secondary small">LECTURES</span>
-                                        <a href="mailto:lectures@big.dk" class="text-primary small">lectures@big.dk</a>
+                                    <div className='text-start'>
+                                        <Link to={"/project"} className='text-decoration-none'><span class="text-secondary footerTittle">projects</span></Link>
                                     </div>
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-secondary small">EXHIBITIONS</span>
-                                        <a href="mailto:exhibitions@big.dk" class="text-primary small">exhibitions@big.dk</a>
+                                    <div className='text-start'>
+                                        <Link to={"/carrer"} className='text-decoration-none'><span class="text-secondary footerTittle">Career</span></Link>
+                                    </div>
+                                    <div className='text-start'>
+                                        <Link to={"/contactus"} className='text-decoration-none'><span class="text-secondary footerTittle">Contact Us</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -42,12 +43,28 @@ function Footer() {
                     <div class="accordion-item border-0 col-md-3 col-12">
                         <h2 class="accordion-header" id="headingOffices">
                             <button class="accordion-button collapsed text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOffices" aria-expanded="false" aria-controls="collapseOffices">
-                                OFFICES <Plus className='mx-3' width={16} height={16} />
+                                PROJECTS <Plus className='mx-3' width={16} height={16} />
                             </button>
                         </h2>
                         <div id="collapseOffices" class="accordion-collapse collapse" aria-labelledby="headingOffices" data-bs-parent="#footerAccordion">
                             <div class="accordion-body">
-                                Office information goes here.
+                                <div class="list-group">
+                                    <div class="text-start">
+                                    <Link to={"/project/:id"} className='text-decoration-none'><span class="text-secondary footerTittle">Hospitality</span></Link>
+                                    </div>
+                                    <div class="text-start">
+                                        <span class="text-secondary footerTittle">Residential</span>
+                                    </div>
+                                    <div class="text-start">
+                                        <span class="text-secondary footerTittle">Commercial</span>
+                                    </div>
+                                    <div class="text-start">
+                                        <span class="text-secondary footerTittle">Interior Design</span>
+                                    </div>
+                                    <div class="text-start">
+                                        <span class="text-secondary footerTittle">Upcoming</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -55,12 +72,37 @@ function Footer() {
                     <div class="accordion-item border-0 col-md-3 col-12">
                         <h2 class="accordion-header" id="headingSocial">
                             <button class="accordion-button collapsed text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSocial" aria-expanded="false" aria-controls="collapseSocial">
-                                SOCIAL <Plus className='mx-3' width={16} height={16} />
+                                CONTACT US <Plus className='mx-3' width={16} height={16} />
                             </button>
                         </h2>
                         <div id="collapseSocial" class="accordion-collapse collapse" aria-labelledby="headingSocial" data-bs-parent="#footerAccordion">
                             <div class="accordion-body">
-                                Social media links go here.
+                                <Link onClick={() => {
+                                    window.open("https://www.google.com/maps/place/Mindscape+Design/@21.1759921,72.804965,17z/data=!3m1!4b1!4m6!3m5!1s0x3be04d6d455da8af:0x9f1037b31fab7bd1!8m2!3d21.1759921!4d72.804965!16s%2Fg%2F11fmz05skp?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D", "_blank");
+                                }} target="_blank" rel="noopener noreferrer" className="text-decoration-none" >
+                                    <div className='d-flex text-secondary footerTittle text-start'>
+                                        <div><IoLocation /></div>
+                                        <span className='ms-2'>3rd Floor, Evoq, Ghod Dod Rd, opp. Narmad Library, Surat-395007</span>
+                                    </div>
+                                </Link>
+                                <Link to={"tel:+91 98243 31155"} className='text-decoration-none'>
+                                    <div className='d-flex text-secondary footerTittle'>
+                                        <div><PiPhoneCallFill /></div>
+                                        <span className='ms-2'>+91 98243 31155</span>
+                                    </div>
+                                </Link>
+                                <Link to={"mailto:contact@mindscapedesign.co.in"} className='text-decoration-none'>
+                                    <div className='d-flex text-secondary footerTittle'>
+                                        <div><IoMail /></div>
+                                        <span className='ms-2'>contact@mindscapedesign.co.in</span>
+                                    </div>
+                                </Link>
+                                <Link to={"mailto:mindscapedesign2018@gmail.com"} className='text-decoration-none'>
+                                    <div className='d-flex text-secondary footerTittle'>
+                                        <div><IoMail /></div>
+                                        <span className='ms-2'>mindscapedesign2018@gmail.com</span>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -68,12 +110,17 @@ function Footer() {
                     <div class="accordion-item border-0 col-md-3 col-12">
                         <h2 class="accordion-header" id="headingLegal">
                             <button class="accordion-button collapsed text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLegal" aria-expanded="false" aria-controls="collapseLegal">
-                                LEGAL <Plus className='mx-3' width={16} height={16} />
+                                ABOUT COMPANY <Plus className='mx-3' width={16} height={16} />
                             </button>
                         </h2>
                         <div id="collapseLegal" class="accordion-collapse collapse" aria-labelledby="headingLegal" data-bs-parent="#footerAccordion">
                             <div class="accordion-body">
-                                Legal information goes here.
+                                <div className='text-secondary text-start'>
+                                    <div>CELL NO.- +91 9825541155</div>
+                                    <Link to={"mailto:mindscapedesign2018@gmail.com"} className='text-decoration-none'>
+                                        <div className='footerTittle text-secondary'><IoMail className='me-2' /> mindscapedesign2018@gmail.com</div>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
