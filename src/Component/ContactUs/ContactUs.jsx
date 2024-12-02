@@ -10,10 +10,12 @@ import HOC from "../../HOC/HOC";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import videolinkConatct from "../../Assets/Video/8449347-uhd_2560_1440_25fps.mp4";
+import MainSection from "../../HOC/MainSection";
 
 function ContactUs() {
   return (
     <>
+      <MainSection text="ContactUs" classs='contactbgimg'/>
       <div>
         <div className="container">
           <div className="mx-auto py-5">

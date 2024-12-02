@@ -14,7 +14,7 @@ import MainSection from '../../HOC/MainSection'
 function AboutusPage() {
   return (
     <>
-      <MainSection />
+      <MainSection text="AboutUs" classs='aboutbgimg' />
       <Aboutus />
       <Vission />
       <Mission />

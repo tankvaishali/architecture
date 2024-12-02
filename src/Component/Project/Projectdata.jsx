@@ -9,6 +9,7 @@ import '../../Assets/Css/Project.css'
 import ClientLogo from '../Homepage/ClientLogo'
 import { CgArrowTopRightO } from 'react-icons/cg'
 import { TbCircleArrowUpRightFilled } from 'react-icons/tb'
+import MainSection from '../../HOC/MainSection'
 
 function Projectdata() {
 
@@ -38,6 +39,7 @@ function Projectdata() {
   };
   return (
     <>
+      <MainSection text="Projects" classs='projectsbgimg' />
 
       <div className="container my-5 py-3">
         <div className="row g-5 ">

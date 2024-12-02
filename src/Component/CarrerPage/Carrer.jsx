@@ -4,13 +4,15 @@ import HOC from '../../HOC/HOC';
 import CarrerForm from './CarrerForm';
 import CarrerTable from './CarrerTable';
 import CarrerIntro from './CarrerIntro';
+import MainSection from '../../HOC/MainSection';
 
 function Carrer() {
     return (
         <>
-            <CarrerTable/>
-            <CarrerIntro/>
-            <CarrerForm/>
+            <MainSection text="Carrer" classs='careerbgimg' />
+            <CarrerTable />
+            <CarrerIntro />
+            <CarrerForm />
         </>
     )
 }
