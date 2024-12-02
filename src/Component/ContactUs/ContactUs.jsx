@@ -15,7 +15,7 @@ import MainSection from "../../HOC/MainSection";
 function ContactUs() {
   return (
     <>
-      <MainSection text="ContactUs" classs='contactbgimg'/>
+      <MainSection text="Contact Us" classs='contactbgimg'/>
       <div>
         <div className="container">
           <div className="mx-auto py-5">
