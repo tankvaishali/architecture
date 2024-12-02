@@ -271,7 +271,10 @@
   padding-top: 10%;
   padding-bottom: 10%;
 }
-
+.maincontentimg{
+  background-image: url('https://solarpanel-nine.vercel.app/static/media/hero-bg-abstract.54e8f6f3d5f65e12c49b.jpg');
+  background-repeat: no-repeat;
+}
 .mainsecbg {
   height: 60vh;
 }
