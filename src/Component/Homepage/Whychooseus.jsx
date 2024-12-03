@@ -68,7 +68,7 @@ function Whychooseus() {
                                         </div>
                                     </div>
                                 </div>
-                        <Link to={"tel:8153827482"} className="text-decoration-none text-start text-lg-center"> <div className='whyno'  ><BiSolidPhoneCall /> 81538 27482</div></Link>
+                        <Link to={"tel:9824331155"} className="text-decoration-none text-start text-lg-center"> <div className='whyno'  ><BiSolidPhoneCall /> 98243 31155</div></Link>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4" data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">

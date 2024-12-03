@@ -28,19 +28,19 @@ function PromoVideo() {
                                     <div className='text-white py-2'>
                                         We’re following all protocols to ensure your safety and vaccination drives are underway to ensure our employees are ready to meet you safely.
                                     </div>
-                         <div className=' d-block d-lg-flex mt-1 '>
-                         <div style={{width:80}}  data-aos="zoom-in"
-              data-aos-duration="1800"
-              data-aos-once="true" className='mt-3' >
-                                      <img src={require("../../Assets/Image/phone_874555.png")} alt="" className='img-fluid w-100 h-100 animated-image' />
+                                    <div className=' d-block d-lg-flex mt-1 '>
+                                        <div style={{ width: 80 }} data-aos="zoom-in"
+                                            data-aos-duration="1800"
+                                            data-aos-once="true" className='mt-3' >
+                                            <img src={require("../../Assets/Image/phone_874555.png")} alt="" className='img-fluid w-100 h-100 animated-image' />
 
+                                        </div>
+
+                                        <Link to={"tel:9824331155"} className="text-decoration-none ps-3" data-aos="fade-right"
+                                            data-aos-delay="400"
+                                            data-aos-duration="1800"
+                                            data-aos-once="true"> <div className='whyno text-white' > 98243 31155</div></Link>
                                     </div>
-                     
-                                    <Link to={"tel:8153827482"} className="text-decoration-none ps-3"  data-aos="fade-right" 
-             data-aos-delay="400"
-              data-aos-duration="1800"
-              data-aos-once="true"> <div className='whyno text-white' > 81538 27482</div></Link>
-                         </div>
 
                                     {/* <div className="py-4">
                                         <button type="button" className="bg_button Inter text-white fs-6 ps-4 pe-5 py-2 fw-bold position-relative">

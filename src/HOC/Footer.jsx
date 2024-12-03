@@ -11,7 +11,7 @@ function Footer() {
             <div class="container my-4">
                 <div class="accordion row text-center" id="footerAccordion">
 
-                    <div class="accordion-item border-0 col-md-3 col-12">
+                    <div class="accordion-item border-0 col-lg-3 col-12">
                         <h2 class="accordion-header" id="headingEmail">
                             <button class="accordion-button text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEmail" aria-expanded="true" aria-controls="collapseEmail">
                                 OUR LINKS <Plus className='mx-3' width={16} height={16} />
@@ -40,7 +40,7 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div class="accordion-item border-0 col-md-3 col-12">
+                    <div class="accordion-item border-0 col-lg-3 col-12">
                         <h2 class="accordion-header" id="headingOffices">
                             <button class="accordion-button collapsed text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOffices" aria-expanded="false" aria-controls="collapseOffices">
                                 PROJECTS <Plus className='mx-3' width={16} height={16} />
@@ -50,26 +50,26 @@ function Footer() {
                             <div class="accordion-body">
                                 <div class="list-group">
                                     <div class="text-start">
-                                    <Link to={"/project/:id"} className='text-decoration-none'><span class="text-secondary footerTittle">Hospitality</span></Link>
+                                        <Link to={"/project/commercial"} className='text-decoration-none'><span class="text-secondary footerTittle">Commercial</span></Link>
                                     </div>
                                     <div class="text-start">
-                                        <span class="text-secondary footerTittle">Residential</span>
+                                        <Link to={"/project/residental"} className='text-decoration-none'><span class="text-secondary footerTittle">Residential</span></Link>
                                     </div>
                                     <div class="text-start">
-                                        <span class="text-secondary footerTittle">Commercial</span>
+                                        <Link to={"/project/hospitality"} className='text-decoration-none'><span class="text-secondary footerTittle">Hospitality</span></Link>
                                     </div>
                                     <div class="text-start">
-                                        <span class="text-secondary footerTittle">Interior Design</span>
+                                        <Link to={"/project/interior_design"} className='text-decoration-none'><span class="text-secondary footerTittle">Interior Design</span></Link>
                                     </div>
                                     <div class="text-start">
-                                        <span class="text-secondary footerTittle">Upcoming</span>
+                                        <Link to={"/project/upcoming"} className='text-decoration-none'><span class="text-secondary footerTittle">Upcoming</span></Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item border-0 col-md-3 col-12">
+                    <div class="accordion-item border-0 col-lg-3 col-12">
                         <h2 class="accordion-header" id="headingSocial">
                             <button class="accordion-button collapsed text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSocial" aria-expanded="false" aria-controls="collapseSocial">
                                 CONTACT US <Plus className='mx-3' width={16} height={16} />
@@ -107,7 +107,7 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div class="accordion-item border-0 col-md-3 col-12">
+                    <div class="accordion-item border-0 col-lg-3 col-12">
                         <h2 class="accordion-header" id="headingLegal">
                             <button class="accordion-button collapsed text-lg fw-normal bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLegal" aria-expanded="false" aria-controls="collapseLegal">
                                 ABOUT COMPANY <Plus className='mx-3' width={16} height={16} />
@@ -118,7 +118,9 @@ function Footer() {
                                 <div className='text-secondary text-start'>
                                     <div>CELL NO.- +91 9825541155</div>
                                     <Link to={"mailto:mindscapedesign2018@gmail.com"} className='text-decoration-none'>
-                                        <div className='footerTittle text-secondary'><IoMail className='me-2' /> mindscapedesign2018@gmail.com</div>
+                                        <div className='d-flex footerTittle text-secondary'>
+                                            <div><IoMail className='me-2' /></div><span>mindscapedesign2018@gmail.com</span>
+                                        </div>
                                     </Link>
                                 </div>
                             </div>

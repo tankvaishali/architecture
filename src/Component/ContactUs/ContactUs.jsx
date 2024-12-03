@@ -46,8 +46,8 @@ function ContactUs() {
                     data-aos="zoom-in"
                     data-aos-duration="1500" data-aos-once="true"
                   >
-                    <Link to={"tel:7048313227"} className="text-decoration-none text-dark">
-                      +91 81538 27482
+                    <Link to={"tel:9824331155"} className="text-decoration-none text-dark">
+                      +91 98243 31155
 
                     </Link>
                   </div>
@@ -252,7 +252,7 @@ function ContactUs() {
             <div className="container">
               <div className="main_box  row ">
                 <div className="col-12 col-lg-4">
-                  <Link to={"tel:12345 67890"} className="text-decoration-none">
+                  <Link to={"tel:9824331155"} className="text-decoration-none">
                     <div
                       className="bg-item_contact py-5 rounded-4 mb-3"
                       style={{ height: "90%" }}
@@ -264,7 +264,7 @@ function ContactUs() {
                           <BiPhoneCall className="fs-1" />
                         </div>
                         <h3 className="py-3">Call Us</h3>
-                        <div>+91 81538 27482
+                        <div>+91 98243 31155
                         </div>
                       </div>
                     </div>
@@ -272,7 +272,7 @@ function ContactUs() {
                 </div>
                 <div className="col-12 col-lg-4">
                   <Link onClick={() => {
-                    window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.6435468552745!2d72.83498737380307!3d21.206314581659342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fab21103b69%3A0xa299912d3085be89!2sASHUTOSH%20PROSTHETICS%20%26%20ORTHOTICS%20CENTER!5e0!3m2!1sen!2sus!4v1718857447832!5m2!1sen!2sus", "_blank");
+                    window.open("https://www.google.com/maps/place/Mindscape+Design/@21.1759921,72.804965,17z/data=!3m1!4b1!4m6!3m5!1s0x3be04d6d455da8af:0x9f1037b31fab7bd1!8m2!3d21.1759921!4d72.804965!16s%2Fg%2F11fmz05skp?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D", "_blank");
                   }} target="_blank" rel="noopener noreferrer" className="text-decoration-none" >
                     <div
                       className="bg-item_contact py-5 rounded-4 mb-3"
@@ -287,14 +287,14 @@ function ContactUs() {
                         </div>
                         <h3 className="py-3">Location</h3>
                         <div className="p-1">
-                          56 Tulip Terrace, 1023 EF Amsterdam, Netherlands
+                        3rd Floor, Evoq, Ghod Dod Rd, opp. Narmad Library, Surat-395007
                         </div>
                       </div>
                     </div>
                   </Link>
                 </div>
                 <div className="col-12 col-lg-4">
-                  <Link to={"mailto:abc@gmail.com"} className="text-decoration-none" target="_blank">
+                  <Link to={"mailto:mindscapedesign2018@gmail.com"} className="text-decoration-none" target="_blank">
                     <div
                       className="bg-item_contact py-5 rounded-4 mb-3"
                       style={{ height: "90%" }}
@@ -307,7 +307,7 @@ function ContactUs() {
                           <IoMailOpenOutline className="fs-1 " />
                         </div>
                         <h3 className="py-3">E-mail</h3>
-                        <div>abc@gmail.com</div>
+                        <div>mindscapedesign2018@gmail.com</div>
                       </div>
                     </div>
                   </Link>
