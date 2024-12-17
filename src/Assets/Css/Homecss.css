@@ -1,5 +1,129 @@
 /* / Carousel ---Start--- / */
-.shadow_inset {
+
+/* Base styles */
+.breadcrumb {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 10;
+  background: black;
+  color: white;
+  padding: 12px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.breadcrumb span .project {
+  color: #999 !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.breadcrumb h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  /* Ensures the image covers the container without distortion */
+}
+
+.navigation {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+}
+
+.navButton {
+  background: black;
+  border: none;
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background: #f0f0f0;
+}
+
+.navButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.fixedh {
+  height: 100vh;
+}
+
+.fixedh {
+  height: 100vh;
+}
+
+.fixedh {
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .fixedh {
+    height: 60vh;
+  }
+
+  .image {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    /* Ensures the image covers the container without distortion */
+  }
+
+  .navigation {
+    position: absolute;
+    top: 53%;
+  }
+
+  .breadcrumb {
+    right: 42px;
+    left: 10px;
+    bottom: 27px;
+  }
+}
+
+
+/* .shadow_inset {
   background-color: rgba(0, 0, 0, 0.498) !important;
   width: 100%;
   height: 100vh;
@@ -46,7 +170,7 @@
     height: auto !important;
     width: 200px !important;
   }
-}
+} */
 
 /* / Carousel ---End--- / */
 
