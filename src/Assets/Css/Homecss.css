@@ -175,7 +175,7 @@
 /* / Carousel ---End--- / */
 
 /* why choose us start */
-.whyno {
+/* .whyno {
   color: rgba(100, 100, 100, 0.212);
   font-size: 50px;
   font-weight: 900;
@@ -184,7 +184,7 @@
 
 .whyno:hover {
   color: #919eac !important;
-}
+} */
 
 /* why choose us end */
 /* Afterbefore start */
@@ -553,7 +553,6 @@
   background-color: var(--theme--);
   margin-right: -10%;
   position: relative;
-
 }
 
 .image_about {
@@ -565,11 +564,9 @@
   width: 100%;
   height: auto;
   object-fit: cover;
-
 }
 
 @media (max-width: 768px) {
-
   .content,
   .image_about {
     flex: 1 1 100%;
@@ -957,3 +954,27 @@
 }
 
 /* / Service Section ---End--- / */
+
+/* Whychooseus start */
+.Whychooseus_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("../Image/abstract-blue-geometric-shapes-background_24972-1841-transformed.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.whychoose_image {
+  outline: 1px solid white;
+  outline-offset: -15px;
+}
+.whyno {
+  color: #919eac;
+  font-size: 50px;
+  font-weight: 900;
+  transition: all 0.2s ease-in-out;
+}
+.whyno:hover {
+  color: var(--maincolor--) !important;
+}
+/* Whychooseus end */
