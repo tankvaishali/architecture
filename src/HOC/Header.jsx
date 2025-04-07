@@ -24,7 +24,6 @@ function Header() {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-
     return (
         <nav
             className={`navbar navbar-expand-md py-3 px-5 ${scrolled ? 'bg-light' : 'bg-transparent text-light'}`}
