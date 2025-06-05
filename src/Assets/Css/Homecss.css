@@ -57,7 +57,7 @@
 
 .navigation {
   position: absolute;
-  bottom: 40px;
+  bottom: 55px;
   right: 40px;
   z-index: 10;
   display: flex;
@@ -98,6 +98,7 @@
   height: 100vh;
 }
 
+
 @media screen and (max-width: 768px) {
   .fixedh {
     height: 60vh;
@@ -112,16 +113,25 @@
 
   .navigation {
     position: absolute;
-    top: 53%;
+    top: 46%;
   }
 
   .breadcrumb {
     right: 42px;
     left: 10px;
+    width: 60%;
     bottom: 27px;
   }
 }
 
+@media screen and (max-width:576px) {
+  .breadcrumb {
+    right: 42px;
+    left: 10px;
+    width: 94%;
+    bottom: 10px;
+  }
+}
 
 /* .shadow_inset {
   background-color: rgba(0, 0, 0, 0.498) !important;
@@ -567,6 +577,7 @@
 }
 
 @media (max-width: 768px) {
+
   .content,
   .image_about {
     flex: 1 1 100%;
@@ -964,17 +975,21 @@
   background-size: cover;
   background-position: center;
 }
+
 .whychoose_image {
   outline: 1px solid white;
   outline-offset: -15px;
 }
+
 .whyno {
   color: #919eac;
   font-size: 50px;
   font-weight: 900;
   transition: all 0.2s ease-in-out;
 }
+
 .whyno:hover {
   color: var(--maincolor--) !important;
 }
+
 /* Whychooseus end */
