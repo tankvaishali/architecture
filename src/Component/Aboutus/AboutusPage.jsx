@@ -22,7 +22,7 @@ function AboutusPage() {
       <Contactredirect />
       <Awards />
       {/* <Team /> */}
-      <ClientLogo />
+      {/* <ClientLogo /> */}
     </>
   )
 }

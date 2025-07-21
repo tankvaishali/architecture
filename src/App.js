@@ -20,6 +20,50 @@ import ScrollToTop from './HOC/ScrollToTop';
 function App() {
 
   useEffect(() => {
+    const disableContextMenu = (e) => e.preventDefault();
+    document.addEventListener('contextmenu', disableContextMenu);
+
+    const blockKeys = (e) => {
+      if (
+        e.key === 'F12' ||
+        (e.ctrlKey && e.key.toLowerCase() === 's') ||
+        (e.ctrlKey && e.key.toLowerCase() === 'u') ||
+        (e.ctrlKey && e.shiftKey && ['i', 'j', 'c'].includes(e.key.toLowerCase()))
+      ) {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener('keydown', blockKeys);
+
+    return () => {
+      document.removeEventListener('contextmenu', disableContextMenu);
+      document.removeEventListener('keydown', blockKeys);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Disable content selection
+    document.body.style.userSelect = "none";
+    document.body.style.webkitUserSelect = "none";
+    document.body.style.msUserSelect = "none";
+
+    // Disable right-click
+    const disableRightClick = (e) => e.preventDefault();
+    document.addEventListener("contextmenu", disableRightClick);
+
+    // Disable copy (Ctrl+C or right-click copy)
+    const disableCopy = (e) => {
+      e.preventDefault();
+    };
+    document.addEventListener("copy", disableCopy);
+
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+      document.removeEventListener("copy", disableCopy);
+    };
+  }, []);
+
+  useEffect(() => {
     Aos.init({
       once: true,
     });

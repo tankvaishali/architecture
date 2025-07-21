@@ -245,10 +245,11 @@
 }
 
 .li3 .dropdown-item:hover {
-  background-image: linear-gradient(var(--maincolor--),
-      var(--maincolor--)) !important;
+  background-image: linear-gradient(
+    var(--maincolor--),
+    var(--maincolor--)
+  ) !important;
 }
-
 
 .column .sticky {
   position: sticky;
@@ -279,6 +280,14 @@
 .footerTittle:hover {
   color: var(--theme--) !important;
   font-weight: 500 !important;
+}
+
+.icon_footer {
+  transition: all 0.4s ease-in-out;
+}
+
+.icon_footer:hover {
+  color: black !important;
 }
 
 /* Footer End  */

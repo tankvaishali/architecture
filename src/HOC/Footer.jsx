@@ -1,5 +1,7 @@
 import { Plus } from 'lucide-react'
 import React from 'react'
+import { BsInstagram } from 'react-icons/bs'
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { IoLocation, IoMail } from 'react-icons/io5'
 import { PiPhoneCallFill } from 'react-icons/pi'
 import { Link } from 'react-router-dom'
@@ -103,6 +105,22 @@ function Footer() {
                                         <span className='ms-2'>mindscapedesign2018@gmail.com</span>
                                     </div>
                                 </Link>
+
+                                <div
+                                    className="d-flex mt-2">
+                                    <div className="icon-wrapper">
+                                        <FaFacebookF className="text-secondary fs-4 rounded icon_footer p-1 border border-dark facebook" />
+                                    </div>
+                                    <div className="mx-3 icon-wrapper">
+                                        <BsInstagram className="text-secondary fs-4 rounded icon_footer p-1 border border-dark instagram" />
+                                    </div>
+                                    <div className="icon-wrapper">
+                                        <FaLinkedinIn className="text-secondary fs-4 rounded icon_footer p-1 border border-dark linkedin" />
+                                    </div>
+                                    <div className="mx-3 icon-wrapper">
+                                        <FaTwitter className="text-secondary fs-4 rounded icon_footer p-1 border border-dark twitter" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

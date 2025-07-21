@@ -50,7 +50,12 @@ function Projectdata() {
                   <Card className="shadow border-0 project-item">
                     <Card.Img variant="top" src={item.image} alt="Project Image" />
                     <Card.Body className='cardname_hover'>
-                      <p className='mb-0'>{item.name} <span className='fs-2 fw-bold ps-2'><TbCircleArrowUpRightFilled /></span></p>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <p className="mb-0 fw-bold">{item.name}</p>
+                        <span className="fs-2">
+                          <TbCircleArrowUpRightFilled />
+                        </span>
+                      </div>
                     </Card.Body>
                   </Card>
                 </Link>
@@ -59,7 +64,7 @@ function Projectdata() {
           ))}
         </div>
       </div>
-      <ClientLogo />
+      {/* <ClientLogo /> */}
     </>
   )
 }

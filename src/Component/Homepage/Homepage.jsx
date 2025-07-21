@@ -23,14 +23,14 @@ function Homepage() {
       <Whychooseus />
       <Quality />
       <BeforeAfter />
-      <Team/>
+      <Team />
       <ArchitectureDesign />
       <Bookappointment />
       <PromoVideo />
       <Service />
       <News />
       <Testimonial />
-      <ClientLogo />
+      {/* <ClientLogo /> */}
     </>
   );
 }

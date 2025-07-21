@@ -3,7 +3,7 @@ export const ProjectList = [
     {
         id: "commercial",
         name: "COMMERCIAL",
-        image: 'https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid',
+        image: 'https://www.mindscapedesign.co.in/category/big_img/VIEW-1020892hgfu911.jpeg',
         inner_data: [
             {
                 id: 'asian_star',
@@ -137,7 +137,7 @@ export const ProjectList = [
     {
         id: "residental",
         name: "RESIDENTAL",
-        image: 'https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid',
+        image: 'https://www.mindscapedesign.co.in/category/big_img/bungl775y834.jpeg',
         inner_data: [
             {
                 id: 'adarsh_bhai',
@@ -261,7 +261,7 @@ export const ProjectList = [
     {
         id: "hospitality",
         name: "HOSPITALITY",
-        image: 'https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid',
+        image: 'https://www.mindscapedesign.co.in/category/big_img/Picture2846364u770.jpeg',
         inner_data: [
             {
                 id: 'candlewood _suites',
@@ -353,7 +353,7 @@ export const ProjectList = [
     {
         id: "interior_design",
         name: "INTERIOR DESIGN",
-        image: 'https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid',
+        image: 'https://www.mindscapedesign.co.in/category/big_img/View-4934384hg753.jpeg',
         inner_data: [
             {
                 id: 'asian_star_mumbai_interior',
@@ -516,7 +516,7 @@ export const ProjectList = [
     {
         id: "upcoming",
         name: "UPCOMING",
-        image: 'https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1634177100.1727245223&semt=ais_hybrid',
+        image: 'https://www.mindscapedesign.co.in/category/big_img/upcp847hj573.jpeg',
         inner_data: [
             {
                 id: 'angola_factory',
